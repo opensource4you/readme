@@ -15,18 +15,18 @@
 ## 開源 Podcast
 [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
-裡面全部都是直得學習的大哥們！！
+裡面全部都是值得學習的大哥們！！
 
 以下依 Open Source Project / 公司 來分類
 ### Flyte
 #### Union . AI
 
-[如何成為Open Source Committer (Flyte) | 大學生21周心得分享](https://medium.com/@future-outlier/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BAopen-source-committer-flyte-%E5%A4%A7%E5%AD%B8%E7%94%9F21%E5%91%A8%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-c1c486af6a9c)
+[如何成為 Open Source Committer (Flyte) | 大學生 21 周心得分享](https://medium.com/@future-outlier/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BAopen-source-committer-flyte-%E5%A4%A7%E5%AD%B8%E7%94%9F21%E5%91%A8%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-c1c486af6a9c)
 [普通人也能做到的 Open Source 開源一年 100+ PRs 完整指南 feat. 源來適你, Flyte](https://medium.com/@future-outlier/%E6%99%AE%E9%80%9A%E4%BA%BA%E4%B9%9F%E8%83%BD%E5%81%9A%E5%88%B0%E7%9A%84-open-source-%E9%96%8B%E6%BA%90%E4%B8%80%E5%B9%B4-100-prs-%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-feat-%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0-flyte-87b1cc29f093)
 [開源入門到加入夢幻新創！](https://medium.com/@troychiu/from-flyte-to-union-ai-%E9%96%8B%E6%BA%90%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-6ca2dc4cd6e4)
 
 #### Line
-[Flyte開源之旅 — 從開始到現在](https://medium.com/@jasonlai1218/flyte%E9%96%8B%E6%BA%90%E4%B9%8B%E6%97%85-%E5%BE%9E%E9%96%8B%E5%A7%8B%E5%88%B0%E7%8F%BE%E5%9C%A8-efcf8afeb612)
+[Flyte 開源之旅 — 從開始到現在](https://medium.com/@jasonlai1218/flyte%E9%96%8B%E6%BA%90%E4%B9%8B%E6%97%85-%E5%BE%9E%E9%96%8B%E5%A7%8B%E5%88%B0%E7%8F%BE%E5%9C%A8-efcf8afeb612)
 
 
 ### Apache Submarine
@@ -40,5 +40,5 @@
 
 
 #### 美光
-[The Apache YuniKorn committer’s path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
+[The Apache YuniKorn committer's path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
  
