@@ -27,7 +27,7 @@
 
 #### SUSE
 1. [我的 Open Source 之路](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-97b264d771e4)
-2. [參與 Kafka 貢獻的心得](https://www.facebook.com/share/p/1gg56eWQ73BPMtPo/)
+2. [參與 YuniKorn 貢獻的心得](https://www.facebook.com/share/p/1gg56eWQ73BPMtPo/)
 
 #### 美光
 1. [The Apache YuniKorn committer's path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
