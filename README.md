@@ -7,7 +7,7 @@
 
 ## 開源演講
 1. [NTUEE x Apache 開源系列講座 | 蔡嘉平 | Kafka Commiter, HBase PMC | 地方工程師渴望的大舞台 - Apache 開源專案](https://www.youtube.com/live/ltH3DcizGuI?si=P7ub6hcZFIlfYaWH)
-2. [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與ASF打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
+2. [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
 3. [TED Talk 為什麼資工系需要不平等優勢?](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
 
 ## 開源參與心得
@@ -35,9 +35,8 @@
 #### Freelancer
 
 1. [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
+2. [貢獻開源並不難：我透過「源來適你」社群成為 Flyte 核心貢獻者！ | 劉奇聖](https://chishengliu.com/zh-tw/posts/become-flyte-committer/)
 
 ## 開源 Podcast
 [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
-
- 
