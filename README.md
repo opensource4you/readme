@@ -37,6 +37,9 @@
 1. [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
 2. [貢獻開源並不難：我透過「源來適你」社群成為 Flyte 核心貢獻者！ | 劉奇聖](https://chishengliu.com/zh-tw/posts/become-flyte-committer/)
 
+#### 未來棟樑
+1. [開源菜雞入門心得](https://medium.com/@Pupss_68096/%E9%96%8B%E6%BA%90%E8%8F%9C%E9%9B%9E%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-fd54009ccf03)
+
 ## 開源 Podcast
 [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
