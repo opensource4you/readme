@@ -28,7 +28,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * https://github.com/apache/yunikorn-core
   * 語言：Golang
   * 頻道： [#yunikorn-技術討論]
-  * 主要 mentor：[陳昱霖]、[蔡嘉平]
+  * 主要 mentor：[陳昱霖]、[蔡嘉平]、[Tingyao Huang]
 * Apache Gravitino
   * https://github.com/apache/gravitino
   * 語言：Java
@@ -91,6 +91,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 [陳楷訓]: https://opensource4you.slack.com/team/U050V5VN4HH
 [劉奇聖]: https://opensource4you.slack.com/team/U06CSLLGQNR
 [許秉倫]: https://opensource4you.slack.com/team/U050YR3QCUB
+[Tingyao Huang]: https://opensource4you.slack.com/team/U051KFFF0C9
 [#kafka-技術討論]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
 [#yunikorn-技術討論]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
 [#apache-gravitino]: https://opensource4you.slack.com/archives/C07473LAC15
