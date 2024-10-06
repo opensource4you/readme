@@ -64,7 +64,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * https://github.com/linkedin/Liger-Kernel
   * 語言：Python, Triton
   * 注意：
-    * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借GPU）
+    * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借 GPU）
     * 最近 mentor 比較忙，沒空帶人，但是如果自己有辦法 pick up 的話會幫你 review PR
   * 頻道：[官方 Discord 頻道][liger-kernel]
   * 主要 mentor：[許秉倫]
