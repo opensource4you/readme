@@ -72,6 +72,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 語言：Golang
   * 頻道: Private，請表達想做的意願之後由 mentor 認領
   * 主要 mentor：[陳楷訓]、[劉奇聖]
+  * [新手上路](../mentor-projects-information/kuberay.md)
 * Liger-Kernel
   * https://github.com/linkedin/Liger-Kernel
   * 語言：Python, Triton
