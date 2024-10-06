@@ -40,6 +40,9 @@
 #### 未來棟樑
 1. [開源菜雞入門心得](https://medium.com/@Pupss_68096/%E9%96%8B%E6%BA%90%E8%8F%9C%E9%9B%9E%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-fd54009ccf03)
 
+## 社群成員金句備份
+
+- [貢獻開源專案應有的心態](./opensource-contribution-mindset/README.md)
+
 ## 開源 Podcast
 [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
-
