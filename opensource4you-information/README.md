@@ -15,6 +15,18 @@ By [蔡嘉平]（本社群的老大）：
 * [Google 行事曆訂閱](https://calendar.google.com/calendar/u/0?cid=MzlmMjUyNzVkZDQxMWMyMDU0NGZhMzAxNzY3Yzg5YjE3YmQ1NTFlNGIzYWZkNWI1YzVmODY3OGU4MmZhNDg0OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 * [社群夥伴的開源心得&八卦分享](../README.md)
 
+## 常駐活動
+
+### 科技開講
+
+* 時間：台灣時間週六早上 10:00~11:00
+* 內容：邀請台灣和美國矽谷的業界人士來分享，主題橫跨技術、職涯、八卦、管理、教育等各種和開源軟體有關的話題。
+
+### 讀書會
+
+* 時間：台灣時間週三晚上 8:30~9:30
+* 內容：大家一起讀一本書，輪流報告書裡的或是書外的補充知識。
+
 ## 目前有 Mentor 帶的專案
 
 Public channel 可以直接加入，Private channel 的話要講一下才會把你加進去，非常建議自己先研究想做什麼專案，對自己負責。
