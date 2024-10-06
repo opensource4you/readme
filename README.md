@@ -5,6 +5,10 @@
 
 # 索引
 
+## 源來適你資訊彙整
+
+[源來適你資訊彙整](./opensource4you-information/README.md)
+
 ## 開源演講
 - [NTUEE x Apache 開源系列講座 | 蔡嘉平 | Kafka Commiter, HBase PMC | 地方工程師渴望的大舞台 - Apache 開源專案](https://www.youtube.com/live/ltH3DcizGuI?si=P7ub6hcZFIlfYaWH)
 - [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
