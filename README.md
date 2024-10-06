@@ -102,6 +102,10 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 以下依照公司來區分，事過境遷不一定代表作者現在的狀態 ~
 
+#### Anyscale
+
+- [不尋常的找工作方式：我透過貢獻 KubeRay 開源專案找到美國跨國遠端軟體工程師職缺！ | 劉奇聖](https://chishengliu.com/zh-tw/posts/join-anyscale-via-kuberay/)
+
 #### Union\.AI
 
 - [如何成為 Open Source Committer (Flyte) | 大學生 21 周心得分享](https://medium.com/@future-outlier/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BAopen-source-committer-flyte-%E5%A4%A7%E5%AD%B8%E7%94%9F21%E5%91%A8%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-c1c486af6a9c)
