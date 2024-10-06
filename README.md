@@ -94,6 +94,9 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 - [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
 - [TED Talk 為什麼資工系需要不平等優勢?](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
 
+### Podcast
+- [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
+
 ### 開源參與心得
 
 以下依照公司來區分，事過境遷不一定代表作者現在的狀態 ~
@@ -122,9 +125,6 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 - [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
 - [貢獻開源並不難：我透過「源來適你」社群成為 Flyte 核心貢獻者！ | 劉奇聖](https://chishengliu.com/zh-tw/posts/become-flyte-committer/)
 - [開源菜雞入門心得](https://medium.com/@Pupss_68096/%E9%96%8B%E6%BA%90%E8%8F%9C%E9%9B%9E%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-fd54009ccf03)
-
-### Podcast
-- [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
 <!-- Reference Links -->
 [蔡嘉平]: https://opensource4you.slack.com/team/U050DD45D8W
