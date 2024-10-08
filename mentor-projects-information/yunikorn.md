@@ -1,4 +1,4 @@
-# YuniKorn 
+# Apache YuniKorn 
 (本文件是 源來適你 Slack YuniKorn channel 畫板的備份, 最新資訊請參見 Slack)
 
 ## 相關資訊
@@ -23,9 +23,9 @@
 **Q: 怎麼學 YuniKorn**
 1. 閱讀 User Guide, 確保 
     1. 我懂如何[設定 YuniKorn Queue](https://yunikorn.apache.org/docs/next/user_guide/queue_config)
-    2. 我懂不同 Placement Rule 的差異
-    3. 我懂 Gang Scheduling 中 TaskGroups 的概念
-    4. 我懂 Preemption 的七個 Rule
+    2. 我懂不同 [Placement Rule](https://yunikorn.apache.org/docs/next/user_guide/placement_rules) 的差異
+    3. 我懂 [Gang Scheduling](https://yunikorn.apache.org/docs/next/user_guide/gang_scheduling) 中 TaskGroups 的概念
+    4. 我懂 [Preemption](https://yunikorn.apache.org/docs/next/user_guide/preemption_cases) 的七個 Rule
 2. 看懂 [Use Cases Document](https://yunikorn.apache.org/docs/next/user_guide/use_cases)
 3. [Shim deployments](https://github.com/apache/yunikorn-k8shim/tree/master/deployments) 裡面有一些簡單範例, 可以跑看看
 4. 加入 YuniKorn Slack, 回答 User 問題可以刷存在感順便練習
@@ -75,5 +75,4 @@
 
 ## Other Tools
 - [Go Report Card (yunikorn-core)](https://goreportcard.com/report/github.com/apache/yunikorn-core#misspell)
-
 
