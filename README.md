@@ -15,6 +15,7 @@ By [蔡嘉平]（本社群的老大）：
 * [加入 Slack 頻道](https://join.slack.com/t/opensource4you/shared_invite/zt-2j496cnar-k2iEwdQ2ulgNmo8Hyk60Bg)
 * [一些 Q&A](https://www.facebook.com/share/p/HWonrVV4eX3bE1za/)
 * [Google 行事曆訂閱](https://calendar.google.com/calendar/u/0?cid=MzlmMjUyNzVkZDQxMWMyMDU0NGZhMzAxNzY3Yzg5YjE3YmQ1NTFlNGIzYWZkNWI1YzVmODY3OGU4MmZhNDg0OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+* [2024 鐵人賽](https://ithelp.ithome.com.tw/2024ironman/signup/team/365)
 
 ## 常駐活動
 
