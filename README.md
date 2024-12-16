@@ -45,8 +45,9 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
 * Apache Gravitino
   * https://github.com/apache/gravitino
-  * 語言：Java
+  * 語言：Java / Python
   * 頻道： [#apache-gravitino]
+  * 注意：每月2次的社区中文会议，还有星巴克咖啡☕️喝
   * 主要 mentor：[刘勋]
 * Apache Airflow
   * https://github.com/apache/airflow
