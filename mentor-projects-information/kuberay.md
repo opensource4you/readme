@@ -20,7 +20,7 @@
   * https://github.com/ray-project/kuberay/blob/master/ray-operator/DEVELOPMENT.md
 * 試著跑 RayCluster、RayJob、RayService
   * https://docs.ray.io/en/latest/cluster/kubernetes/getting-started.html
-* 看一下怎麼 build Ray 的 documentation
+* 看一下怎麼 build Ray 的 documentation（doc 修改的 PR 是發在 ray 的 repo，不是 kuberay）
   * https://docs.ray.io/en/latest/ray-contribute/docs.html
   * 請用 `conda` 不要用 `venv`
   * 請用 `make develop` 不要用 `make local`
@@ -29,6 +29,7 @@
 ## 注意事項
 
 * 問問題盡量在 channel 裡面問，不要私訊，避免 mentor 需要重複回答類似的問題
+* Pull request template 裡面的 `Closes #1234`，那個 `Closes` 是有意義的，會把 PR 和對應的 issue link 起來，讓 PR 被 merge 之後 issue 會自動關掉，請不要自己省略掉。
 
 ## FAQ
 
