@@ -18,7 +18,7 @@
   * https://blog.csdn.net/yanchendage/article/details/134310876
 * 試著 compile 並執行 unit tests 和 e2e tests
   * https://github.com/ray-project/kuberay/blob/master/ray-operator/DEVELOPMENT.md
-* 試著跑 RayCluster 和 RayJob
+* 試著跑 RayCluster、RayJob、RayService
   * https://docs.ray.io/en/latest/cluster/kubernetes/getting-started.html
 * 看一下怎麼 build Ray 的 documentation
   * https://docs.ray.io/en/latest/ray-contribute/docs.html
