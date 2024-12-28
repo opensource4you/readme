@@ -30,3 +30,7 @@
 
 * 問問題盡量在 channel 裡面問，不要私訊，避免 mentor 需要重複回答類似的問題
 
+## FAQ
+
+* 想貢獻 [Ray](https://github.com/ray-project/ray) 可以嗎？
+  * 可以，但是 Ray mentor 們沒有 merge 的權限，而 KubeRay 楷訓有 merge 的權限，比較好帶人，故以 KubeRay 為主。如果想貢獻 Ray 的話，發了 PR 之後可以跟楷訓講，他會找人幫你 review。
