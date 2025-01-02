@@ -87,6 +87,11 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 ## 社群夥伴的文章：教學、心得、八卦分享
 
+### 給學弟妹的矽谷 AI / Software 指南
+
+發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/)
+1. [推薦演算法決定你的眼球時間 — Social Media 的推薦系統](https://medium.com/@adrianhsu/%E6%8E%A8%E8%96%A6%E6%BC%94%E7%AE%97%E6%B3%95%E6%B1%BA%E5%AE%9A%E4%BD%A0%E7%9A%84%E7%9C%BC%E7%90%83%E6%99%82%E9%96%93-social-media-%E7%9A%84%E6%8E%A8%E8%96%A6%E7%B3%BB%E7%B5%B1-518ba734bd2a)
+
 ### 新手上路系列
 
 * [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
