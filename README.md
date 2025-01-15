@@ -89,10 +89,8 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 ### 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
-
-
-1. [推薦演算法決定你的眼球時間 — Social Media 的推薦系統](https://medium.com/@adrianhsu/%E6%8E%A8%E8%96%A6%E6%BC%94%E7%AE%97%E6%B3%95%E6%B1%BA%E5%AE%9A%E4%BD%A0%E7%9A%84%E7%9C%BC%E7%90%83%E6%99%82%E9%96%93-social-media-%E7%9A%84%E6%8E%A8%E8%96%A6%E7%B3%BB%E7%B5%B1-518ba734bd2a) - 許秉鈞 Twitter
-2. [全世界都在使用的 AI infra 開源專案 — Ray / KubeRay](https://medium.com/@kaihsunchen/%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84-ai-infra-%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-ray-kuberay-ac1d08a98cb9) - 陳楷訊 Anyscale
+1. [全世界都在使用的 AI infra 開源專案 — Ray / KubeRay](https://medium.com/@kaihsunchen/%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84-ai-infra-%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-ray-kuberay-ac1d08a98cb9) - 陳楷訊 (Anyscale)
+2. [自動駕駛的演算法工程師是爽缺嗎？](https://u9534056.medium.com/自動駕駛的演算法工程師是爽缺嗎-863d06d28a52) - Rice Yang (Nvidia)
 
 ### 新手上路系列
 
