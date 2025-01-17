@@ -70,9 +70,10 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 語言：Golang + Python
   * 頻道: Private，請表達想做的意願之後由 mentor 認領
   * 主要 mentor：[蘇桓平]、[陳翰儒]
-* KubeRay
+* KubeRay & Ray（主要以 KubeRay 為主）
   * https://github.com/ray-project/kuberay
-  * 語言：Golang
+  * https://github.com/ray-project/ray
+  * 語言：Golang (KubeRay)、Python + C++（Ray）
   * 頻道: Private，請表達想做的意願之後由 mentor 認領
   * 主要 mentor：[陳楷訓]、[劉奇聖]
   * [更多資訊](./mentor-projects-information/kuberay.md)
