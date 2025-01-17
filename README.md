@@ -89,7 +89,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 ### 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
-1. [全世界都在使用的 AI infra 開源專案 — Ray / KubeRay](https://medium.com/@kaihsunchen/%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84-ai-infra-%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-ray-kuberay-ac1d08a98cb9) - 陳楷訊 (Anyscale)
+1. [全世界都在使用的 AI infra 開源專案 — Ray / KubeRay](https://medium.com/@kaihsunchen/%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84-ai-infra-%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-ray-kuberay-ac1d08a98cb9) - 陳楷訓 (Anyscale)
 2. [自動駕駛的演算法工程師是爽缺嗎？](https://u9534056.medium.com/自動駕駛的演算法工程師是爽缺嗎-863d06d28a52) - Rice Yang (Nvidia)
 
 ### 新手上路系列
