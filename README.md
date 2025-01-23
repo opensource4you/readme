@@ -54,6 +54,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 語言：Python
   * 頻道：[#airflow-技術討論]
   * 主要 mentor：[李唯]
+  * 新人必讀：https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/
 * Apache Ozone
   * https://github.com/apache/ozone
   * 語言：Java
