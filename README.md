@@ -68,7 +68,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 * Flyte (Linux Foundation)
   * https://github.com/flyteorg
   * 語言：Golang + Python
-  * 頻道: Private，請表達想做的意願之後由 mentor 認領
+  * 頻道: Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su, Han-Ru Chen, 以及 Troy 後，會把你拉進頻道
   * 主要 mentor：[蘇桓平]、[陳翰儒]
 * KubeRay & Ray（主要以 KubeRay 為主）
   * https://github.com/ray-project/kuberay
