@@ -95,6 +95,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 2. [自動駕駛的演算法工程師是爽缺嗎？](https://u9534056.medium.com/自動駕駛的演算法工程師是爽缺嗎-863d06d28a52) - Rice Yang (Nvidia)
 3. [如何挑選該加入哪個矽谷新創](https://morrishsu-94479.medium.com/如何挑選該加入哪個矽谷新創-8b5163dd9436) - Morris Hsu (Snorkel.ai)
 4. [Harvester 開發日常與挑戰](https://medium.com/@brandboat/harvester-閒談-f914c421ff8f) - 曾冠博 (SUSE)
+5. [智慧工廠與 AWS 機器學習顧問在做什麼？](./articles/Smart-Manufacturing-ML-Consultant-in-AWS-wei-chen/README.md) - Wei Chen (TSMC)
 
 ### 新手上路系列
 
