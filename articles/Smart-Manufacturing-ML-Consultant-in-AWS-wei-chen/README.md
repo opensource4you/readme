@@ -1,5 +1,6 @@
 [《給學弟妹的矽谷 AI / Software 指南》](https://medium.com/@adrianhsu/%E7%B5%A6%E5%AD%B8%E5%BC%9F%E5%A6%B9%E7%9A%84%E7%9F%BD%E8%B0%B7-ai-software-%E6%8C%87%E5%8D%97-da054b7a8dcb) 是一個矽谷工程師自發的眾籌寫作計劃，由[源來適你](https://www.facebook.com/opensource4you)社群推動。
 這將是一個在台灣軟體學生圈內很有影響力的文章系列。已有 >10 篇準備發布，目標 100 篇並出書，歡迎 tag 強者大神來寫！
+
 ---
 作者：[Wei Chen](https://www.linkedin.com/in/wei1)
 
