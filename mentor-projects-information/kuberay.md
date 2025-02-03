@@ -46,4 +46,4 @@
 * 照著[這個 doc](https://docs.ray.io/en/master/ray-contribute/development.html#building-ray-on-linux-macos-full) build 一次完整的 Ray
 * 只有第一次 build 的時候需要用 `pip install` 的方式 build，之後都是用 `bazel build -c fastbuild //:ray_pkg` 即可
   * https://docs.ray.io/en/master/ray-contribute/development.html#fast-debug-and-optimized-builds
-* 一些比較常用的指令可以參考[奇聖的 Ray 指令 cheatsheet](https://github.com/MortalHappiness/Linux-config/blob/master/cheatsheets/navi/projects/ray.cheat)
+* 一些比較常用的指令可以參考[奇聖的 Ray 指令 cheatsheet](https://github.com/MortalHappiness/dotfiles/blob/main/dot_local/share/navi/cheats/exact_personal-cheatsheets/projects/ray.cheat)
