@@ -98,6 +98,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 5. [智慧工廠與 AWS 機器學習顧問在做什麼？](./articles/Smart-Manufacturing-ML-Consultant-in-AWS-wei-chen/README.md) - Wei Chen (TSMC)
 6. [自動駕駛的到來勢不可擋，但該如何保障其安全發展？](https://tywu13.medium.com/自動駕駛的到來勢不可擋-但該如何保障其安全發展-8739bc116ac4) - Tsang-Yung Wu (Tesla)
 7. [關於加速ML，你需要知道的基本觀念](https://yuhsuan-t.medium.com/63b98ab7df15) - Yu-Hsuan Tseng (Nvidia)
+8. [A Story of Database](https://medium.com/@0050211/a-story-of-database-53d02397df93) - Ryan Fu (Oracle)
 
 ### 新手上路系列
 
