@@ -39,6 +39,7 @@ By [蔡嘉平]（本社群的老大）：
 6. [自動駕駛的到來勢不可擋，但該如何保障其安全發展？](https://tywu13.medium.com/自動駕駛的到來勢不可擋-但該如何保障其安全發展-8739bc116ac4) - Tsang-Yung Wu (Tesla)
 7. [關於加速ML，你需要知道的基本觀念](https://yuhsuan-t.medium.com/63b98ab7df15) - Yu-Hsuan Tseng (Nvidia)
 8. [A Story of Database](https://medium.com/@0050211/a-story-of-database-53d02397df93) - Ryan Fu (Oracle)
+9. [深掘推薦系統: 一窺 TikTok 底層演算法](https://medium.com/@frankshyu1994/%E6%B7%B1%E6%8E%98%E6%8E%A8%E8%96%A6%E7%B3%BB%E7%B5%B1-%E4%B8%80%E7%AA%BA-tiktok-%E5%BA%95%E5%B1%A4%E6%BC%94%E7%AE%97%E6%B3%95-1787289146b6) - 徐翊祥 (Tiktok)
 
 ## 科技開講
 
