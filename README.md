@@ -28,6 +28,7 @@ By [蔡嘉平]（本社群的老大）：
 * [普通人也能做到的 Open Source 開源一年 100+ PRs 完整指南 feat. 源來適你, Flyte](https://medium.com/@future-outlier/%E6%99%AE%E9%80%9A%E4%BA%BA%E4%B9%9F%E8%83%BD%E5%81%9A%E5%88%B0%E7%9A%84-open-source-%E9%96%8B%E6%BA%90%E4%B8%80%E5%B9%B4-100-prs-%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-feat-%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0-flyte-87b1cc29f093)
 * [開源入門到加入夢幻新創！](https://medium.com/@troychiu/from-flyte-to-union-ai-%E9%96%8B%E6%BA%90%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-6ca2dc4cd6e4)
 * [不尋常的找工作方式：我透過貢獻 KubeRay 開源專案找到美國跨國遠端軟體工程師職缺！ | 劉奇聖](https://chishengliu.com/zh-tw/posts/join-anyscale-via-kuberay/)
+* [如何透過開源社群「源來適你」找到 Samsara 工作](./articles/Eagle-Lo-Samsara/README.md)
 
 ## 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
