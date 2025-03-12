@@ -53,21 +53,18 @@ By [蔡嘉平]（本社群的老大）：
 * 時間：台灣時間週三 20:30~21:30
 * 內容：大家一起讀一本書，輪流報告書裡的或是書外的補充知識
 * 主持人：呂明翰
-* [訂閱行事曆](calendar.opensource4you.tw)
 
 ## ML讀書會
 
 * 時間：台灣時間週六 9:30~10:00
 * 內容：選讀 ML 相關的技術文章
 * 主持人：陳楷訓、劉奇聖
-* [訂閱行事曆](calendar.opensource4you.tw)
 
 ## Data streaming event 讀書會
 
 * 時間：台灣時間週四 20:30~21:30
 * 內容：選讀 Kafka 相關的技術文章
 * 主持人：蔡嘉平
-* [訂閱行事曆](calendar.opensource4you.tw)
 
 ## 目前有 Mentor 帶的專案
 
