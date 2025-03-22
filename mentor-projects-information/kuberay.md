@@ -47,3 +47,4 @@
 * 只有第一次 build 的時候需要用 `pip install` 的方式 build，之後都是用 `bazel build -c fastbuild //:ray_pkg` 即可
   * https://docs.ray.io/en/master/ray-contribute/development.html#fast-debug-and-optimized-builds
 * 一些比較常用的指令可以參考[奇聖的 Ray 指令 cheatsheet](https://github.com/MortalHappiness/dotfiles/blob/main/dot_local/share/navi/cheats/exact_personal-cheatsheets/projects/ray.cheat)
+* [其他雜記](https://www.notion.so/chishengliu/Ray-17e6c9db49d480ffb47af4a72d2a3564)
