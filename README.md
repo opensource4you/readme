@@ -41,7 +41,8 @@ By [蔡嘉平]（本社群的老大）：
 7. [關於加速ML，你需要知道的基本觀念](https://yuhsuan-t.medium.com/63b98ab7df15) - Yu-Hsuan Tseng (Nvidia)
 8. [A Story of Database](https://medium.com/@0050211/a-story-of-database-53d02397df93) - Ryan Fu (Oracle)
 9. [深掘推薦系統: 一窺 TikTok 底層演算法](https://medium.com/@frankshyu1994/%E6%B7%B1%E6%8E%98%E6%8E%A8%E8%96%A6%E7%B3%BB%E7%B5%B1-%E4%B8%80%E7%AA%BA-tiktok-%E5%BA%95%E5%B1%A4%E6%BC%94%E7%AE%97%E6%B3%95-1787289146b6) - 徐翊祥 (Tiktok)
-10. [LINE — Data Engineer的日常](https://medium.com/@jasonlai1218/line-data-engineer的日常-a91324191b1c) - 賴仲哲 (Line)
+10. [LINE — Data Engineer的日常](https://medium.com/@jasonlai1218/line-data-engineer的日常-a91324191b1c) - 賴仲哲 (LINE)
+11. [一腳踏進自動駕駛軟體業](https://medium.com/momo的機器人留學夢/一腳踏進自動駕駛軟體業-2f4f7a1e7b50) - 莫絲羽 (Nvidia)
 
 ## 科技開講
 
