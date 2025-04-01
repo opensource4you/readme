@@ -8,6 +8,7 @@ By [蔡嘉平]（本社群的老大）：
 * 大方向我們是很被動的社群，你很積極 mentor 才會很積極，所以建議可以多花一些時間研究一下開源和專案的背景知識。
 * 開源這條路並不是一個顯學，尤其對學生而言乖乖去美國念書刷題面試才是最常見也最通用的方式。但如果你天生命格特殊，太多人走的路我不要，那麼就歡迎來走開源這條路。但是要注意，這裏雖然這裡有成功的案例，但有更多放棄的案例，你的特殊命格是否適合開源，最後都取決於你。
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖，簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
+* [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
 
 ## 媒體報導
 
@@ -136,7 +137,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 - [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
 - [TED Talk 為什麼資工系需要不平等優勢?](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
 
-## Podcast
+## Podcast (with [Josh](https://www.linkedin.com/in/joshyeh/))
 - [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
 ## 各種連結
