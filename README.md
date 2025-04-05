@@ -30,7 +30,7 @@ By [蔡嘉平]（本社群的老大）：
 * [開源入門到加入夢幻新創！](https://medium.com/@troychiu/from-flyte-to-union-ai-%E9%96%8B%E6%BA%90%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-6ca2dc4cd6e4)
 * [不尋常的找工作方式：我透過貢獻 KubeRay 開源專案找到美國跨國遠端軟體工程師職缺！ | 劉奇聖](https://chishengliu.com/zh-tw/posts/join-anyscale-via-kuberay/)
 * [如何透過開源社群「源來適你」找到 Samsara 工作](./articles/Eagle-Lo-Samsara/README.md)
-* [From History to Apache - ](https://medium.com/@frankvicky/from-history-to-apache-892f00a65474)
+* [From History to Apache - 從歷史系到阿帕契﹣轉職仔的開源之路](https://medium.com/@frankvicky/from-history-to-apache-892f00a65474)
 
 ## 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
