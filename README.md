@@ -32,6 +32,7 @@ By [蔡嘉平]（本社群的老大）：
 * [如何透過開源社群「源來適你」找到 Samsara 工作](./articles/Eagle-Lo-Samsara/README.md)
 * [從歷史系到阿帕契﹣轉職仔的開源之路](https://medium.com/@frankvicky/892f00a65474)
 * [從 0 成為 Apache Airflow Committer](https://blog.zhu424.dev/zh-tw/open-source-contribution/becoming-an-apache-airflow-committer-from-0/)
+* [Open Source 入門心得](https://medium.com/@blackcatoz12321/open-source-入門心得-8130d1bf76c2)
 
 ## 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
