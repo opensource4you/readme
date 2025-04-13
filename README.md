@@ -114,6 +114,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 語言：Golang + Python
   * 頻道: Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su, Han-Ru Chen, 以及 Troy 後，會把你拉進頻道
   * 主要 mentor：[蘇桓平]、[陳翰儒]
+  * 備註：最近很忙，推薦優先選擇其他專案
 * KubeRay & Ray（主要以 KubeRay 為主）
   * https://github.com/ray-project/kuberay
   * https://github.com/ray-project/ray
