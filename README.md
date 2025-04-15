@@ -79,12 +79,12 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 * Apache Kafka
   * https://github.com/apache/kafka
   * 語言：Java
-  * 頻道： [#kafka-技術討論]
+  * 頻道： [#apache-kafka]
   * 主要 mentor：[蔡嘉平]
 * Apache YuniKorn
   * https://github.com/apache/yunikorn-core
   * 語言：Golang
-  * 頻道： [#yunikorn-技術討論]
+  * 頻道： [#apache-yunikorn]
   * 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
 * Apache Gravitino
   * https://github.com/apache/gravitino
@@ -95,13 +95,13 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 * Apache Airflow
   * https://github.com/apache/airflow
   * 語言：Python
-  * 頻道：[#airflow-技術討論]
+  * 頻道：[#apache-airflow]
   * 主要 mentor：[李唯]
   * 新人必讀：https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/
 * Apache Ozone
   * https://github.com/apache/ozone
   * 語言：Java
-  * 頻道：[#ozone-技術討論]
+  * 頻道：[#apache-ozone]
   * 主要 mentor：[李仲恩]
 * Apache Datafusion
   * https://github.com/apache/datafusion
@@ -109,6 +109,11 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 頻道：Private，請先表達貢獻意願後會收到入群邀請
   * 注意：主要目的為技術交流討論，無明確 Mentorship
   * 主要 mentor：[Jay Zhan] 、[謝東霖]、[劉立行]
+* Apache Ambari
+  * https://github.com/apache/ambari
+  * 語言：Java
+  * 頻道：[#apache-ambari]
+  * 主要 mentor：[Jesse]
 * Flyte (Linux Foundation)
   * https://github.com/flyteorg
   * 語言：Golang + Python
@@ -168,9 +173,11 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 [劉奇聖]: https://opensource4you.slack.com/team/U06CSLLGQNR
 [許秉倫]: https://opensource4you.slack.com/team/U050YR3QCUB
 [黃廷堯]: https://opensource4you.slack.com/team/U051KFFF0C9
-[#kafka-技術討論]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
-[#yunikorn-技術討論]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
+[Jesse]: https://opensource4you.slack.com/team/U052A46DX6F
+[#apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
+[#apache-yunikorn]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
 [#apache-gravitino]: https://opensource4you.slack.com/archives/C07473LAC15
-[#airflow-技術討論]: https://opensource4you.slack.com/archives/C07D4L435B5
-[#ozone-技術討論]: https://opensource4you.slack.com/archives/C07PLV9QNLF
+[#apache-airflow]: https://opensource4you.slack.com/archives/C07D4L435B5
+[#apache-ozone]: https://opensource4you.slack.com/archives/C07PLV9QNLF
+[#apache-ambari]: https://opensource4you.slack.com/archives/C08NK92JYSC
 [liger-kernel]: https://discord.gg/HJnG69u62K
