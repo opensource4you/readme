@@ -49,6 +49,10 @@ By [蔡嘉平]（本社群的老大）：
 10. [LINE — Data Engineer的日常](https://medium.com/@jasonlai1218/line-data-engineer的日常-a91324191b1c) - 賴仲哲 (LINE)
 11. [一腳踏進自動駕駛軟體業](https://medium.com/momo的機器人留學夢/一腳踏進自動駕駛軟體業-2f4f7a1e7b50) - 莫絲羽 (Nvidia)
 
+### From Database to Data Lakehouse (Ryan Fu)
+1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
+
+
 ## 科技開講
 
 * 時間：台灣時間週六早上 10:00~11:00
