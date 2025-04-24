@@ -82,6 +82,9 @@ By [蔡嘉平]（本社群的老大）：
 * 內容：選讀 Kafka 相關的技術文章
 * 主持人：蔡嘉平
 
+### 講者投影片
+1. [如何把 committer 頭銜 zero-copy 到履歷上](https://github.com/opensource4you/readme/blob/main/slides/%E5%A6%82%E4%BD%95%E6%8A%8A%20committer%20%E9%A0%AD%E9%8A%9C%20zero-copy%20%E5%88%B0%E5%B1%A5%E6%AD%B7%E4%B8%8A.pdf)
+
 ## 目前有 Mentor 帶的專案
 
 Public channel 可以直接加入，Private channel 的話要講一下才會把你加進去，非常建議自己先研究想做什麼專案，對自己負責。
