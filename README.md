@@ -62,6 +62,7 @@ By [蔡嘉平]（本社群的老大）：
 ### 講者投影片
 
 1. [JetBrains IDE 微醺夜 - IDE 操作技巧分享](https://gist.github.com/shengyou/e09159e3ac4fb260172039bbe888d0e9)
+2. [Apache Polaris: an Open Source Iceberg REST Catalog](https://github.com/opensource4you/readme/blob/main/slides/Apache%20Polaris%20An%20Open%20Iceberg%20REST%20Catalog.pdf)
 
 ## 書本讀書會
 
