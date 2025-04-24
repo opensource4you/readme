@@ -51,12 +51,17 @@ By [蔡嘉平]（本社群的老大）：
 
 ### From Database to Data Lakehouse (Ryan Fu)
 1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
+2. [From Database to Data Lakehouse — Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
 
 
 ## 科技開講
 
 * 時間：台灣時間週六早上 10:00~11:00
 * 內容：邀請台灣和美國矽谷的業界人士來分享，主題橫跨技術、職涯、八卦、管理、教育等各種和開源軟體有關的話題。
+
+### 講者投影片
+
+1. [JetBrains IDE 微醺夜 - IDE 操作技巧分享](https://gist.github.com/shengyou/e09159e3ac4fb260172039bbe888d0e9)
 
 ## 書本讀書會
 
