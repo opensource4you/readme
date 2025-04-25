@@ -52,6 +52,7 @@ By [蔡嘉平]（本社群的老大）：
 ### From Database to Data Lakehouse (Ryan Fu)
 1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
 2. [From Database to Data Lakehouse — Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
+3. [From Database to Data Lakehouse — Part 3](https://medium.com/@0050211/from-database-to-data-lakehouse-part-3-9457004341be)
 
 
 ## 科技開講
