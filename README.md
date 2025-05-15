@@ -9,7 +9,7 @@ By [蔡嘉平]（本社群的老大）：
 * 開源這條路並不是一個顯學，尤其對學生而言乖乖去美國念書刷題面試才是最常見也最通用的方式。但如果你天生命格特殊，太多人走的路我不要，那麼就歡迎來走開源這條路。但是要注意，這裏雖然這裡有成功的案例，但有更多放棄的案例，你的特殊命格是否適合開源，最後都取決於你。
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖，簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
-* [尋求贊助](https://www.facebook.com/share/p/1AHcTivVza/)
+* [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
 * [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
 ## 媒體報導
 
@@ -53,7 +53,9 @@ By [蔡嘉平]（本社群的老大）：
 1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
 2. [From Database to Data Lakehouse — Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
 3. [From Database to Data Lakehouse — Part 3](https://medium.com/@0050211/from-database-to-data-lakehouse-part-3-9457004341be)
-3. [From Database to Data Lakehouse — Part 4](https://medium.com/@0050211/from-database-to-data-lakehouse-part-4-ff062a9c24a3)
+4. [From Database to Data Lakehouse — Part 4](https://medium.com/@0050211/from-database-to-data-lakehouse-part-4-ff062a9c24a3)
+5. [From Database to Data Lakehouse — Part 5](https://medium.com/@0050211/from-database-to-data-lakehouse-part-5-4fabddec10f4)
+6. [From Database to Data Lakehouse — Part 6](https://medium.com/@0050211/from-database-to-data-lakehouse-part-6-存儲裝置簡史-volume-2-925dd6ffbeab)
 
 
 ## 科技開講
