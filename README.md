@@ -10,7 +10,7 @@ By [蔡嘉平]（本社群的老大）：
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖，簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
 * [尋求贊助](https://www.facebook.com/share/p/1AHcTivVza/)
-
+* [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
 ## 媒體報導
 
 * [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205?fbclid=IwY2xjawIsXO1leHRuA2FlbQIxMAABHT4jKg02mk6DzzeeobSQPUzG7a31n26YjXL_i6RmkR_EB_Yqbo70FbGo5w_aem_Vw-2uHZxyiOQ65BG8moIxw) - 軟體自由電子報
