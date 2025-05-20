@@ -122,7 +122,8 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * <https://github.com/apache/airflow>
   * 語言：Python
   * 頻道：[#apache-airflow]
-  * 主要 mentor：[李唯]
+  * 主要 mentor：[Zhe You (Jason) Liu]
+  * Meme Bot: [李唯]
   * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
 * Apache Ozone
   * <https://github.com/apache/ozone>
@@ -174,6 +175,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 * [TED Talk 為什麼資工系需要不平等優勢?](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
 
 ## Podcast (with [Josh](https://www.linkedin.com/in/joshyeh/))
+
 * [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
 ## 各種連結
@@ -188,6 +190,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 [蔡嘉平]: https://opensource4you.slack.com/team/U050DD45D8W
 [陳昱霖]: https://opensource4you.slack.com/team/U054DLDQ5TK
 [刘勋]: https://opensource4you.slack.com/team/U06C9SHNYCF
+[Zhe You (Jason) Liu]: https://github.com/jason810496
 [李唯]: https://opensource4you.slack.com/team/U0578610N8Y
 [李仲恩]: https://opensource4you.slack.com/team/U0543FN6W68
 [Jay Zhan]: https://opensource4you.slack.com/team/U056WNB4QTE
