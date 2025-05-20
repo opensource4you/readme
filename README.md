@@ -11,6 +11,7 @@ By [蔡嘉平]（本社群的老大）：
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
 * [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
 * [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
+
 ## 媒體報導
 
 * [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205?fbclid=IwY2xjawIsXO1leHRuA2FlbQIxMAABHT4jKg02mk6DzzeeobSQPUzG7a31n26YjXL_i6RmkR_EB_Yqbo70FbGo5w_aem_Vw-2uHZxyiOQ65BG8moIxw) - 軟體自由電子報
@@ -51,13 +52,13 @@ By [蔡嘉平]（本社群的老大）：
 11. [一腳踏進自動駕駛軟體業](https://medium.com/momo的機器人留學夢/一腳踏進自動駕駛軟體業-2f4f7a1e7b50) - 莫絲羽 (Nvidia)
 
 ### From Database to Data Lakehouse (Ryan Fu)
+
 1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
 2. [From Database to Data Lakehouse — Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
 3. [From Database to Data Lakehouse — Part 3](https://medium.com/@0050211/from-database-to-data-lakehouse-part-3-9457004341be)
 4. [From Database to Data Lakehouse — Part 4](https://medium.com/@0050211/from-database-to-data-lakehouse-part-4-ff062a9c24a3)
 5. [From Database to Data Lakehouse — Part 5](https://medium.com/@0050211/from-database-to-data-lakehouse-part-5-4fabddec10f4)
 6. [From Database to Data Lakehouse — Part 6](https://medium.com/@0050211/from-database-to-data-lakehouse-part-6-存儲裝置簡史-volume-2-925dd6ffbeab)
-
 
 ## 科技開講
 
@@ -89,6 +90,7 @@ By [蔡嘉平]（本社群的老大）：
 * 主持人：蔡嘉平
 
 ### 投影片&散文
+
 1. [如何把 committer 頭銜 zero-copy 到履歷上](https://github.com/opensource4you/readme/blob/main/slides/%E5%A6%82%E4%BD%95%E6%8A%8A%20committer%20%E9%A0%AD%E9%8A%9C%20zero-copy%20%E5%88%B0%E5%B1%A5%E6%AD%B7%E4%B8%8A.pdf)
 2. [KAFKA-19898 Optimize FileRecord#searchForOffsetWithSize](https://www.facebook.com/share/p/16QjxzVseZ/)
 3. [KIP-1140: Avoid to return null value in Map from public api of consumer](https://www.facebook.com/share/p/1DVS4P86vS/)
@@ -101,58 +103,58 @@ By [蔡嘉平]（本社群的老大）：
 Public channel 可以直接加入，Private channel 的話要講一下才會把你加進去，非常建議自己先研究想做什麼專案，對自己負責。
 
 * Apache Kafka
-  * https://github.com/apache/kafka
+  * <https://github.com/apache/kafka>
   * 語言：Java
   * 頻道： [#apache-kafka]
   * 主要 mentor：[蔡嘉平]
 * Apache YuniKorn
-  * https://github.com/apache/yunikorn-core
+  * <https://github.com/apache/yunikorn-core>
   * 語言：Golang
   * 頻道： [#apache-yunikorn]
   * 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
 * Apache Gravitino
-  * https://github.com/apache/gravitino
+  * <https://github.com/apache/gravitino>
   * 語言：Java / Python
   * 頻道： [#apache-gravitino]
   * 注意：每月2次的社区中文会议，还有星巴克咖啡☕️喝
   * 主要 mentor：[刘勋]
 * Apache Airflow
-  * https://github.com/apache/airflow
+  * <https://github.com/apache/airflow>
   * 語言：Python
   * 頻道：[#apache-airflow]
   * 主要 mentor：[李唯]
-  * 新人必讀：https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/
+  * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
 * Apache Ozone
-  * https://github.com/apache/ozone
+  * <https://github.com/apache/ozone>
   * 語言：Java
   * 頻道：[#apache-ozone]
   * 主要 mentor：[李仲恩]
 * Apache Datafusion
-  * https://github.com/apache/datafusion
+  * <https://github.com/apache/datafusion>
   * 語言：Rust
   * 頻道：Private，請先表達貢獻意願後會收到入群邀請
   * 注意：主要目的為技術交流討論，無明確 Mentorship
   * 主要 mentor：[Jay Zhan] 、[謝東霖]、[劉立行]
 * Apache Ambari
-  * https://github.com/apache/ambari
+  * <https://github.com/apache/ambari>
   * 語言：Java
   * 頻道：[#apache-ambari]
   * 主要 mentor：[Jesse]
 * Flyte (Linux Foundation)
-  * https://github.com/flyteorg
+  * <https://github.com/flyteorg>
   * 語言：Golang + Python
   * 頻道: Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su, Han-Ru Chen, 以及 Troy 後，會把你拉進頻道
   * 主要 mentor：[蘇桓平]、[陳翰儒]
   * 備註：最近很忙，推薦優先選擇其他專案
 * KubeRay & Ray（主要以 KubeRay 為主）
-  * https://github.com/ray-project/kuberay
-  * https://github.com/ray-project/ray
+  * <https://github.com/ray-project/kuberay>
+  * <https://github.com/ray-project/ray>
   * 語言：Golang (KubeRay)、Python + C++（Ray）
   * 頻道: Private，請表達想做的意願之後由 mentor 認領
   * 主要 mentor：[陳楷訓]、[劉奇聖]
   * [更多資訊](./mentor-projects-information/kuberay.md)
 * Liger-Kernel
-  * https://github.com/linkedin/Liger-Kernel
+  * <https://github.com/linkedin/Liger-Kernel>
   * 語言：Python, Triton
   * 注意：
     * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借 GPU）
@@ -167,12 +169,12 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 ## 公開演講
 
-- [NTUEE x Apache 開源系列講座 | 蔡嘉平 | Kafka Commiter, HBase PMC | 地方工程師渴望的大舞台 - Apache 開源專案](https://www.youtube.com/live/ltH3DcizGuI?si=P7ub6hcZFIlfYaWH)
-- [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
-- [TED Talk 為什麼資工系需要不平等優勢?](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
+* [NTUEE x Apache 開源系列講座 | 蔡嘉平 | Kafka Commiter, HBase PMC | 地方工程師渴望的大舞台 - Apache 開源專案](https://www.youtube.com/live/ltH3DcizGuI?si=P7ub6hcZFIlfYaWH)
+* [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
+* [TED Talk 為什麼資工系需要不平等優勢?](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
 
 ## Podcast (with [Josh](https://www.linkedin.com/in/joshyeh/))
-- [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
+* [源來適你 Podcast](https://podcasts.apple.com/tw/podcast/%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0/id1674730463)
 
 ## 各種連結
 
