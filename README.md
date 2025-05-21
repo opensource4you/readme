@@ -129,7 +129,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * <https://github.com/apache/ozone>
   * 語言：Java
   * 頻道：[#apache-ozone]
-  * 主要 mentor：[李仲恩]
+  * 主要 mentor：[李仲恩] [李緒成]
 * Apache Datafusion
   * <https://github.com/apache/datafusion>
   * 語言：Rust
@@ -202,6 +202,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 [Zhe You (Jason) Liu]: https://github.com/jason810496
 [李唯]: https://opensource4you.slack.com/team/U0578610N8Y
 [李仲恩]: https://opensource4you.slack.com/team/U0543FN6W68
+[李緒成]: https://opensource4you.slack.com/team/U0745G8DYRW
 [Jay Zhan]: https://opensource4you.slack.com/team/U056WNB4QTE
 [謝東霖]: https://opensource4you.slack.com/team/U0511ETN3T6
 [劉立行]: https://opensource4you.slack.com/team/U05PDKL13DK
