@@ -162,6 +162,15 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
     * 最近 mentor 比較忙，沒空帶人，但是如果自己有辦法 pick up 的話會幫你 review PR
   * 頻道：[官方 Discord 頻道][liger-kernel]
   * 主要 mentor：[許秉倫]
+* commitizen-tools
+  * <https://github.com/commitizen-tools>
+  * 語言：Python
+  * 頻道: Non exists at this moment, `#apache-airflow` is our temporary shelter
+  * 主要 mentor：[李唯]
+  * 新人必讀：<https://commitizen-tools.github.io/commitizen/contributing/>
+  * 注意：
+    * 三個 maintainers 都蠻忙的，看的速度有點慢🥲
+    * 主要是維護 <https://github.com/commitizen-tools/commitizen> ，這裡的 PR, issues 相對有人在看。其他的 sub projects 也很重要，但通常貢獻比較少，我們的關注也稍微低，如果不小心漏掉，可以 tag [李唯]。
 
 ## 新手上路系列
 
