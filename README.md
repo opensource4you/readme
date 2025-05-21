@@ -122,7 +122,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * <https://github.com/apache/airflow>
   * 語言：Python
   * 頻道：[#apache-airflow]
-  * 主要 mentor：[Zhe You (Jason) Liu]
+  * 主要 mentor：[Zhe You (Jason) Liu] [李唯]
   * Meme Bot: [李唯]
   * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
 * Apache Ozone
