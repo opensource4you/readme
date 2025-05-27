@@ -11,6 +11,7 @@ By [蔡嘉平]（本社群的老大）：
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
 * [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
 * [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
+* [從開源走向世界 從台灣影響國際](https://github.com/opensource4you/readme/blob/main/slides/os4y.pdf)
 
 ## 媒體報導
 
