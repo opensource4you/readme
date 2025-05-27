@@ -179,9 +179,9 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 ## 公開演講
 
-* [NTUEE x Apache 開源系列講座 | 蔡嘉平 | Kafka Commiter, HBase PMC | 地方工程師渴望的大舞台 - Apache 開源專案](https://www.youtube.com/live/ltH3DcizGuI?si=P7ub6hcZFIlfYaWH)
-* [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s?si=-iHYa_sjbakj_NaS)
-* [為什麼資工系需要不平等優勢？ | 翰儒 陳 | TEDxNTNU](https://youtu.be/aV-Pvb-qmC0?si=JHUDjGPIFs_8eZkC)
+* [NTUEE x Apache 開源系列講座 | 蔡嘉平 | Kafka Commiter, HBase PMC | 地方工程師渴望的大舞台 - Apache 開源專案](https://www.youtube.com/live/ltH3DcizGuI)
+* [NTUEE x Apache 開源系列講座 | 葉祐欣 | ASF member, Apache Bigtop PMC member | 非常人走非常路：參與 ASF 打世界杯比賽](https://www.youtube.com/live/YzWL5PlUx4s)
+* [為什麼資工系需要不平等優勢？ | 翰儒 陳 | TEDxNTNU](https://youtu.be/aV-Pvb-qmC0)
 
 ## Podcast (with [Josh](https://www.linkedin.com/in/joshyeh/))
 
