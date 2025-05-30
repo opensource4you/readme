@@ -169,13 +169,13 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 注意：
     * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借 GPU）
     * 最近 mentor 比較忙，沒空帶人，但是如果自己有辦法 pick up 的話會幫你 review PR
-  * 頻道：[官方 Discord 頻道][liger-kernel]
+  * 頻道：[#liger-kernel]
   * 主要 mentor：[許秉倫]
 * commitizen-tools
   * <https://github.com/commitizen-tools>
   * 語言：Python
-  * 頻道: Non exists at this moment, `#apache-airflow` is our temporary shelter
-  * 主要 mentor：[李唯]
+  * 頻道：[#commitizen]
+  * 主要 mentor：[李唯] [熊大]
   * 新人必讀：<https://commitizen-tools.github.io/commitizen/contributing/>
   * 注意：
     * 三個 maintainers 都蠻忙的，看的速度有點慢🥲
@@ -222,10 +222,12 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 [許秉倫]: https://opensource4you.slack.com/team/U050YR3QCUB
 [黃廷堯]: https://opensource4you.slack.com/team/U051KFFF0C9
 [Jesse]: https://opensource4you.slack.com/team/U052A46DX6F
+[熊大]: https://opensource4you.slack.com/team/U057L1EKP47
 [#apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
 [#apache-yunikorn]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
 [#apache-gravitino]: https://opensource4you.slack.com/archives/C07473LAC15
+[#commitizen]: https://opensource4you.slack.com/archives/C08UT4GTJGL
 [#apache-airflow]: https://opensource4you.slack.com/archives/C07D4L435B5
 [#apache-ozone]: https://opensource4you.slack.com/archives/C07PLV9QNLF
 [#apache-ambari]: https://opensource4you.slack.com/archives/C08NK92JYSC
-[liger-kernel]: https://discord.gg/HJnG69u62K
+[#liger-kernel]: https://opensource4you.slack.com/archives/C083T0MQM9C
