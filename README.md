@@ -37,6 +37,7 @@ By [蔡嘉平]（本社群的老大）：
 * [從 0 成為 Apache Airflow Committer](https://blog.zhu424.dev/zh-tw/open-source-contribution/becoming-an-apache-airflow-committer-from-0/)
 * [Open Source 入門心得](https://medium.com/@blackcatoz12321/open-source-入門心得-8130d1bf76c2)
 * [Apache Ozone、4 個月、50 個 PR、40 個 PR Review、Committer](https://blog.peterxcli.dev/zh-tw/oss/ozone/becoming-an-ozone-committer)
+* [從開源新手到 Apache Gravitino Committer 的成長之路](https://medium.com/@e850506/%E5%BE%9E%E9%96%8B%E6%BA%90%E6%96%B0%E6%89%8B%E5%88%B0-apache-gravitino-committer-%E7%9A%84%E6%88%90%E9%95%B7%E4%B9%8B%E8%B7%AF-121e374026b6)
 
 ## 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
