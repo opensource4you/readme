@@ -18,6 +18,10 @@ By [蔡嘉平]（本社群的老大）：
 * [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205?fbclid=IwY2xjawIsXO1leHRuA2FlbQIxMAABHT4jKg02mk6DzzeeobSQPUzG7a31n26YjXL_i6RmkR_EB_Yqbo70FbGo5w_aem_Vw-2uHZxyiOQ65BG8moIxw) - 軟體自由電子報
 * [kafka community spotlight: TAIWAN](https://bigdata.2minutestreaming.com/p/kafka-community-spotlight-taiwan?fbclid=IwY2xjawIsXM1leHRuA2FlbQIxMAABHY8a13JwK9wfnvk9XG_1SesFCROHFIWIY4mYdY20ES6OaTycjsHpjQDDZQ_aem_M2E-I46m1JuvkaChjtzhwA) - 2minutestreaming
 
+## GPU 百日挑戰
+1. [day1 by 彥凱](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
+
+
 ## 參與者心得
 
 * [The Apache YuniKorn committer's path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
