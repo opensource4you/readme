@@ -19,8 +19,16 @@ By [蔡嘉平]（本社群的老大）：
 * [kafka community spotlight: TAIWAN](https://bigdata.2minutestreaming.com/p/kafka-community-spotlight-taiwan?fbclid=IwY2xjawIsXM1leHRuA2FlbQIxMAABHY8a13JwK9wfnvk9XG_1SesFCROHFIWIY4mYdY20ES6OaTycjsHpjQDDZQ_aem_M2E-I46m1JuvkaChjtzhwA) - 2minutestreaming
 
 ## GPU 百日挑戰
-1. [day1 by 彥凱](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
 
+[100-days-of-gpu-challenge]
+
+#### 彥凱
+1. [day1](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
+2. [day2](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day2)
+
+#### 駿馳
+
+1. [倒數三天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-3)
 
 ## 參與者心得
 
@@ -89,29 +97,30 @@ By [蔡嘉平]（本社群的老大）：
 * 時間：台灣時間週六早上 10:00~11:00
 * 內容：邀請台灣和美國矽谷的業界人士來分享，主題橫跨技術、職涯、八卦、管理、教育等各種和開源軟體有關的話題。
 
-### 講者投影片
+#### 講者投影片
 
 1. [JetBrains IDE 微醺夜 - IDE 操作技巧分享](https://gist.github.com/shengyou/e09159e3ac4fb260172039bbe888d0e9)
 2. [Apache Polaris: an Open Source Iceberg REST Catalog](https://github.com/opensource4you/readme/blob/main/slides/Apache%20Polaris%20An%20Open%20Iceberg%20REST%20Catalog.pdf)
 3. [My Journey with Raspberry Pi WebRTC](https://github.com/opensource4you/readme/blob/main/slides/My%20Journey%20with%20Raspberry%20Pi%20WebRTC.pdf)
-
-## 書本讀書會
-
-* 時間：台灣時間週三 20:30~21:30
-* 內容：大家一起讀一本書，輪流報告書裡的或是書外的補充知識
-* 主持人：呂明翰
-
-## ML讀書會
-
-* 時間：台灣時間週六 9:30~10:00
-* 內容：選讀 ML 相關的技術文章
-* 主持人：陳楷訓、劉奇聖
 
 ## Data streaming event 讀書會
 
 * 時間：台灣時間週四 20:30~21:30
 * 內容：選讀 Kafka 相關的技術文章
 * 主持人：蔡嘉平
+
+## 工程師的搜尋紀錄
+
+* 時間：台灣時間週三 20:30~21:30
+* 內容：休閒娛樂推廣，順便練習跟人分享的勇氣
+* 主持人：蔡嘉平
+
+## 阿伯碎碎念
+
+* 時間：不定期
+* 內容：讓中年阿伯有說教的機會、也讓年輕人可以聽一些故事
+* 主持人：蔡嘉平
+
 
 ## 目前有 Mentor 帶的專案
 
@@ -120,30 +129,29 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 * Apache Kafka
   * <https://github.com/apache/kafka>
   * 語言：Java
-  * 頻道： [#apache-kafka]
+  * 頻道： [apache-kafka]
   * 主要 mentor：[蔡嘉平]
 * Apache YuniKorn
   * <https://github.com/apache/yunikorn-core>
   * 語言：Golang
-  * 頻道： [#apache-yunikorn]
+  * 頻道： [apache-yunikorn]
   * 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
 * Apache Gravitino
   * <https://github.com/apache/gravitino>
   * 語言：Java / Python
-  * 頻道： [#apache-gravitino]
-  * 注意：每月2次的社区中文会议，还有星巴克咖啡☕️喝
-  * 主要 mentor：[刘勋]
+  * 頻道： [apache-gravitino]
+  * 主要 mentor：[eric] [刘勋]
 * Apache Airflow
   * <https://github.com/apache/airflow>
   * 語言：Python
-  * 頻道：[#apache-airflow]
+  * 頻道：[apache-airflow]
   * 主要 mentor：[Zhe You (Jason) Liu] [李唯]
   * Meme Bot: [李唯]
   * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
 * Apache Ozone
   * <https://github.com/apache/ozone>
   * 語言：Java
-  * 頻道：[#apache-ozone]
+  * 頻道：[apache-ozone]
   * 主要 mentor：[李仲恩] [李緒成]
 * Apache Datafusion
   * <https://github.com/apache/datafusion>
@@ -154,7 +162,7 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 * Apache Ambari
   * <https://github.com/apache/ambari>
   * 語言：Java
-  * 頻道：[#apache-ambari]
+  * 頻道：[apache-ambari]
   * 主要 mentor：[Jesse]
 * Flyte (Linux Foundation)
   * <https://github.com/flyteorg>
@@ -174,12 +182,12 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 注意：
     * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借 GPU）
     * 最近 mentor 比較忙，沒空帶人，但是如果自己有辦法 pick up 的話會幫你 review PR
-  * 頻道：[#liger-kernel]
+  * 頻道：[liger-kernel]
   * 主要 mentor：[許秉倫]
 * commitizen-tools
   * <https://github.com/commitizen-tools>
   * 語言：Python
-  * 頻道：[#commitizen]
+  * 頻道：[commitizen]
   * 主要 mentor：[李唯] [熊大]
   * 新人必讀：<https://commitizen-tools.github.io/commitizen/contributing/>
   * 注意：
@@ -228,11 +236,13 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 [黃廷堯]: https://opensource4you.slack.com/team/U051KFFF0C9
 [Jesse]: https://opensource4you.slack.com/team/U052A46DX6F
 [熊大]: https://opensource4you.slack.com/team/U057L1EKP47
-[#apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
-[#apache-yunikorn]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
-[#apache-gravitino]: https://opensource4you.slack.com/archives/C07473LAC15
-[#commitizen]: https://opensource4you.slack.com/archives/C08UT4GTJGL
-[#apache-airflow]: https://opensource4you.slack.com/archives/C07D4L435B5
-[#apache-ozone]: https://opensource4you.slack.com/archives/C07PLV9QNLF
-[#apache-ambari]: https://opensource4you.slack.com/archives/C08NK92JYSC
-[#liger-kernel]: https://opensource4you.slack.com/archives/C083T0MQM9C
+[eric]: https://opensource4you.slack.com/team/U05NXH9131U
+[apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
+[apache-yunikorn]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
+[apache-gravitino]: https://opensource4you.slack.com/archives/C07473LAC15
+[commitizen]: https://opensource4you.slack.com/archives/C08UT4GTJGL
+[apache-airflow]: https://opensource4you.slack.com/archives/C07D4L435B5
+[apache-ozone]: https://opensource4you.slack.com/archives/C07PLV9QNLF
+[apache-ambari]: https://opensource4you.slack.com/archives/C08NK92JYSC
+[liger-kernel]: https://opensource4you.slack.com/archives/C083T0MQM9C
+[100-days-of-gpu-challenge]: https://opensource4you.slack.com/archives/C090S0GMF45
