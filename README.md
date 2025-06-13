@@ -25,6 +25,7 @@ By [蔡嘉平]（本社群的老大）：
 #### 彥凱
 1. [day1](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
 2. [day2](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day2)
+3. [day3](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day3)
 
 #### 駿馳
 
