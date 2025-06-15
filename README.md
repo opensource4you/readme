@@ -30,6 +30,8 @@ By [蔡嘉平]（本社群的老大）：
 #### 駿馳
 
 1. [倒數三天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-3)
+2. [倒數二天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-2)
+3. [倒數一天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-1)
 
 ## 參與者心得
 
