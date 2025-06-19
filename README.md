@@ -37,6 +37,10 @@ By [蔡嘉平]（本社群的老大）：
 5. [day2](https://github.com/Tcc0403/gpu-100-days/tree/main/day002)
 6. [day3](https://github.com/Tcc0403/gpu-100-days/tree/main/day003)
 
+#### Li-Hsing
+
+1. [day1](https://austin362667.github.io/posts/gpu-notes-one/)
+
 ## 參與者心得
 
 * [The Apache YuniKorn committer's path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
