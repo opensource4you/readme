@@ -36,6 +36,7 @@ By [蔡嘉平]（本社群的老大）：
 4. [day1](https://github.com/Tcc0403/gpu-100-days/tree/main/day001)
 5. [day2](https://github.com/Tcc0403/gpu-100-days/tree/main/day002)
 6. [day3](https://github.com/Tcc0403/gpu-100-days/tree/main/day003)
+7. [day4](https://github.com/Tcc0403/gpu-100-days/tree/main/day004)
 
 #### Li-Hsing
 
