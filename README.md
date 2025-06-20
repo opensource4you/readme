@@ -12,6 +12,8 @@ By [蔡嘉平]（本社群的老大）：
 * [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
 * [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
 * [從開源走向世界 從台灣影響國際](https://github.com/opensource4you/readme/blob/main/slides/os4y.pdf)
+* [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
+* [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
 
 ## 媒體報導
 
@@ -205,11 +207,6 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 注意：
     * 三個 maintainers 都蠻忙的，看的速度有點慢🥲
     * 主要是維護 <https://github.com/commitizen-tools/commitizen> ，這裡的 PR, issues 相對有人在看。其他的 sub projects 也很重要，但通常貢獻比較少，我們的關注也稍微低，如果不小心漏掉，可以 tag [李唯]。
-
-## 新手上路系列
-
-* [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
-* [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
 
 ## 公開演講
 
