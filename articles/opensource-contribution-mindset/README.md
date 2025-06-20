@@ -2,6 +2,25 @@
 
 這邊蒐集了散落在各處的社群成員關於貢獻開源專案應有的心態的看法，包含 Slack 的訊息或是 FB 的貼文等，內容若提到個人的資訊會被改寫掉。
 
+## 給想要成為Kafka committer的伙伴們
+
+- 作者：LUke
+- 背景：最近看到嘉平老大在private channel賣臉propose我們的人成為committer，但沒有收到任何回應，我覺得我應該雞婆點來幫忙說幾句話。嘉平老大是那種會默默幫忙大家的人，就像他說的，幫大家搭舞台，但我自己是覺得，除了靠嘉平幫忙，自己也要多付出一些努力才行。
+
+先說一下，要成為committer，必須至少要7位PMC member +1才行，大家可以想想，自己如果被提名了，有把握拿到幾票？假設我和嘉平都+1了，還有其他5人要認可你才行。所以有誰呢？
+
+我來分享我當時的經驗給你們聽，畢竟我自己知道我不是嘉平大那種神人，可以短時間內自己找到很多好題目做，而且可以做到Confluent的大老來請他去Confluent上班，所以我就是整整花他2倍的時間才成為committer的人（我是2年拿到!)，當然更別說我那時候沒有什麼mentor找題目，手把手教學，幫忙review/merge PR的，全部靠自己，所以那時候在貢獻一年多時，我看到有人成為committer，然後再看他/她的achievement，心裡就會想，靠！憑什麼他這樣可以成為committer，我不行，明明我也xxxooo！！！！雖然心裡這樣想著，還是不甘心的回信寫"Congrats, well deserved"這種昧著良心的話！BTW，下禮拜會有一個新的committer announce，不是我們這裡的人，所以如果有人有跟我當時一樣的心情，相信我，很正常！(哭)
+
+回過來分享一下我的心得，我當時的想法是，好，我要讓多一點PMC member認識我，看到我的好，去拿到+1，所以我幾乎每天會去看新開的PR，還有前一天merge的PR，去看現在哪些PMC對哪些topic很重視（所以其實只看PMC開的review的PR XD)，然後就再鑽進去看更深，就算merge進去的PR，我還會再看一次，也會去看KIP，還有他們的implementaion，去想有什麼地方是他們漏掉的，去抓出來讓他們impressive！講得很抽象，來舉幾個例子：
+1. KAFKA-13008: 我是發現在某個功能進去後，有個test偶爾會flaky，花了幾個禮拜去追，挖到這個bug！從comment可以看到我可以至少拿到3張PMC的+1
+2. KAFKA-13598: 在kafka v3.0.0 release時，有一個很大的改變，就是idempotent producer is enabled by default. 這被promote很多，因為可以解決長年的duplicate record的問題，但被我發現v3.0.0其實沒有enable idempotent by default，根本就在騙肖仔XD，從這個 PR comment from Ismael 可以看到Ismael老大也很驚訝:
+
+Are you saying that the change to enable idempotence by default in 3.0 was broken? And we shipped 3.1 with the same critical bug?
+
+3. KAFKA-13033: 講完這個就好，不然搞得好像我要promote自己成為committer一樣XD 這個是現在的kafka leader, Mickael在做完KIP-699然後merge之後，我去重新review他的PR發現的bug，所以可以想見，這個讓Mickael(當時不認識我），和當時review他PR的David Jacot印象分數++
+
+反正我想說的是，我想成為committer，所以去了解遊戲規則，想辦法幫自己拿到更多+1，這就是我當時的方法，跟你們分享！一起加油！
+
 ## 開源貢獻流程
 
 - 作者：陳楷訓
