@@ -39,10 +39,13 @@ By [蔡嘉平]（本社群的老大）：
 5. [day2](https://github.com/Tcc0403/gpu-100-days/tree/main/day002)
 6. [day3](https://github.com/Tcc0403/gpu-100-days/tree/main/day003)
 7. [day4](https://github.com/Tcc0403/gpu-100-days/tree/main/day004)
+8. [day5](https://github.com/Tcc0403/gpu-100-days/tree/main/day005)
+9. [day6](https://github.com/Tcc0403/gpu-100-days/tree/main/day006)
 
 #### Li-Hsing
 
 1. [day1](https://austin362667.github.io/posts/gpu-notes-one/)
+2. [day2](https://github.com/austin362667/gpu-100-days/blob/main/day-2.md)
 
 ## 參與者心得
 
