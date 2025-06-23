@@ -15,6 +15,10 @@ By [蔡嘉平]（本社群的老大）：
 * [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
 * [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
 
+## Meetup
+* [Kafka 相關饅頭營](./20250612%20meetup)
+
+
 ## 媒體報導
 
 * [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205?fbclid=IwY2xjawIsXO1leHRuA2FlbQIxMAABHT4jKg02mk6DzzeeobSQPUzG7a31n26YjXL_i6RmkR_EB_Yqbo70FbGo5w_aem_Vw-2uHZxyiOQ65BG8moIxw) - 軟體自由電子報
