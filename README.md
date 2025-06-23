@@ -33,6 +33,7 @@ By [蔡嘉平]（本社群的老大）：
 2. [day2](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day2)
 3. [day3](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day3)
 4. [day4](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day4)
+5. [day5](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day5)
 
 #### 駿馳
 
