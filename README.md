@@ -26,31 +26,8 @@ By [蔡嘉平]（本社群的老大）：
 
 ## GPU 百日挑戰
 
-[100-days-of-gpu-challenge]
-
-#### 彥凱
-1. [day1](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
-2. [day2](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day2)
-3. [day3](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day3)
-4. [day4](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day4)
-5. [day5](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day5)
-
-#### 駿馳
-
-1. [倒數三天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-3)
-2. [倒數二天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-2)
-3. [倒數一天暖身](https://github.com/Tcc0403/gpu-100-days/tree/main/D-1)
-4. [day1](https://github.com/Tcc0403/gpu-100-days/tree/main/day001)
-5. [day2](https://github.com/Tcc0403/gpu-100-days/tree/main/day002)
-6. [day3](https://github.com/Tcc0403/gpu-100-days/tree/main/day003)
-7. [day4](https://github.com/Tcc0403/gpu-100-days/tree/main/day004)
-8. [day5](https://github.com/Tcc0403/gpu-100-days/tree/main/day005)
-9. [day6](https://github.com/Tcc0403/gpu-100-days/tree/main/day006)
-
-#### Li-Hsing
-
-1. [day1](https://austin362667.github.io/posts/gpu-notes-one/)
-2. [day2](https://github.com/austin362667/gpu-100-days/blob/main/day-2.md)
+* 頻道：[100-days-of-gpu-challenge]
+* [挑戰者們的日誌](./100-days-of-gpu-challenge)
 
 ## 參與者心得
 
