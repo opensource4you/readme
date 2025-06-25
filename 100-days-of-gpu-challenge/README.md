@@ -19,6 +19,7 @@
 - [day6](https://github.com/Tcc0403/gpu-100-days/tree/main/day006)
 - [day7](https://github.com/Tcc0403/gpu-100-days/tree/main/day007)
 - [day8](https://github.com/Tcc0403/gpu-100-days/tree/main/day008)
+- [day9](https://github.com/Tcc0403/gpu-100-days/tree/main/day009)
 
 ### 彥凱
 - [day1](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
