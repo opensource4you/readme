@@ -20,6 +20,7 @@
 - [day7](https://github.com/Tcc0403/gpu-100-days/tree/main/day007)
 - [day8](https://github.com/Tcc0403/gpu-100-days/tree/main/day008)
 - [day9](https://github.com/Tcc0403/gpu-100-days/tree/main/day009)
+- [day10](https://github.com/Tcc0403/gpu-100-days/tree/main/day010)
 
 ### 彥凱
 - [day1](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day1)
@@ -33,3 +34,6 @@
 
 - [day1](https://austin362667.github.io/posts/gpu-notes-one/)
 - [day2](https://github.com/austin362667/gpu-100-days/blob/main/day-2.md)
+
+### Hsien-Cheng Huang
+- [day1](https://light.ryankert.cc/p/gpu-100-day-challenge-mojo-gpu-puzzle-gpu-fundamental/)
