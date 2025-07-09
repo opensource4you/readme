@@ -45,12 +45,6 @@
 | 2025-03-03   | **安         | 10,000    | TapPay     |
 | 2025-03-03   | **誠         | 1,000     | LINE Pay   |
 
----
-
-Would you like to explore this data in any other way?
----
-
-Is there anything else I can help you with regarding this data?
 ## 核銷 (依照時間排序)
 
 | 日期 | 名稱 | 類別 | 金額 | 活動名稱 |
