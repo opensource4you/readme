@@ -147,11 +147,13 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 主要 mentor：[Zhe You (Jason) Liu] [李唯]
   * Meme Bot: [李唯]
   * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
+  * 技術散文：[Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/?fbclid=IwY2xjawLfZY1leHRuA2FlbQIxMABicmlkETEzYVFQWkhHRUwwUHhXN2hjAR5NvLcjvAUbMyrsBFsJFHJ62HpZTHl9075SvE9FmxQ5jY24jGOpJXJW2kr9mQ_aem_f7xvIsM9S1KCwUSeF3IVDQ)
 * Apache Ozone
   * <https://github.com/apache/ozone>
   * 語言：Java
   * 頻道：[apache-ozone]
   * 主要 mentor：[李仲恩] [李緒成]
+  * 技術散文：[Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
 * Apache Datafusion
   * <https://github.com/apache/datafusion>
   * 語言：Rust
