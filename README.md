@@ -207,10 +207,10 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
 
 ## 各種連結
 
-* [Facebook 粉絲團](http://fb.opensource4you.tw)
-* [加入 Slack 頻道](http://slack.opensource4you.tw)
+* [Facebook 粉絲團](http://opensource4you.tw/readme/facebook)
+* [加入 Slack 頻道](https://opensource4you.tw/slack/join)
 * [一些 Q&A](https://www.facebook.com/share/p/HWonrVV4eX3bE1za/)
-* [Google 行事曆訂閱](http://calendar.opensource4you.tw)
+* [Google 行事曆訂閱](http://opensource4you.tw/readme/calendar)
 * [2024 鐵人賽](https://ithelp.ithome.com.tw/2024ironman/signup/team/365)
 
 <!-- Reference Links -->
