@@ -72,6 +72,7 @@ By [蔡嘉平]（本社群的老大）：
 4. [From Database to Data Lakehouse — Part 4](https://medium.com/@0050211/from-database-to-data-lakehouse-part-4-ff062a9c24a3)
 5. [From Database to Data Lakehouse — Part 5](https://medium.com/@0050211/from-database-to-data-lakehouse-part-5-4fabddec10f4)
 6. [From Database to Data Lakehouse — Part 6](https://medium.com/@0050211/from-database-to-data-lakehouse-part-6-存儲裝置簡史-volume-2-925dd6ffbeab)
+7. [From Database to Data Lakehouse — Part 7](https://medium.com/@0050211/from-database-to-data-lakehouse-part-7-c5eeb497fb44)
 
 ## 投影片&科技散文
 
