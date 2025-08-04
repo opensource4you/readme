@@ -93,6 +93,9 @@ By [蔡嘉平]（本社群的老大）：
 13. [YuniKorn auto-scaling](https://www.facebook.com/share/p/14oBGGD97E/)
 14. [Kafka internal configs](https://www.facebook.com/share/p/1LDDS4Q8HN/)
 15. [Kafka producer interceptor](https://www.facebook.com/share/p/15UygHeLP9/)
+16. [初探Ray Core：GCS](https://owen-lin.medium.com/%E5%88%9D%E6%8E%A2ray-core-gcs-1e0c5e2d5bae)
+17. [Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
+18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/?fbclid=IwY2xjawLfZY1leHRuA2FlbQIxMABicmlkETEzYVFQWkhHRUwwUHhXN2hjAR5NvLcjvAUbMyrsBFsJFHJ62HpZTHl9075SvE9FmxQ5jY24jGOpJXJW2kr9mQ_aem_f7xvIsM9S1KCwUSeF3IVDQ)
 
 ## 科技開講
 
@@ -150,13 +153,11 @@ Public channel 可以直接加入，Private channel 的話要講一下才會把�
   * 主要 mentor：[Zhe You (Jason) Liu] [李唯]
   * Meme Bot: [李唯]
   * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
-  * 技術散文：[Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/?fbclid=IwY2xjawLfZY1leHRuA2FlbQIxMABicmlkETEzYVFQWkhHRUwwUHhXN2hjAR5NvLcjvAUbMyrsBFsJFHJ62HpZTHl9075SvE9FmxQ5jY24jGOpJXJW2kr9mQ_aem_f7xvIsM9S1KCwUSeF3IVDQ)
 * Apache Ozone
   * <https://github.com/apache/ozone>
   * 語言：Java
   * 頻道：[apache-ozone]
   * 主要 mentor：[李仲恩] [李緒成]
-  * 技術散文：[Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
 * Apache Datafusion
   * <https://github.com/apache/datafusion>
   * 語言：Rust
