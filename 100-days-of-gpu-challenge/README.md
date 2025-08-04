@@ -48,3 +48,4 @@
 
 ### Loïc Chen
 - [day1](https://github.com/painfulexistence/100-days-of-gpu-challenge/blob/main/day1/README.md)
+- [day2](https://github.com/painfulexistence/100-days-of-gpu-challenge/blob/main/day2/README.md)
