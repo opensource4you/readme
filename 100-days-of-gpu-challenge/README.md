@@ -42,6 +42,7 @@
 - [day4](https://github.com/austin362667/gpu-100-days/blob/main/day-4.md)
 - [day5](https://github.com/austin362667/gpu-100-days/blob/main/day-5.md)
 - [day6](https://github.com/austin362667/gpu-100-days/blob/main/day-6.md)
+- [day7](https://github.com/austin362667/gpu-100-days/blob/main/day-7.md)
 
 ### Hsien-Cheng Huang
 - [day1](https://light.ryankert.cc/p/gpu-100-day-challenge-mojo-gpu-puzzle-gpu-fundamental/)
@@ -49,3 +50,4 @@
 ### Loïc Chen
 - [day1](https://github.com/painfulexistence/100-days-of-gpu-challenge/blob/main/day1/README.md)
 - [day2](https://github.com/painfulexistence/100-days-of-gpu-challenge/blob/main/day2/README.md)
+- [day3](https://github.com/painfulexistence/100-days-of-gpu-challenge/blob/main/day3/README.md)
