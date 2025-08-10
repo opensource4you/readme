@@ -17,7 +17,7 @@ By [蔡嘉平]（本社群的老大）：
 
 ## Meetup
 * [Kafka 相關饅頭營](./20250612%20meetup)
-
+* [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
 
 ## 媒體報導
 
@@ -28,6 +28,10 @@ By [蔡嘉平]（本社群的老大）：
 
 * 頻道：[100-days-of-gpu-challenge]
 * [挑戰者們的日誌](./100-days-of-gpu-challenge)
+
+## 夏季鯉魚一夜肝
+
+* [獎金池](./2025-challenge)
 
 ## 參與者心得
 
