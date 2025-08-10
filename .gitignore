@@ -1,0 +1,5 @@
+# Ignore idea cache
+.idea
+
+# Ignore macos file
+.DS_Store
