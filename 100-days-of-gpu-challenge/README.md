@@ -43,6 +43,8 @@
 - [day5](https://github.com/austin362667/gpu-100-days/blob/main/day-5.md)
 - [day6](https://github.com/austin362667/gpu-100-days/blob/main/day-6.md)
 - [day7](https://github.com/austin362667/gpu-100-days/blob/main/day-7.md)
+- [day8](https://github.com/austin362667/gpu-100-days/blob/main/day-8.md)
+- [day9](https://github.com/austin362667/gpu-100-days/blob/main/day-9.md)
 
 ### Hsien-Cheng Huang
 - [day1](https://light.ryankert.cc/p/gpu-100-day-challenge-mojo-gpu-puzzle-gpu-fundamental/)
