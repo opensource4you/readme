@@ -56,6 +56,19 @@ By [蔡嘉平]（本社群的老大）：
 * [成长道路](https://abyss-lord.github.io/2025/07/13/gravitino/2025-07-13-growing-path-1/?fbclid=IwY2xjawL30qNleHRuA2FlbQIxMABicmlkETFWbjJqeWtWZWtHcGxDRWc3AR7gKwJ46X40IGNqrmt_4_6yxmpGbiD28jJ5WIw3xnZ4QiIsFHBAtFTOtQ4LmQ_aem_jhKNH8f5U36xJyXV6Zh4FQ)
 * [我的 Open Source 之路（二）](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-%E4%BA%8C-0332a03d8c40)
 
+## From Database to Data Lakehouse (Ryan Fu)
+
+1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
+2. [From Database to Data Lakehouse — Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
+3. [From Database to Data Lakehouse — Part 3](https://medium.com/@0050211/from-database-to-data-lakehouse-part-3-9457004341be)
+4. [From Database to Data Lakehouse — Part 4](https://medium.com/@0050211/from-database-to-data-lakehouse-part-4-ff062a9c24a3)
+5. [From Database to Data Lakehouse — Part 5](https://medium.com/@0050211/from-database-to-data-lakehouse-part-5-4fabddec10f4)
+6. [From Database to Data Lakehouse — Part 6](https://medium.com/@0050211/from-database-to-data-lakehouse-part-6-存儲裝置簡史-volume-2-925dd6ffbeab)
+7. [From Database to Data Lakehouse — Part 7](https://medium.com/@0050211/from-database-to-data-lakehouse-part-7-c5eeb497fb44)
+
+## 用放大鏡看 Apache Kafka (博安)
+1. [Apache Kafka — Network Architecture](https://frank-yang.medium.com/apache-kafka-network-architecture-47f631378e09)
+
 ## 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
 1. [全世界都在使用的 AI infra 開源專案 — Ray / KubeRay](https://medium.com/@kaihsunchen/%E5%85%A8%E4%B8%96%E7%95%8C%E9%83%BD%E5%9C%A8%E4%BD%BF%E7%94%A8%E7%9A%84-ai-infra-%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88-ray-kuberay-ac1d08a98cb9) - 陳楷訓 (Anyscale)
@@ -69,16 +82,6 @@ By [蔡嘉平]（本社群的老大）：
 9. [深掘推薦系統: 一窺 TikTok 底層演算法](https://medium.com/@frankshyu1994/%E6%B7%B1%E6%8E%98%E6%8E%A8%E8%96%A6%E7%B3%BB%E7%B5%B1-%E4%B8%80%E7%AA%BA-tiktok-%E5%BA%95%E5%B1%A4%E6%BC%94%E7%AE%97%E6%B3%95-1787289146b6) - 徐翊祥 (Tiktok)
 10. [LINE — Data Engineer的日常](https://medium.com/@jasonlai1218/line-data-engineer的日常-a91324191b1c) - 賴仲哲 (LINE)
 11. [一腳踏進自動駕駛軟體業](https://medium.com/momo的機器人留學夢/一腳踏進自動駕駛軟體業-2f4f7a1e7b50) - 莫絲羽 (Nvidia)
-
-### From Database to Data Lakehouse (Ryan Fu)
-
-1. [From Database to Data Lakehouse — Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
-2. [From Database to Data Lakehouse — Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
-3. [From Database to Data Lakehouse — Part 3](https://medium.com/@0050211/from-database-to-data-lakehouse-part-3-9457004341be)
-4. [From Database to Data Lakehouse — Part 4](https://medium.com/@0050211/from-database-to-data-lakehouse-part-4-ff062a9c24a3)
-5. [From Database to Data Lakehouse — Part 5](https://medium.com/@0050211/from-database-to-data-lakehouse-part-5-4fabddec10f4)
-6. [From Database to Data Lakehouse — Part 6](https://medium.com/@0050211/from-database-to-data-lakehouse-part-6-存儲裝置簡史-volume-2-925dd6ffbeab)
-7. [From Database to Data Lakehouse — Part 7](https://medium.com/@0050211/from-database-to-data-lakehouse-part-7-c5eeb497fb44)
 
 ## 投影片&科技散文
 
