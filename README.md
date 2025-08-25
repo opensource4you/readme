@@ -68,6 +68,7 @@ By [蔡嘉平]（本社群的老大）：
 
 ## 用放大鏡看 Apache Kafka (博安)
 1. [Apache Kafka — Network Architecture](https://frank-yang.medium.com/apache-kafka-network-architecture-47f631378e09)
+2. [Apache Kafka - Produce Request](https://yangpoan.substack.com/p/apache-kafka-produce-request?r=4bu2l)
 
 ## How to Flyte (Nary and Jiawei)
 1. [From Chaos to Scale — Orchestrating AI Pipelines with Flyte](https://open-infra-learning.github.io/blog/posts/flyte/flyte-overview/)
