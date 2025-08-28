@@ -50,6 +50,7 @@
 
 ### Hsien-Cheng Huang
 - [day1](https://light.ryankert.cc/p/gpu-100-day-challenge-mojo-gpu-puzzle-gpu-fundamental/)
+- [day2](https://github.com/ryankert01/MIT-6.5940/blob/main/Lab3.ipynb)
 
 ### Loïc Chen
 - [day1](https://github.com/painfulexistence/100-days-of-gpu-challenge/blob/main/day1/README.md)
