@@ -69,6 +69,7 @@ By [蔡嘉平]（本社群的老大）：
 ## 用放大鏡看 Apache Kafka (博安)
 1. [Apache Kafka — Network Architecture](https://frank-yang.medium.com/apache-kafka-network-architecture-47f631378e09)
 2. [Apache Kafka - Produce Request](https://yangpoan.substack.com/p/apache-kafka-produce-request?r=4bu2l)
+3. [Apache Kafka - Fetch Request & Replication Protocol](https://open.substack.com/pub/yangpoan/p/apache-kafka-fetch-request-and-replication?utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
 
 ## How to Flyte (Nary and Jiawei)
 1. [From Chaos to Scale — Orchestrating AI Pipelines with Flyte](https://open-infra-learning.github.io/blog/posts/flyte/flyte-overview/)
@@ -86,6 +87,7 @@ By [蔡嘉平]（本社群的老大）：
 9. [深掘推薦系統: 一窺 TikTok 底層演算法](https://medium.com/@frankshyu1994/%E6%B7%B1%E6%8E%98%E6%8E%A8%E8%96%A6%E7%B3%BB%E7%B5%B1-%E4%B8%80%E7%AA%BA-tiktok-%E5%BA%95%E5%B1%A4%E6%BC%94%E7%AE%97%E6%B3%95-1787289146b6) - 徐翊祥 (Tiktok)
 10. [LINE — Data Engineer的日常](https://medium.com/@jasonlai1218/line-data-engineer的日常-a91324191b1c) - 賴仲哲 (LINE)
 11. [一腳踏進自動駕駛軟體業](https://medium.com/momo的機器人留學夢/一腳踏進自動駕駛軟體業-2f4f7a1e7b50) - 莫絲羽 (Nvidia)
+12. [矽谷 AI 戰國時代：奔向下一代 AI 的爬坡競賽](https://u9534056.medium.com/矽谷-ai-戰國時代-奔向下一代-ai-的爬坡競賽-1303c026124d) - Rice Yang (Nvidia)
 
 ## 投影片&科技散文
 
