@@ -109,6 +109,7 @@ By [蔡嘉平]（本社群的老大）：
 16. [初探Ray Core：GCS](https://owen-lin.medium.com/%E5%88%9D%E6%8E%A2ray-core-gcs-1e0c5e2d5bae)
 17. [Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
 18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/?fbclid=IwY2xjawLfZY1leHRuA2FlbQIxMABicmlkETEzYVFQWkhHRUwwUHhXN2hjAR5NvLcjvAUbMyrsBFsJFHJ62HpZTHl9075SvE9FmxQ5jY24jGOpJXJW2kr9mQ_aem_f7xvIsM9S1KCwUSeF3IVDQ)
+19. [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/?fbclid=IwY2xjawMm5p9leHRuA2FlbQIxMABicmlkETAyWUZEdFIyVGlPV3VzS1hiAR5i3pG0hWx2G-pCeaIF00t6PDshbyFdN9S6NaDWYKrrn1RbokJdbpQIZ2ruGw_aem_R2dSl38du22pXTNlLh5v_g)
 
 ## 科技開講
 
