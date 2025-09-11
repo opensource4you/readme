@@ -18,6 +18,7 @@ By [蔡嘉平]（本社群的老大）：
 ## Meetup
 * [Kafka 相關饅頭營](./20250612%20meetup)
 * [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
+* [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
 
 ## 媒體報導
 
@@ -73,6 +74,7 @@ By [蔡嘉平]（本社群的老大）：
 
 ## How to Flyte (Nary and Jiawei)
 1. [From Chaos to Scale — Orchestrating AI Pipelines with Flyte](https://open-infra-learning.github.io/blog/posts/flyte/flyte-overview/)
+2. [Flyte Architecture: How workflow runs](https://open-infra-learning.github.io/blog/posts/flyte/flyte-architecture/)
 
 ## 給學弟妹的矽谷 AI / Software 指南 (發起人：[許秉鈞](https://www.facebook.com/share/p/1Ay97TqXt8/))
 
