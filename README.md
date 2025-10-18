@@ -56,6 +56,7 @@ By [蔡嘉平]（本社群的老大）：
 * [從開源新手到 Apache Gravitino Committer 的成長之路](https://medium.com/@e850506/%E5%BE%9E%E9%96%8B%E6%BA%90%E6%96%B0%E6%89%8B%E5%88%B0-apache-gravitino-committer-%E7%9A%84%E6%88%90%E9%95%B7%E4%B9%8B%E8%B7%AF-121e374026b6)
 * [成长道路](https://abyss-lord.github.io/2025/07/13/gravitino/2025-07-13-growing-path-1/?fbclid=IwY2xjawL30qNleHRuA2FlbQIxMABicmlkETFWbjJqeWtWZWtHcGxDRWc3AR7gKwJ46X40IGNqrmt_4_6yxmpGbiD28jJ5WIw3xnZ4QiIsFHBAtFTOtQ4LmQ_aem_jhKNH8f5U36xJyXV6Zh4FQ)
 * [我的 Open Source 之路（二）](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-%E4%BA%8C-0332a03d8c40)
+* [開源之旅 - Apache Airflow Committer](https://guan404ming.com/blog/0)
 
 ## From Database to Data Lakehouse (Ryan Fu)
 
