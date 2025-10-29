@@ -19,6 +19,7 @@ By [蔡嘉平]（本社群的老大）：
 * [Kafka 相關饅頭營](./20250612%20meetup)
 * [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
 * [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
+* [2025.10 開源有個約會](https://www.facebook.com/share/p/17L2RvQskV/)
 
 ## 媒體報導
 
@@ -57,6 +58,7 @@ By [蔡嘉平]（本社群的老大）：
 * [成长道路](https://abyss-lord.github.io/2025/07/13/gravitino/2025-07-13-growing-path-1/?fbclid=IwY2xjawL30qNleHRuA2FlbQIxMABicmlkETFWbjJqeWtWZWtHcGxDRWc3AR7gKwJ46X40IGNqrmt_4_6yxmpGbiD28jJ5WIw3xnZ4QiIsFHBAtFTOtQ4LmQ_aem_jhKNH8f5U36xJyXV6Zh4FQ)
 * [我的 Open Source 之路（二）](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-%E4%BA%8C-0332a03d8c40)
 * [開源之旅 - Apache Airflow Committer](https://guan404ming.com/blog/0)
+* [成為 Airflow PMC Member "I'm the PMC." "Not yet."](https://blog.wei-lee.me/posts/tech/2025/10/becoming-an-airflow-pmc-member/?fbclid=IwY2xjawNu6INleHRuA2FlbQIxMABicmlkETFxR0lyYjA0cFN4SGJmMU1ZAR6UEZWm3wKYKI8N5MkKS2wgqIZkeP8_8ynDG__6eF-7TG0N8dfz8yv5kebCqQ_aem_XbP7Lq5OA5fzCVdcFHszSA)
 
 ## From Database to Data Lakehouse (Ryan Fu)
 
@@ -113,6 +115,7 @@ By [蔡嘉平]（本社群的老大）：
 17. [Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
 18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/?fbclid=IwY2xjawLfZY1leHRuA2FlbQIxMABicmlkETEzYVFQWkhHRUwwUHhXN2hjAR5NvLcjvAUbMyrsBFsJFHJ62HpZTHl9075SvE9FmxQ5jY24jGOpJXJW2kr9mQ_aem_f7xvIsM9S1KCwUSeF3IVDQ)
 19. [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/?fbclid=IwY2xjawMm5p9leHRuA2FlbQIxMABicmlkETAyWUZEdFIyVGlPV3VzS1hiAR5i3pG0hWx2G-pCeaIF00t6PDshbyFdN9S6NaDWYKrrn1RbokJdbpQIZ2ruGw_aem_R2dSl38du22pXTNlLh5v_g)
+20. [DuckDB Filesystem Observability with observefs + cache_httpfs: See I/O and Speed It Up](https://blog.peterxcli.dev/oss/duckdb/duckdb-observefs-cache-httpfs/?fbclid=IwY2xjawNu6F5leHRuA2FlbQIxMABicmlkETFxR0lyYjA0cFN4SGJmMU1ZAR75GWiQMI7_xSaILP3Vop_A0Ue92a0UM1pYyZjIpWEXEe4q4UlDP7L3RUE1Dw_aem_uguVoDCL2cOt9KNKzNWMGg)
 
 ## 科技開講
 
