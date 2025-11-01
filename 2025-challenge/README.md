@@ -7,6 +7,7 @@
 | 2025/08   | 58,700      | 8      | 65         |
 | 2025/07   | 43,500      | 5      | 59         |
 
+- [十月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-10-01..2025-10-31)
 - [九月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-09-01..2025-09-30)
 - [八月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-08-01..2025-08-31)
 - [七月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-07-01..2025-07-31)
