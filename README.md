@@ -14,6 +14,7 @@ By [蔡嘉平]（本社群的老大）：
 * [從開源走向世界 從台灣影響國際](https://github.com/opensource4you/readme/blob/main/slides/os4y.pdf)
 * [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
 * [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
+* [成立大會](https://www.facebook.com/share/1ANkoEWBDG/)
 
 ## Meetup
 
@@ -21,6 +22,7 @@ By [蔡嘉平]（本社群的老大）：
 * [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
 * [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
 * [2025.10 開源有個約會](https://www.facebook.com/share/p/17L2RvQskV/)
+* [2025.11 開源有個約會](https://www.facebook.com/share/p/1GnkibYMmg/)
 
 ## 媒體報導
 
