@@ -69,6 +69,8 @@ By [蔡嘉平]（本社群的老大）：
 5. [From Database to Data Lakehouse — Part 5](https://medium.com/@0050211/from-database-to-data-lakehouse-part-5-4fabddec10f4)
 6. [From Database to Data Lakehouse — Part 6](https://medium.com/@0050211/from-database-to-data-lakehouse-part-6-存儲裝置簡史-volume-2-925dd6ffbeab)
 7. [From Database to Data Lakehouse — Part 7](https://medium.com/@0050211/from-database-to-data-lakehouse-part-7-c5eeb497fb44)
+7. [From Database to Data Lakehouse — Part 8](https://medium.com/@0050211/from-database-to-data-lakehouse-part-8-32bbdd46b5b1)
+7. [From Database to Data Lakehouse — Part 9](https://medium.com/@0050211/from-database-to-data-lakehouse-part-9-2a5b4baa9c8f)
 
 ## 用放大鏡看 Apache Kafka (博安)
 1. [Apache Kafka — Network Architecture](https://frank-yang.medium.com/apache-kafka-network-architecture-47f631378e09)
@@ -199,12 +201,12 @@ By [蔡嘉平]（本社群的老大）：
 * 注意：主要目的為技術交流討論，無明確 Mentorship
 * 主要 mentor：[Jay Zhan]、[謝東霖]、[劉立行]
 
-### Apache Ambari
+### Apache Mahout
 
-* <https://github.com/apache/ambari>
-* 語言：Java
-* 頻道：[apache-ambari]
-* 主要 mentor：[Jesse]
+* <https://github.com/apache/mahout>
+* 語言：python
+* 頻道：[apache-mahout]
+* 主要 mentor：[冠銘]、[冠澔]
 
 ### Flyte (Linux Foundation)
 
@@ -278,6 +280,8 @@ By [蔡嘉平]（本社群的老大）：
 [許秉倫]: https://opensource4you.slack.com/team/U050YR3QCUB
 [黃廷堯]: https://opensource4you.slack.com/team/U051KFFF0C9
 [Jesse]: https://opensource4you.slack.com/team/U052A46DX6F
+[冠銘]: https://opensource4you.slack.com/team/U08FSQR2075
+[冠澔]: https://opensource4you.slack.com/team/U05BJ6M8L4Q
 [熊大]: https://opensource4you.slack.com/team/U057L1EKP47
 [eric]: https://opensource4you.slack.com/team/U05NXH9131U
 [apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
@@ -286,6 +290,6 @@ By [蔡嘉平]（本社群的老大）：
 [commitizen]: https://opensource4you.slack.com/archives/C08UT4GTJGL
 [apache-airflow]: https://opensource4you.slack.com/archives/C07D4L435B5
 [apache-ozone]: https://opensource4you.slack.com/archives/C07PLV9QNLF
-[apache-ambari]: https://opensource4you.slack.com/archives/C08NK92JYSC
+[apache-mahout]: https://opensource4you.slack.com/archives/C09U7TR1Z9D
 [liger-kernel]: https://opensource4you.slack.com/archives/C083T0MQM9C
 [100-days-of-gpu-challenge]: https://opensource4you.slack.com/archives/C090S0GMF45
