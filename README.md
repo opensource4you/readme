@@ -16,6 +16,7 @@ By [蔡嘉平]（本社群的老大）：
 * [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
 
 ## Meetup
+
 * [Kafka 相關饅頭營](./20250612%20meetup)
 * [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
 * [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
@@ -23,8 +24,8 @@ By [蔡嘉平]（本社群的老大）：
 
 ## 媒體報導
 
-* [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205?fbclid=IwY2xjawIsXO1leHRuA2FlbQIxMAABHT4jKg02mk6DzzeeobSQPUzG7a31n26YjXL_i6RmkR_EB_Yqbo70FbGo5w_aem_Vw-2uHZxyiOQ65BG8moIxw) - 軟體自由電子報
-* [kafka community spotlight: TAIWAN](https://bigdata.2minutestreaming.com/p/kafka-community-spotlight-taiwan?fbclid=IwY2xjawIsXM1leHRuA2FlbQIxMAABHY8a13JwK9wfnvk9XG_1SesFCROHFIWIY4mYdY20ES6OaTycjsHpjQDDZQ_aem_M2E-I46m1JuvkaChjtzhwA) - 2minutestreaming
+* [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205) - 軟體自由電子報
+* [kafka community spotlight: TAIWAN](https://bigdata.2minutestreaming.com/p/kafka-community-spotlight-taiwan) - 2minutestreaming
 
 ## GPU 百日挑戰
 
@@ -55,10 +56,10 @@ By [蔡嘉平]（本社群的老大）：
 * [Open Source 入門心得](https://medium.com/@blackcatoz12321/open-source-入門心得-8130d1bf76c2)
 * [Apache Ozone、4 個月、50 個 PR、40 個 PR Review、Committer](https://blog.peterxcli.dev/zh-tw/oss/ozone/becoming-an-ozone-committer)
 * [從開源新手到 Apache Gravitino Committer 的成長之路](https://medium.com/@e850506/%E5%BE%9E%E9%96%8B%E6%BA%90%E6%96%B0%E6%89%8B%E5%88%B0-apache-gravitino-committer-%E7%9A%84%E6%88%90%E9%95%B7%E4%B9%8B%E8%B7%AF-121e374026b6)
-* [成长道路](https://abyss-lord.github.io/2025/07/13/gravitino/2025-07-13-growing-path-1/?fbclid=IwY2xjawL30qNleHRuA2FlbQIxMABicmlkETFWbjJqeWtWZWtHcGxDRWc3AR7gKwJ46X40IGNqrmt_4_6yxmpGbiD28jJ5WIw3xnZ4QiIsFHBAtFTOtQ4LmQ_aem_jhKNH8f5U36xJyXV6Zh4FQ)
+* [成长道路](https://abyss-lord.github.io/2025/07/13/gravitino/2025-07-13-growing-path-1)
 * [我的 Open Source 之路（二）](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-%E4%BA%8C-0332a03d8c40)
 * [開源之旅 - Apache Airflow Committer](https://guan404ming.com/blog/0)
-* [成為 Airflow PMC Member "I'm the PMC." "Not yet."](https://blog.wei-lee.me/posts/tech/2025/10/becoming-an-airflow-pmc-member/?fbclid=IwY2xjawNu6INleHRuA2FlbQIxMABicmlkETFxR0lyYjA0cFN4SGJmMU1ZAR6UEZWm3wKYKI8N5MkKS2wgqIZkeP8_8ynDG__6eF-7TG0N8dfz8yv5kebCqQ_aem_XbP7Lq5OA5fzCVdcFHszSA)
+* [成為 Airflow PMC Member "I'm the PMC." "Not yet."](https://blog.wei-lee.me/posts/tech/2025/10/becoming-an-airflow-pmc-member/)
 
 ## From Database to Data Lakehouse (Ryan Fu)
 
@@ -115,16 +116,16 @@ By [蔡嘉平]（本社群的老大）：
 15. [Kafka producer interceptor](https://www.facebook.com/share/p/15UygHeLP9/)
 16. [初探Ray Core：GCS](https://owen-lin.medium.com/%E5%88%9D%E6%8E%A2ray-core-gcs-1e0c5e2d5bae)
 17. [Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
-18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/?fbclid=IwY2xjawLfZY1leHRuA2FlbQIxMABicmlkETEzYVFQWkhHRUwwUHhXN2hjAR5NvLcjvAUbMyrsBFsJFHJ62HpZTHl9075SvE9FmxQ5jY24jGOpJXJW2kr9mQ_aem_f7xvIsM9S1KCwUSeF3IVDQ)
-19. [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/?fbclid=IwY2xjawMm5p9leHRuA2FlbQIxMABicmlkETAyWUZEdFIyVGlPV3VzS1hiAR5i3pG0hWx2G-pCeaIF00t6PDshbyFdN9S6NaDWYKrrn1RbokJdbpQIZ2ruGw_aem_R2dSl38du22pXTNlLh5v_g)
-20. [DuckDB Filesystem Observability with observefs + cache_httpfs: See I/O and Speed It Up](https://blog.peterxcli.dev/oss/duckdb/duckdb-observefs-cache-httpfs/?fbclid=IwY2xjawNu6F5leHRuA2FlbQIxMABicmlkETFxR0lyYjA0cFN4SGJmMU1ZAR75GWiQMI7_xSaILP3Vop_A0Ue92a0UM1pYyZjIpWEXEe4q4UlDP7L3RUE1Dw_aem_uguVoDCL2cOt9KNKzNWMGg)
+18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/)
+19. [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/)
+20. [DuckDB Filesystem Observability with observefs + cache_httpfs: See I/O and Speed It Up](https://blog.peterxcli.dev/oss/duckdb/duckdb-observefs-cache-httpfs/)
 
 ## 科技開講
 
 * 時間：台灣時間週六早上 10:00~11:00
 * 內容：邀請台灣和美國矽谷的業界人士來分享，主題橫跨技術、職涯、八卦、管理、教育等各種和開源軟體有關的話題。
 
-#### 講者投影片
+### 講者投影片
 
 1. [JetBrains IDE 微醺夜 - IDE 操作技巧分享](https://gist.github.com/shengyou/e09159e3ac4fb260172039bbe888d0e9)
 2. [Apache Polaris: an Open Source Iceberg REST Catalog](https://github.com/opensource4you/readme/blob/main/slides/Apache%20Polaris%20An%20Open%20Iceberg%20REST%20Catalog.pdf)
