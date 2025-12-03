@@ -149,75 +149,98 @@ By [蔡嘉平]（本社群的老大）：
 
 ## 目前有 Mentor 帶的專案
 
-Public channel 可以直接加入，Private channel 的話要講一下才會把你加進去，非常建議自己先研究想做什麼專案，對自己負責。
+這些專案都有在 Slack 上對應的討論頻道。
 
-* Apache Kafka
-  * <https://github.com/apache/kafka>
-  * 語言：Java
-  * 頻道： [apache-kafka]
-  * 主要 mentor：[蔡嘉平]
-* Apache YuniKorn
-  * <https://github.com/apache/yunikorn-core>
-  * 語言：Golang
-  * 頻道： [apache-yunikorn]
-  * 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
-* Apache Gravitino
-  * <https://github.com/apache/gravitino>
-  * 語言：Java / Python
-  * 頻道： [apache-gravitino]
-  * 主要 mentor：[eric] [刘勋]
-* Apache Airflow
-  * <https://github.com/apache/airflow>
-  * 語言：Python
-  * 頻道：[apache-airflow]
-  * 主要 mentor：[Zhe You (Jason) Liu] [李唯]
-  * Meme Bot: [李唯]
-  * 新人必讀：<https://blog.wei-lee.me/posts/tech/2024/11/airflow-contribution-101/>
-* Apache Ozone
-  * <https://github.com/apache/ozone>
-  * 語言：Java
-  * 頻道：[apache-ozone]
-  * 主要 mentor：[李仲恩] [李緒成]
-* Apache Datafusion
-  * <https://github.com/apache/datafusion>
-  * 語言：Rust
-  * 頻道：Private，請先表達貢獻意願後會收到入群邀請
-  * 注意：主要目的為技術交流討論，無明確 Mentorship
-  * 主要 mentor：[Jay Zhan] 、[謝東霖]、[劉立行]
-* Apache Ambari
-  * <https://github.com/apache/ambari>
-  * 語言：Java
-  * 頻道：[apache-ambari]
-  * 主要 mentor：[Jesse]
-* Flyte (Linux Foundation)
-  * <https://github.com/flyteorg>
-  * 語言：Golang + Python
-  * 頻道: Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su, Han-Ru Chen, 以及 Troy 後，會把你拉進頻道
-  * 主要 mentor：[蘇桓平]、[陳翰儒]
-* KubeRay & Ray（主要以 KubeRay 為主）
-  * <https://github.com/ray-project/kuberay>
-  * <https://github.com/ray-project/ray>
-  * 語言：Golang (KubeRay)、Python + C++（Ray）
-  * 頻道: Private，請表達想做的意願之後由 mentor 認領
-  * 主要 mentor：[陳楷訓]、[劉奇聖]
-  * [更多資訊](./mentor-projects-information/kuberay.md)
-* Liger-Kernel
-  * <https://github.com/linkedin/Liger-Kernel>
-  * 語言：Python, Triton
-  * 注意：
-    * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借 GPU）
-    * 最近 mentor 比較忙，沒空帶人，但是如果自己有辦法 pick up 的話會幫你 review PR
-  * 頻道：[liger-kernel]
-  * 主要 mentor：[許秉倫]
-* commitizen-tools
-  * <https://github.com/commitizen-tools>
-  * 語言：Python
-  * 頻道：[commitizen]
-  * 主要 mentor：[李唯] [熊大]
-  * 新人必讀：<https://commitizen-tools.github.io/commitizen/contributing/>
-  * 注意：
-    * 三個 maintainers 都蠻忙的，看的速度有點慢🥲
-    * 主要是維護 <https://github.com/commitizen-tools/commitizen> ，這裡的 PR, issues 相對有人在看。其他的 sub projects 也很重要，但通常貢獻比較少，我們的關注也稍微低，如果不小心漏掉，可以 tag [李唯]。
+* Public channel：可以直接加入。
+* Private channel：請先簡單自我介紹、說明想做什麼（可以在 `#general` 或相關頻道提出），Mentor 了解情況後會再邀請你加進來。
+* 非常建議先自己研究想做的專案背景與技術棧，對自己的時間與成長負責。
+
+### Apache Kafka
+
+* <https://github.com/apache/kafka>
+* 語言：Java
+* 頻道： [apache-kafka]
+* 主要 mentor：[蔡嘉平]
+
+### Apache YuniKorn
+
+* <https://github.com/apache/yunikorn-core>
+* 語言：Golang
+* 頻道： [apache-yunikorn]
+* 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
+
+### Apache Gravitino
+
+* <https://github.com/apache/gravitino>
+* 語言：Java / Python
+* 頻道： [apache-gravitino]
+* 主要 mentor：[eric]、[刘勋]
+
+### Apache Airflow
+
+* <https://github.com/apache/airflow>
+* 語言：Python
+* 頻道：[apache-airflow]
+* 主要 mentor：[Zhe You (Jason) Liu]、[李唯]
+* Meme Bot: [李唯]
+
+### Apache Ozone
+
+* <https://github.com/apache/ozone>
+* 語言：Java
+* 頻道：[apache-ozone]
+* 主要 mentor：[李仲恩]、[李緒成]
+
+### Apache Datafusion
+
+* <https://github.com/apache/datafusion>
+* 語言：Rust
+* 頻道：Private，請先表達貢獻意願後會收到入群邀請
+* 注意：主要目的為技術交流討論，無明確 Mentorship
+* 主要 mentor：[Jay Zhan]、[謝東霖]、[劉立行]
+
+### Apache Ambari
+
+* <https://github.com/apache/ambari>
+* 語言：Java
+* 頻道：[apache-ambari]
+* 主要 mentor：[Jesse]
+
+### Flyte (Linux Foundation)
+
+* <https://github.com/flyteorg>
+* 語言：Golang + Python
+* 頻道：Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su、Han-Ru Chen 以及 Troy 後，會把你拉進頻道
+* 主要 mentor：[蘇桓平]、[陳翰儒]
+
+### KubeRay & Ray（主要以 KubeRay 為主）
+
+* <https://github.com/ray-project/kuberay>
+* <https://github.com/ray-project/ray>
+* 語言：Golang (KubeRay)、Python + C++（Ray）
+* 頻道：Private，請表達想做的意願之後由 mentor 認領
+* 主要 mentor：[陳楷訓]、[劉奇聖]
+* [更多資訊](./mentor-projects-information/kuberay.md)
+
+### Liger-Kernel
+
+* <https://github.com/linkedin/Liger-Kernel>
+* 語言：Python、Triton
+* 注意：
+  * 需要 A100 以上等級的 GPU 才能跑（可在 lambda labs 便宜租借 GPU）
+  * 最近 mentor 比較忙，沒空帶人，但是如果自己有辦法 pick up 的話會幫你 review PR
+* 頻道：[liger-kernel]
+* 主要 mentor：[許秉倫]
+
+### commitizen-tools
+
+* <https://github.com/commitizen-tools>
+* 語言：Python
+* 頻道：[commitizen]
+* 主要 mentor：[李唯]、[熊大]
+* 新人必讀：<https://commitizen-tools.github.io/commitizen/contributing/>
+* 歡迎在 [commitizen] 頻道提出任何問題。
+* 主要是維護 <https://github.com/commitizen-tools/commitizen> ，這裡的 PR、issues 相對有人在看。其他 commitizen-tools 底下的專案也很重要，但通常貢獻比較少，我們的關注也稍微低。如果想要貢獻其他的專案，可以先在 [commitizen] 頻道提出。
 
 ## 公開演講
 
