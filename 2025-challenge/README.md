@@ -1,12 +1,14 @@
-# 累計發出獎金 158,600 元
+# 累計發出獎金 199,600 元
 
 | 時間      | 獎金（NTD） | 挑戰者 | 大鯉魚貢獻數 |
 | --------- | ----------- | ------ | ---------- |
+| 2025/10   | 41,000      | 6      | 87         |
 | 2025/10   | 25,900      | 4      | 84         |
 | 2025/09   | 30,500      | 5      | 90         |
 | 2025/08   | 58,700      | 8      | 65         |
 | 2025/07   | 43,500      | 5      | 59         |
 
+- [十一月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-11-01..2025-11-30)
 - [十月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-10-01..2025-10-31)
 - [九月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-09-01..2025-09-30)
 - [八月大鯉魚貢獻數](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Achia7712+is%3Amerged+merged%3A2025-08-01..2025-08-31)
