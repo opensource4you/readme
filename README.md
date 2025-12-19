@@ -215,8 +215,9 @@ By [蔡嘉平]（本社群的老大）：
 
 * <https://github.com/flyteorg>
 * 語言：Golang + Python
-* 頻道：Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su、Han-Ru Chen 以及 Troy 後，會把你拉進頻道
-* 主要 mentor：[蘇桓平]、[陳翰儒]
+* 頻道：Private，來 [flyte slack channel](https://slack.flyte.org/) 自我介紹，tag Kevin Su、Nary Yeh 以及 Alex Wu 後，會把你拉進頻道
+* 主要 mentor：[蘇桓平]、[葉乃瑞]、[吳忠全]
+* 前 mentor：[陳翰儒]
 
 ### KubeRay & Ray（主要以 KubeRay 為主）
 
