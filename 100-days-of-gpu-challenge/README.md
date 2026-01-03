@@ -37,6 +37,8 @@
 - [day12](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day12)
 - [day13](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day13)
 - [day14](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day14)
+- [day15](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day15)
+- [day16](https://github.com/nigelzzz/gpu100day-challenge/tree/main/day16)
 
 ### Li-Hsing
 
