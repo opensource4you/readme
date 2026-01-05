@@ -8,6 +8,7 @@ By [蔡嘉平]（本社群的老大）：
 * 大方向我們是很被動的社群，你很積極 mentor 才會很積極，所以建議可以多花一些時間研究一下開源和專案的背景知識。
 * 開源這條路並不是一個顯學，尤其對學生而言乖乖去美國念書刷題面試才是最常見也最通用的方式。但如果你天生命格特殊，太多人走的路我不要，那麼就歡迎來走開源這條路。但是要注意，這裏雖然這裡有成功的案例，但有更多放棄的案例，你的特殊命格是否適合開源，最後都取決於你。
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖，簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
+* [ALC Taipei: Igniting the Apache Open Source Movement in Taiwan](https://news.apache.org/foundation/entry/alc-taipei-igniting-the-apache-open-source-movement-in-taiwan)
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
 * [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
 * [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
@@ -74,6 +75,7 @@ By [蔡嘉平]（本社群的老大）：
 7. [From Database to Data Lakehouse — Part 7](https://medium.com/@0050211/from-database-to-data-lakehouse-part-7-c5eeb497fb44)
 7. [From Database to Data Lakehouse — Part 8](https://medium.com/@0050211/from-database-to-data-lakehouse-part-8-32bbdd46b5b1)
 7. [From Database to Data Lakehouse — Part 9](https://medium.com/@0050211/from-database-to-data-lakehouse-part-9-2a5b4baa9c8f)
+7. [From Database to Data Lakehouse — Part 10](https://medium.com/@0050211/from-database-to-data-lakehouse-part-10-7801261db693)
 
 ## 用放大鏡看 Apache Kafka (博安)
 1. [Apache Kafka — Network Architecture](https://frank-yang.medium.com/apache-kafka-network-architecture-47f631378e09)
