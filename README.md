@@ -24,6 +24,9 @@ By [蔡嘉平]（本社群的老大）：
 * [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
 * [2025.10 開源有個約會](https://www.facebook.com/share/p/17L2RvQskV/)
 * [2025.11 開源有個約會](https://www.facebook.com/share/p/1GnkibYMmg/)
+* [2025.12 開源有個約會](https://www.facebook.com/share/p/1DafDFdfKE/)
+* [2025.12 開源有個聖誕約會](https://www.facebook.com/share/p/17HL8ufemc/)
+* [2025.12 開源有個 Pizza 約會](https://www.facebook.com/share/p/1CEQTdCrbA/)
 
 ## 媒體報導
 
