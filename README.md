@@ -103,6 +103,7 @@ By [蔡嘉平]（本社群的老大）：
 10. [LINE — Data Engineer的日常](https://medium.com/@jasonlai1218/line-data-engineer的日常-a91324191b1c) - 賴仲哲 (LINE)
 11. [一腳踏進自動駕駛軟體業](https://medium.com/momo的機器人留學夢/一腳踏進自動駕駛軟體業-2f4f7a1e7b50) - 莫絲羽 (Nvidia)
 12. [矽谷 AI 戰國時代：奔向下一代 AI 的爬坡競賽](https://u9534056.medium.com/矽谷-ai-戰國時代-奔向下一代-ai-的爬坡競賽-1303c026124d) - Rice Yang (Nvidia)
+13. [自動化廣告審核 Automated Ad Review](https://amjltc295.medium.com/%E8%87%AA%E5%8B%95%E5%8C%96%E5%BB%A3%E5%91%8A%E5%AF%A9%E6%A0%B8-automated-ad-review-578438d4039d) - Ya-Liang Allen Chang (Taboola)
 
 ## 投影片&科技散文
 
