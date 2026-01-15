@@ -17,6 +17,13 @@ By [蔡嘉平]（本社群的老大）：
 * [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
 * [成立大會](https://www.facebook.com/share/1ANkoEWBDG/)
 
+## 各界的贊聲
+
+* [台灣大哥大 - Rock](https://www.facebook.com/share/v/1BzxfFRTxg/)
+* [數發部 - 林青嶔](https://www.facebook.com/share/v/17jukmPyh5/)
+* [Anyscale - Richard](https://www.facebook.com/share/v/1DF9ixYqLr/)
+* [Union.AI - Yee Hing](https://www.facebook.com/share/v/1Uf437zNQY/)
+
 ## Meetup
 
 * [Kafka 相關饅頭營](./20250612%20meetup)
