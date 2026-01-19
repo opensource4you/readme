@@ -19,6 +19,7 @@ By [蔡嘉平]（本社群的老大）：
 
 ## 各界的贊聲
 
+* [台北市長 - 蔣萬安](https://www.facebook.com/share/v/1EvP2Wd4VW/)
 * [台灣大哥大 - Rock](https://www.facebook.com/share/v/1BzxfFRTxg/)
 * [數發部 - 林青嶔](https://www.facebook.com/share/v/17jukmPyh5/)
 * [Anyscale - Richard](https://www.facebook.com/share/v/1DF9ixYqLr/)
@@ -134,6 +135,7 @@ By [蔡嘉平]（本社群的老大）：
 18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/)
 19. [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/)
 20. [DuckDB Filesystem Observability with observefs + cache_httpfs: See I/O and Speed It Up](https://blog.peterxcli.dev/oss/duckdb/duckdb-observefs-cache-httpfs/)
+20. [大型開源軟體如何實現高效的持續整合 (CI) 系統？以 Apache Airflow 為例](https://blog.zhu424.dev/zh-tw/open-source-contribution/airflow-ci-selective-checks/?fbclid=IwY2xjawPa9ylleHRuA2FlbQIxMABicmlkETFXVW03VGR1dFI4eTVqekFpc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhQm-wKoK-ewq7xa62JVR0wnOipfAeVVia_tUGQDQUafF7om7blPHZ3SACqu_aem_LusYpapc6Vy2hyQuCQfPgg)
 
 ## 科技開講
 
