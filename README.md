@@ -74,6 +74,7 @@ By [蔡嘉平]（本社群的老大）：
 * [我的 Open Source 之路（二）](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-%E4%BA%8C-0332a03d8c40)
 * [開源之旅 - Apache Airflow Committer](https://guan404ming.com/blog/0)
 * [成為 Airflow PMC Member "I'm the PMC." "Not yet."](https://blog.wei-lee.me/posts/tech/2025/10/becoming-an-airflow-pmc-member/)
+* [從焦慮的競賽者到 Apache Committer：我的開源救贖與攻略](https://medium.com/p/4345c74e049f)
 
 ## From Database to Data Lakehouse (Ryan Fu)
 
