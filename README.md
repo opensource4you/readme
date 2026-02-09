@@ -244,6 +244,15 @@ By [蔡嘉平]（本社群的老大）：
 * 主要 mentor：[陳楷訓]、[劉奇聖]
 * [更多資訊](./mentor-projects-information/kuberay.md)
 
+### Kubernetes & Kubespray（主要以 Kubespray 為主）
+
+* <https://github.com/kubernetes-sigs/kubespray>
+* <https://github.com/kubernetes/kubernetes>
+* 語言：Ansible + Python (Kubespray)、Golang (Kubernetes)
+* 頻道：Private，請在 [Kubernetes Slack](https://slack.k8s.io) 開好帳號後，將 Profile 連結私訊給 mentor，由 mentor 拉進頻道
+* 主要 mentor：[楊承昊（梯口）]
+* Mentor 主要維護 Kubernetes 的子專案 —— Kubespray，不過頻道內都可以討論 Kubernetes 貢獻（程式碼到非程式碼都有），對開源有興趣的都可以加入
+
 ### Liger-Kernel
 
 * <https://github.com/linkedin/Liger-Kernel>
@@ -306,6 +315,7 @@ By [蔡嘉平]（本社群的老大）：
 [咸誠]: https://opensource4you.slack.com/team/U06G0T8RZ6E
 [熊大]: https://opensource4you.slack.com/team/U057L1EKP47
 [eric]: https://opensource4you.slack.com/team/U05NXH9131U
+[楊承昊（梯口）]: https://opensource4you.slack.com/team/U07QN8DJ3UY
 [apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
 [apache-yunikorn]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
 [apache-gravitino]: https://opensource4you.slack.com/archives/C07473LAC15
