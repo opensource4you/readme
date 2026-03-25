@@ -8,7 +8,6 @@ By [蔡嘉平]（本社群的老大）：
 * 大方向我們是很被動的社群，你很積極 mentor 才會很積極，所以建議可以多花一些時間研究一下開源和專案的背景知識。
 * 開源這條路並不是一個顯學，尤其對學生而言乖乖去美國念書刷題面試才是最常見也最通用的方式。但如果你天生命格特殊，太多人走的路我不要，那麼就歡迎來走開源這條路。但是要注意，這裏雖然這裡有成功的案例，但有更多放棄的案例，你的特殊命格是否適合開源，最後都取決於你。
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖，簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
-* [ALC Taipei: Igniting the Apache Open Source Movement in Taiwan](https://news.apache.org/foundation/entry/alc-taipei-igniting-the-apache-open-source-movement-in-taiwan)
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
 * [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
 * [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
@@ -19,8 +18,13 @@ By [蔡嘉平]（本社群的老大）：
 
 ## 各界的贊聲
 
+* [ALC Taipei: Igniting the Apache Open Source Movement in Taiwan](https://news.apache.org/foundation/entry/alc-taipei-igniting-the-apache-open-source-movement-in-taiwan)
 * [台北市長 - 蔣萬安](https://www.facebook.com/share/v/1EvP2Wd4VW/)
 * [台灣大哥大 - Rock](https://www.facebook.com/share/v/1BzxfFRTxg/)
+* [Confluent Community Catalyst 2026](https://www.linkedin.com/posts/confluent_meet-our-catalyst-of-the-week-chia-ping-activity-7441812250199277568-T2lX?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABZ8uLgBJb6UvwqFXaNYL_757iPVtYGrECE)
+* [Confluent Community Catalyst 2025](https://developer.confluent.io/catalysts/chia-ping-tsai/)
+* [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205) - 軟體自由電子報
+* [kafka community spotlight: TAIWAN](https://bigdata.2minutestreaming.com/p/kafka-community-spotlight-taiwan) - 2minutestreaming
 * [數發部 - 林青嶔](https://www.facebook.com/share/v/17jukmPyh5/)
 * [Anyscale - Richard](https://www.facebook.com/share/v/1DF9ixYqLr/)
 * [Union.AI - Yee Hing](https://www.facebook.com/share/v/1Uf437zNQY/)
@@ -35,11 +39,6 @@ By [蔡嘉平]（本社群的老大）：
 * [2025.12 開源有個約會](https://www.facebook.com/share/p/1DafDFdfKE/)
 * [2025.12 開源有個聖誕約會](https://www.facebook.com/share/p/17HL8ufemc/)
 * [2025.12 開源有個 Pizza 約會](https://www.facebook.com/share/p/1CEQTdCrbA/)
-
-## 媒體報導
-
-* [戰鬥力最強的取暖小圈圈：專訪源來適你社群蔡嘉平](https://slat.org.tw/node/205) - 軟體自由電子報
-* [kafka community spotlight: TAIWAN](https://bigdata.2minutestreaming.com/p/kafka-community-spotlight-taiwan) - 2minutestreaming
 
 ## GPU 百日挑戰
 
