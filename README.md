@@ -9,16 +9,18 @@ By [蔡嘉平]（本社群的老大）：
 * 開源這條路並不是一個顯學，尤其對學生而言乖乖去美國念書刷題面試才是最常見也最通用的方式。但如果你天生命格特殊，太多人走的路我不要，那麼就歡迎來走開源這條路。但是要注意，這裏雖然這裡有成功的案例，但有更多放棄的案例，你的特殊命格是否適合開源，最後都取決於你。
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖，簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
-* [募款徵集](https://github.com/opensource4you/readme/blob/main/sponsor/%E5%8B%9F%E6%AC%BE%E5%BE%B5%E9%9B%86.pdf)
-* [社群經費使用一覽表](https://github.com/opensource4you/readme/blob/main/sponsor/README.md)
 * [從開源走向世界 從台灣影響國際](https://github.com/opensource4you/readme/blob/main/slides/os4y.pdf)
 * [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
 * [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
+
+## 活動
 * [成立大會](https://www.facebook.com/share/1ANkoEWBDG/)
+* [社群形象照拍攝](https://www.facebook.com/share/p/18dVNW78PA/)
 * [總統府接見](https://www.facebook.com/share/p/18GJB6esJi/)
+* [SITCON 2026](https://www.facebook.com/share/p/14jXwNtdTsA/)
 
 ## 各界的贊聲
-
+* [Confluent Spotlight](https://www.facebook.com/share/p/14cN42uP5pk/)
 * [ALC Taipei: Igniting the Apache Open Source Movement in Taiwan](https://news.apache.org/foundation/entry/alc-taipei-igniting-the-apache-open-source-movement-in-taiwan)
 * [台北市長 - 蔣萬安](https://www.facebook.com/share/v/1EvP2Wd4VW/)
 * [台灣大哥大 - Rock](https://www.facebook.com/share/v/1BzxfFRTxg/)
@@ -32,14 +34,16 @@ By [蔡嘉平]（本社群的老大）：
 
 ## Meetup
 
-* [Kafka 相關饅頭營](./20250612%20meetup)
-* [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
-* [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
-* [2025.10 開源有個約會](https://www.facebook.com/share/p/17L2RvQskV/)
-* [2025.11 開源有個約會](https://www.facebook.com/share/p/1GnkibYMmg/)
-* [2025.12 開源有個約會](https://www.facebook.com/share/p/1DafDFdfKE/)
-* [2025.12 開源有個聖誕約會](https://www.facebook.com/share/p/17HL8ufemc/)
+* [2026.03 開源有個約會](https://www.facebook.com/share/p/18dqq4ZjJJ/)
+* [2026.02 開源有個約會](https://www.facebook.com/share/p/1baL6XT4U2/)
+* [2026.01 開源有個約會](https://www.facebook.com/share/p/1DHnqmVPX8/)
 * [2025.12 開源有個 Pizza 約會](https://www.facebook.com/share/p/1CEQTdCrbA/)
+* [2025.12 開源有個聖誕約會](https://www.facebook.com/share/p/17HL8ufemc/)
+* [2025.12 開源有個約會](https://www.facebook.com/share/p/1DafDFdfKE/)
+* [2025.11 開源有個約會](https://www.facebook.com/share/p/1GnkibYMmg/)
+* [2025.10 開源有個約會](https://www.facebook.com/share/p/17L2RvQskV/)
+* [2025.09 開源有個約會](https://www.facebook.com/share/p/1AxqpaZV5o/)
+* [2025.08 開源有個約會](https://www.facebook.com/share/p/19mMFqayYE/)
 
 ## GPU 百日挑戰
 
