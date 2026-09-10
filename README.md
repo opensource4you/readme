@@ -20,7 +20,8 @@ By [蔡嘉平]（本社群的老大）：
 * 開源這條路並不是一個顯學，尤其對學生而言乖乖去美國念書刷題面試才是最常見也最通用的方式。但如果你天生命格特殊，太多人走的路我不要，那麼就歡迎來走開源這條路。但是要注意，這裡雖然有成功的案例，但有更多放棄的案例，你的特殊命格是否適合開源，最後都取決於你。
 * 這個社群其實是同溫層小圈圈，目標也不是要高流量帶貨或是造神吹捧，而是讓真的有熱情的人可以聚在一起互相取暖。簡單來說，我們目標不是讓眾人來成就社群，而是讓社群來幫助個人。
 * [創辦社群的心得文](https://www.facebook.com/share/p/15yTJm1JLd/)
-* [貢獻開源專案應有的心態](./articles/opensource-contribution-mindset/README.md)
+* [貢獻開源專案應有的心態](./articles/mindset-path-to-committer/README.md)
+* [參與開源社群應有的心態](./articles/mindset-community-etiquette/README.md)
 * [開源貢獻新手指南](https://chishengliu.com/zh-tw/series/%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/)
 
 ## 快速入口
@@ -197,7 +198,7 @@ By [蔡嘉平]（本社群的老大）：
 * [普通人也能做到的 Open Source 開源一年 100+ PRs 完整指南 feat. 源來適你, Flyte](https://medium.com/@future-outlier/%E6%99%AE%E9%80%9A%E4%BA%BA%E4%B9%9F%E8%83%BD%E5%81%9A%E5%88%B0%E7%9A%84-open-source-%E9%96%8B%E6%BA%90%E4%B8%80%E5%B9%B4-100-prs-%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-feat-%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0-flyte-87b1cc29f093)
 * [不尋常的找工作方式：我透過貢獻 KubeRay 開源專案找到美國跨國遠端軟體工程師職缺！](https://chishengliu.com/zh-tw/posts/join-anyscale-via-kuberay/) - 劉奇聖
 * [開源入門到加入夢幻新創！](https://medium.com/@troychiu/from-flyte-to-union-ai-%E9%96%8B%E6%BA%90%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-6ca2dc4cd6e4)
-* [如何透過開源社群「源來適你」找到 Samsara 工作](./articles/Eagle-Lo-Samsara/README.md)
+* [如何透過開源社群「源來適你」找到 Samsara 工作](./articles/story-job-hunting-via-community/README.md)
 * [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
 * [從 Apache CommunityOverCode Asia 2025 看亞洲開源與資料基礎設施](https://blog.zhu424.dev/zh-tw/open-source-contribution/apache-coc-asia/)
 * [Open Source 開源社群的第一門課 | 如何成為 Apache Committer](https://byronhsu1230.medium.com/open-source-%E9%96%8B%E6%BA%90%E7%A4%BE%E7%BE%A4%E7%9A%84%E7%AC%AC%E4%B8%80%E9%96%80%E8%AA%B2-%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA-apache-committer-451d42e853d6)
@@ -239,7 +240,7 @@ By [蔡嘉平]（本社群的老大）：
 2. [自動駕駛的演算法工程師是爽缺嗎？](https://u9534056.medium.com/自動駕駛的演算法工程師是爽缺嗎-863d06d28a52) - Rice Yang (Nvidia)
 3. [如何挑選該加入哪個矽谷新創](https://morrishsu-94479.medium.com/如何挑選該加入哪個矽谷新創-8b5163dd9436) - Morris Hsu (Snorkel.ai)
 4. [Harvester 開發日常與挑戰](https://medium.com/@brandboat/harvester-閒談-f914c421ff8f) - 曾冠博 (SUSE)
-5. [智慧工廠與 AWS 機器學習顧問在做什麼？](./articles/Smart-Manufacturing-ML-Consultant-in-AWS-wei-chen/README.md) - Wei Chen (TSMC)
+5. [智慧工廠與 AWS 機器學習顧問在做什麼？](./articles/career-aws-ml-consultant/README.md) - Wei Chen (TSMC)
 6. [自動駕駛的到來勢不可擋，但該如何保障其安全發展？](https://tywu13.medium.com/自動駕駛的到來勢不可擋-但該如何保障其安全發展-8739bc116ac4) - Tsang-Yung Wu (Tesla)
 7. [關於加速ML，你需要知道的基本觀念](https://yuhsuan-t.medium.com/63b98ab7df15) - Yu-Hsuan Tseng (Nvidia)
 8. [A Story of Database](https://medium.com/@0050211/a-story-of-database-53d02397df93) - Ryan Fu (Oracle)
