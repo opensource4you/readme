@@ -96,7 +96,8 @@ By [蔡嘉平]（本社群的老大）：
 * <https://github.com/ray-project/ray>
 * 語言：Golang (KubeRay)、Python / C++ (Ray)
 * 頻道：Private，請表達想做的意願之後由 mentor 認領
-* 主要 mentor：[葉乃瑞]、[萬駿澔]、[吳哲御]、[陳鼎心]
+* 主要 KubeRay mentor：[葉乃瑞]、[萬駿澔]、[吳哲御]
+* 主要 Ray mentor：[林宥呈]、[劉奇聖]、[Rueian]、[陳鼎心]
 * [更多資訊](./mentor-projects-information/kuberay.md)
 
 ### Kubernetes & Kubespray
@@ -303,6 +304,8 @@ By [蔡嘉平]（本社群的老大）：
 [萬駿澔]: https://opensource4you.slack.com/team/U07KT083C87
 [吳哲御]: https://opensource4you.slack.com/team/U07Q3V589HD
 [陳鼎心]: https://opensource4you.slack.com/team/U09EXDDCYAD
+[林宥呈]: https://opensource4you.slack.com/team/U085SQF5GF3
+[Rueian]: https://opensource4you.slack.com/team/U056T5Y0QLB
 [JiaWei Jiang]: https://opensource4you.slack.com/team/U07QZT5S9TR
 [吳忠全]: https://opensource4you.slack.com/team/U07DV7QL3R6
 [劉哲佑]: https://opensource4you.slack.com/team/U07R5NX8KSQ

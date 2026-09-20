@@ -16,7 +16,7 @@
 ## FAQ
 
 * 想貢獻 [Ray](https://github.com/ray-project/ray) 可以嗎？
-  * 可以，Ray 的部分會主要由 林宥呈 (Ray Data) 和 劉奇聖 (Ray Core) 負責，偶爾可能會有 issues / 大鍋菜可以做。
+  * 可以，Ray 的部分會主要由 [林宥呈] (Ray Data) 、[劉奇聖] (Ray Core) 和 [Rueian] (Ray Core) 負責，偶爾可能會有 issues / 大鍋菜可以做。
 
 * 發 PR 後要找誰 review？
   * 我們鼓勵各位小夥伴互相 review PR，有 PR 的話建議可以先丟到群組 (KubeRay PR 可以丟到 Ray Slack 裡面的
@@ -55,3 +55,8 @@
   * https://docs.ray.io/en/master/ray-contribute/development.html#fast-debug-and-optimized-builds
 * 一些比較常用的指令可以參考[奇聖的 Ray 指令 cheatsheet](https://github.com/MortalHappiness/dotfiles/blob/main/dot_local/share/navi/cheats/exact_personal-cheatsheets/projects/ray.cheat)
 * [其他雜記](https://chishengliu.notion.site/Ray-17e6c9db49d480ffb47af4a72d2a3564?pvs=4)
+
+<!-- Reference Links -->
+[林宥呈]: https://opensource4you.slack.com/team/U085SQF5GF3
+[Rueian]: https://opensource4you.slack.com/team/U056T5Y0QLB
+[劉奇聖]: https://opensource4you.slack.com/team/U06CSLLGQNR
