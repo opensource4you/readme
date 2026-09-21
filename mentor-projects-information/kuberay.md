@@ -3,17 +3,24 @@
 ## 相關資訊
 
 * [KubeRay project tracker](https://docs.google.com/document/d/1Q78Ny7KpTVOleB51-Tb1fewIDMm9msCTG4kDdWonwiQ/edit)
-* 如果需要權限請找陳楷訓 
+* 如果需要權限請找 mentors
 
 ## 注意事項
 
 * 問問題盡量在 channel 裡面問，不要私訊，避免 mentor 需要重複回答類似的問題
 * Pull request template 裡面的 `Closes #1234`，那個 `Closes` 是有意義的，會把 PR 和對應的 issue link 起來，讓 PR 被 merge 之後 issue 會自動關掉，請不要自己省略掉。
+* 建議閱讀以下文章建立正確的開源貢獻心態，希望大家可以正確的使用 AI 而不是造成社群的困擾:
+    * [參與開源社群應有的心態](../articles/mindset-community-etiquette/README.md)
+    * [使用 AI 工具時如何維持貢獻品質](../articles/mindset-ai-assisted-contribution/README.md)
 
 ## FAQ
 
 * 想貢獻 [Ray](https://github.com/ray-project/ray) 可以嗎？
-  * 可以，但是 Ray 的 PR 目前 mentor 們沒有 merge 的權限，而 KubeRay 楷訓有 merge 的權限，比較好帶人，故以 KubeRay 為主。如果想貢獻 Ray 的話，發了 PR 之後可以跟楷訓講，他會找人幫你 review。
+  * 可以，Ray 的部分會主要由 [林宥呈] (Ray Data) 、[劉奇聖] (Ray Core) 和 [Rueian] (Ray Core) 負責，偶爾可能會有 issues / 大鍋菜可以做。
+
+* 發 PR 後要找誰 review？
+  * 我們鼓勵各位小夥伴互相 review PR，有 PR 的話建議可以先丟到群組 (KubeRay PR 可以丟到 Ray Slack 裡面的
+  `kuberay-dev` 群組增加可見度) 讓其他小夥伴幫忙 review，有小夥伴 approve 後再 ping mentors review。
 
 ## KubeRay 新手上路
 
@@ -48,3 +55,8 @@
   * https://docs.ray.io/en/master/ray-contribute/development.html#fast-debug-and-optimized-builds
 * 一些比較常用的指令可以參考[奇聖的 Ray 指令 cheatsheet](https://github.com/MortalHappiness/dotfiles/blob/main/dot_local/share/navi/cheats/exact_personal-cheatsheets/projects/ray.cheat)
 * [其他雜記](https://chishengliu.notion.site/Ray-17e6c9db49d480ffb47af4a72d2a3564?pvs=4)
+
+<!-- Reference Links -->
+[林宥呈]: https://opensource4you.slack.com/team/U085SQF5GF3
+[Rueian]: https://opensource4you.slack.com/team/U056T5Y0QLB
+[劉奇聖]: https://opensource4you.slack.com/team/U06CSLLGQNR
