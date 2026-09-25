@@ -37,11 +37,9 @@
   * https://github.com/ray-project/kuberay/blob/master/ray-operator/DEVELOPMENT.md
 * 試著跑 RayCluster、RayJob、RayService
   * https://docs.ray.io/en/latest/cluster/kubernetes/getting-started.html
-* 看一下怎麼 build Ray 的 documentation（doc 修改的 PR 是發在 ray 的 repo，不是 kuberay）
+* (Optional) 看一下怎麼 build Ray 的 documentation（doc 修改的 PR 是發在 ray 的 repo，不是 kuberay）
   * https://docs.ray.io/en/latest/ray-contribute/docs.html
-  * 請用 `conda` 不要用 `venv`
-  * 請用 `make develop` 不要用 `make local`
-  * Build 完之後會有一個 `_build` 的資料夾，執行 `python -m http.server --directory _build/html` 然後就可以去 `localhost:8000` 看到 doc
+  * 但其實這步可以略過，因為你可以直接發 draft PR 然後 CI 就會幫你 build 出一個 doc link 了，平常開發其實很少會需要在 local machine build docs
 
 ## Ray 新手上路
 
@@ -53,7 +51,6 @@
 * 照著[這個 doc](https://docs.ray.io/en/master/ray-contribute/development.html#building-ray-on-linux-macos-full) build 一次完整的 Ray
 * 只有第一次 build 的時候需要用 `pip install` 的方式 build，之後都是用 `bazel build -c fastbuild //:ray_pkg` 即可
   * https://docs.ray.io/en/master/ray-contribute/development.html#fast-debug-and-optimized-builds
-* 一些比較常用的指令可以參考[奇聖的 Ray 指令 cheatsheet](https://github.com/MortalHappiness/dotfiles/blob/main/dot_local/share/navi/cheats/exact_personal-cheatsheets/projects/ray.cheat)
 * [其他雜記](https://chishengliu.notion.site/Ray-17e6c9db49d480ffb47af4a72d2a3564?pvs=4)
 
 <!-- Reference Links -->
