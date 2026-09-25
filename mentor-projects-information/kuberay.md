@@ -7,6 +7,8 @@
 
 ## 注意事項
 
+* 加進 slack channel 之後，先看上面的 Canvas
+  <img width="1062" height="172" alt="image" src="https://github.com/user-attachments/assets/515e6db8-2e29-4635-a01b-dcd0ab7e87a5" />
 * 問問題盡量在 channel 裡面問，不要私訊，避免 mentor 需要重複回答類似的問題
 * Pull request template 裡面的 `Closes #1234`，那個 `Closes` 是有意義的，會把 PR 和對應的 issue link 起來，讓 PR 被 merge 之後 issue 會自動關掉，請不要自己省略掉。
 * 建議閱讀以下文章建立正確的開源貢獻心態，希望大家可以正確的使用 AI 而不是造成社群的困擾:
