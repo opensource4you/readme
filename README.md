@@ -95,7 +95,7 @@ By [蔡嘉平]（本社群的老大）：
 * <https://github.com/ray-project/kuberay>
 * <https://github.com/ray-project/ray>
 * 語言：Golang (KubeRay)、Python / C++ (Ray)
-* 頻道：Private，請表達想做的意願之後由 mentor 認領
+* 頻道：Private，請聯絡 [葉乃瑞]、[萬駿澔]、[吳哲御]、[陳鼎心] 其中之一加入
 * 主要 KubeRay mentor：[葉乃瑞]、[萬駿澔]、[吳哲御]
 * 主要 Ray mentor：[林宥呈]、[劉奇聖]、[Rueian]、[陳鼎心]
 * [更多資訊](./mentor-projects-information/kuberay.md)
