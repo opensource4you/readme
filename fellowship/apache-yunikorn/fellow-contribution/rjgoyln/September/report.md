@@ -1,6 +1,7 @@
 # rjgoyln Monthly Contribution Report
 
 - GitHub: https://github.com/rjgoyln
+- Slack: https://opensource4you.slack.com/team/U0BMWP51QN5
 - ASF JIRA: Dian-Xuan Yang
 - Period: 2026-09-02 to 2026-10-05 (since my first YuniKorn contribution)
 
