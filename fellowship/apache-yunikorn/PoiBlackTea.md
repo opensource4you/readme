@@ -5,7 +5,7 @@
 
 ## 2026-10-10
 
-提名人: PoiBlackTea
+提名人: HuangTing-Yao
 建議等級：3 萬, 10月取得Apache YuniKorn Committer 的頭銜
 2026-07-07（首次貢獻）到 2026-09-30 的重點
 
