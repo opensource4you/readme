@@ -6,7 +6,7 @@
 ## 2026-10-10
 
 提名人: HuangTing-Yao
-建議等級：3 萬, 10月取得Apache YuniKorn Committer 的頭銜
+建議等級：3 萬, 10月取得[Apache YuniKorn Committer](https://lists.apache.org/thread.html/6y05my7vlxcnzfnqgc1nlc9lm18c7wml)的頭銜
 2026-07-07（首次貢獻）到 2026-09-30 的重點
 
 - 提出 37 個 PR，全數 merged，橫跨 6 個 YuniKorn repo（月報：[7 月](https://github.com/opensource4you/readme/blob/main/fellowship/apache-yunikorn/fellow-contribution/PoiBlackTea/July/report.md)、[8 月](https://github.com/opensource4you/readme/blob/main/fellowship/apache-yunikorn/fellow-contribution/PoiBlackTea/August/report.md)、[9 月](https://github.com/opensource4you/readme/blob/main/fellowship/apache-yunikorn/fellow-contribution/PoiBlackTea/September/report.md)）
