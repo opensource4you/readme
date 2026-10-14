@@ -1,5 +1,9 @@
 # Kafka 的技術名詞講解與概覽
 
+用一筆訂單事件，理解 Kafka 的運作。
+
+訂單 `O1001` 成立之後，資料會去哪裡？我們會先理解 Kafka 是什麼、為什麼需要它，再追蹤事件如何寫入、保存與讀取，最後討論故障與重試。文中的訂單、分工與數字都是教學示例。
+
 ## 課程目標
 
 上完這堂課，希望你能理解：
@@ -88,7 +92,7 @@ Topic 是資料的邏輯分類；實際資料位於 Partition。每個 Partition
 一筆資料是什麼？         → Record
 怎麼標示資料的位置？     → Offset
 誰來讀資料？             → Consumer
-多個 Consumer 怎麼分工？ → Consumer Group／Share Group
+多個 Consumer 怎麼分工？ → Consumer Group
 Broker 故障怎麼辦？      → Replication
 ```
 
@@ -100,6 +104,7 @@ Broker 故障怎麼辦？      → Replication
 - Inventory Service：保留庫存
 - Email Service：發送通知
 - Analytics Service：更新統計
+- Shipping Service：處理出貨
 
 基本作法是 Checkout Service 逐一呼叫這些服務。
 
@@ -119,7 +124,7 @@ Customer → Checkout ├→ Email Service
 
 需要這筆事件的服務，各自從 Kafka 讀取。
 
-```text
+```
 Checkout
     │
     │ Publish OrderPlaced
@@ -136,15 +141,14 @@ Checkout
    Payment Inventory Email Analytics Shipping
 ```
 
-1. Publish ： Checkout 發布一筆 `OrderPlaced` Event
-   ↓
-2. Store ： Kafka 把 Event append 到 Topic 中並保存
-   ↓
-3. Subscribe ： Payment、Inventory、Email、Analytics、Shipping 各自訂閱需要的 Event
-   ↓
-4. Process ： 每個 Service 按自己的進度讀取並處理
+1. **Publish**：Checkout 發布一筆 `OrderPlaced` Event。
+2. **Store**：Kafka 把 Event 附加到 Topic 的 Partition 中並保存。
+3. **Subscribe**：Payment、Inventory、Email、Analytics、Shipping 各自訂閱需要的 Event。
+4. **Process**：每個 Service 按自己的進度讀取並處理。
 
-如此，Checkout Service 跟其他 Service 沒有直接關係，不會互相影響。
+如此，Checkout Service 不必逐一呼叫每個下游服務，可以降低直接呼叫的耦合。但共用資源、資料格式與業務依賴仍可能互相影響，不能理解成服務之間完全沒有關係。
+
+同步呼叫在需要明確結果時仍然有用。這個例子著重在訂單成立之後的後續作業：不同服務可以透過不同 Consumer Group，按自己的進度讀取事件。訂閱也不表示 Broker 主動推送，Consumer 仍會主動發出讀取請求。
 
 假設 Email Service 暫時故障，Payment Service 和 Analytics Service 仍可按自己的進度工作。
 
@@ -210,7 +214,7 @@ OrderPlaced {
 }
 ```
 
-Producer 需要按照約定格式，把 Key 和 Value 轉成 bytes。Consumer 之後也必須知道該如何解讀這些 bytes。
+Producer 需要按照約定格式，把 Key 和 Value 轉成 bytes。Consumer 之後也必須知道該如何解讀這些 bytes。JSON 只是格式示例，Kafka 並不限定使用 JSON。
 
 ```text
 程式中的資料 → Serialization → Bytes → Kafka
@@ -220,7 +224,7 @@ Producer 需要按照約定格式，把 Key 和 Value 轉成 bytes。Consumer �
 
 > Record 是 Kafka 傳輸與保存的一筆資料；Event 則強調這筆資料描述了什麼已發生的事情。
 
-例如，`OrderPlaced` 是業務上的 Event；它可以表示為一筆 Kafka Record：
+例如，`OrderPlaced` 是業務上的 Event；它可以表示為一筆 Kafka Record。以下 JSON 是 Value 的內容示例，不是 Kafka 的內部儲存格式：
 
 ```text
 寫入位置：orders Topic
@@ -261,7 +265,15 @@ Kafka Cluster
 └── Broker C
 ```
 
-一個 Topic 的 Partition 可以分布在不同 Broker；同一個 Partition 的多份 Replica 也會分布在不同 Broker。
+一個 Topic 的 Partition 可以分布在不同 Broker；同一個 Partition 的多份 Replica 也會分布在不同 Broker。例如：
+
+| Broker | orders / P0 | orders / P1 | orders / P2 |
+|---|---|---|---|
+| A | Leader | Follower | Follower |
+| B | Follower | Leader | Follower |
+| C | Follower | Follower | Leader |
+
+這裡先看資料保存的位置。Leader、Follower 與故障接手的條件會在第五章展開。
 
 ### Topic
 
@@ -349,6 +361,8 @@ O1001 OrderShipped
 
 指定 Partition、自訂分區規則或增加 Topic 的 Partition 數量，也可能改變相同 Key 的分區結果。
 
+Key 不會替事件重新排出業務期待的先後。如果需要依序處理 `OrderPlaced`、`PaymentCompleted`、`OrderShipped`，就必須讓它們實際按預期順序寫入同一個 Topic 的同一 Partition，並一起設計 Producer 發送方式與應用程式的處理順序。
+
 ### Offset
 
 > Offset 是 Record 在某個 Partition 中的位置。
@@ -357,7 +371,7 @@ O1001 OrderShipped
 orders / Partition 0
 
 offset 0 → O1001 OrderPlaced
-offset 1 → O1003 OrderPlaced
+offset 1 → O1002 OrderPlaced
 offset 2 → O1001 PaymentCompleted
 offset 3 → O1001 OrderShipped
 ```
@@ -365,6 +379,17 @@ offset 3 → O1001 OrderShipped
 Offset 不是訂單 ID，也不是 Event ID。它只對**所屬的 Topic／Partition**有意義，所以不同 Partition 都可以有 `offset 0`。
 
 Kafka 清除舊資料或執行 Log Compaction 後，讀到的 Offset 也可能出現空洞；現存 Record 不會因此重新編號。
+
+例如，背景 Compaction 清理相同 Key 的舊狀態後，可能得到：
+
+| Offset | 清理前 | 清理後 |
+|---|---|---|
+| 0 | O1001 CREATED | 已移除 |
+| 1 | O1002 CREATED | 保留 |
+| 2 | O1001 PAID | 已移除 |
+| 3 | O1001 SHIPPED | 保留 |
+
+剩下的位置仍是 Offset 1、3，不會改成 0、1。這是可能的背景清理結果，不是寫入後立即清理的保證；第五章會再說明 Compaction。
 
 ### Partition 是一條 Log
 
@@ -380,6 +405,8 @@ Record → Record → Record → Record → Record → ...
 新的 Record 通常附加在尾端。這帶出 Kafka 的重要原則：
 
 > **Kafka 保存一條可供讀取的資料流；Consumer 讀過資料，資料也不會因此立刻被取走或刪除。**
+
+例如 Email 已讀取 `OrderPlaced O1001`、完成寄信並提交進度，Analytics 仍可以讀取同一筆 Record。讀取與 Commit 都不會取走資料；消費進度與資料生命週期是分開管理的。資料何時清理，由 Topic 的保留與清理政策決定。
 
 ---
 
@@ -407,6 +434,17 @@ Partition 2 ──→ Consumer B
 
 > **Partition 數量會限制 Consumer Group 對該 Topic 的平行讀取程度。**
 
+上面的分配由 A 負責兩個 Partition、B 負責一個。如果另有 C、D 閒置，實際只有兩個 Consumer 在工作，但理論上限仍是三個。實際結果取決於分配策略，一般會盡量均衡。
+
+| Partition 數量 | Consumer 數量 | 最多 Active Consumer |
+|---|---|---|
+| 1 | 4 | 1 |
+| 3 | 4 | 3 |
+| 6 | 4 | 4 |
+| 6 | 8 | 6 |
+
+這裡談的是傳統 Consumer Group 對單一 Topic 的分區讀取平行度，上限是兩種數量的較小值。應用程式內部可以另有工作執行緒，但需要自行管理處理順序與 Commit。分區數也要考慮 Throughput、Ordering 與資源成本，更多 Partition 不代表一定更快。
+
 ### 不同 Group 可以各自讀取同一批資料
 
 Inventory、Email 和 Analytics 若都需要 `OrderPlaced`，可以使用不同的 Group：
@@ -422,6 +460,30 @@ Inventory、Email 和 Analytics 若都需要 `OrderPlaced`，可以使用不同�
 它們各自記錄進度，因此同一筆 Event 可以分別被三個服務處理。
 
 不同於 Queue 的「工作被一個 Worker 拿走後，其他 Worker 就看不到」設計。
+
+例如，同一個 `orders / Partition 0` 保存 Record 0～3，不同 Group 的 Committed Offset 可以分別是：
+
+| Group | Committed Offset |
+|---|---|
+| inventory-group | 3 |
+| email-group | 1 |
+| analytics-group | 4 |
+
+一個 Group 的消費不會改變其他 Group 的進度。Group 也不是額外保存事件的資料副本。
+
+### Consumer Group、Consumer 與下游服務
+
+Group 通常對應需要獨立消費事件的應用或服務；Consumer 通常是服務實例裡的 Kafka Client，不必額外部署成獨立服務。
+
+同樣讀取 `orders` 的三個 Partition，不同服務可以投入不同數量的 Consumer：
+
+| Group／下游服務 | Consumer 分工 |
+|---|---|
+| payment-group／Payment | C1：P0；C2：P1；C3：P2 |
+| inventory-group／Inventory | C1：P0、P1；C2：P2 |
+| analytics-group／Analytics | C1：P0、P1、P2 |
+
+表中的 C1、C2、C3 屬於各自的 Group，不是跨 Group 共用成員。Group 數量取決於獨立的消費需求，Consumer 數量取決於流量、處理能力與部署規模，Partition 數量則限制每個 Group 的分區讀取平行度。
 
 ### Committed Offset
 
@@ -446,7 +508,9 @@ committed offset = 5
 
 Consumer 可以自動或手動提交 Offset。
 
-如果 Client 希望用它代表「已處理完成」，就需要改成處理成功後才提交 offset。
+如果 Client 希望用它代表「已處理完成」，就需要在處理成功後才提交 Offset。Commit 本身不會替你確認寄信、扣款或其他業務操作是否成功。
+
+Committed Offset 是 Group 針對特定 Topic／Partition 記錄的進度。若平行處理資料，不能因為較大的 Offset 已完成，就提交超過較小但尚未完成的 Record，否則恢復時可能跳過它。
 
 ### Rebalance
 
@@ -465,7 +529,9 @@ Consumer B → Partition 0、1、2
 
 這個重新決定「哪個 Consumer 負責哪些 Partition」的過程叫做 **Rebalance**。
 
-它不會重新排列 Partition 裡的 Record。
+它改變的是誰負責消費，不會重新排列 Partition 裡的 Record。接手的 Consumer 會根據有效的已提交進度恢復。
+
+例如 Consumer A 已經處理 Offset 2，卻在 Commit 前故障，Consumer B 接手後可能重新讀取並再次處理 Offset 2。
 
 Consumer 加入、離開、故障，或 Topic 的 Partition 發生變化，都可能引發重新分配。
 
@@ -481,37 +547,19 @@ Lag               =  300
 
 Lag 持續增加，可能代表 Consumer 的讀取或處理速度跟不上資料產生速度。但 Lag 本身**不能直接指出原因**，也不一定等於「尚未完成業務處理的筆數」。
 
+本例假設 Offset 0～999 連續存在；已提交 700，表示恢復時從 700 開始。尚未提交的資料可能已讀取甚至已處理，只是還沒提交。如果 Compaction 造成空洞，Offset 差也不等於實際保留的 Record 數。不同監控工具採用的尾端基準可能不同，判讀時要確認指標定義。
+
 ### Replay
 
 Kafka 的 Record 不會因為 Consumer 讀過就立刻消失。只要資料還在保留範圍內，Consumer 就能把讀取位置移回較早的地方，重新讀取。
 
 例如 Analytics Service 的計算程式昨天有 Bug，修好後可以重新讀取昨天仍被保留的資料，再計算一次。這稱為 **Replay**。
 
+Replay 不只用於故障恢復。統計邏輯改變時，也能用保留中的歷史資料重新計算。
+
+Replay 不表示一定要先修改 Committed Offset，也可調整當前讀取位置或使用新的 Group，提交策略取決於用途。資料已被清除，就無法從 Kafka 重讀。
+
 Replay 也會讓下游再次收到資料；如果處理會產生外部副作用，例如寄信或扣款，就必須考慮重複執行。
-
-### ShareConsumer／Share Group
-
-前面的 `KafkaConsumer`／Consumer Group 以 Partition 分配作為主要分工方式。
-
-Kafka 也提供 **ShareConsumer／Share Group** ，讓多個 Consumer 可以共同處理來自同一個 Partition 的不同 Record，並對個別 Record 做 acknowledgement。
-
-適合較接近 Queue 的工作分配情境。
-
-```text
-同一個 Partition 的 Records
-    ├── Record A → ShareConsumer 1
-    ├── Record B → ShareConsumer 2
-    └── Record C → ShareConsumer 3
-```
-
-先記住兩者的取捨：
-
-```text
-Consumer Group → 以 Partition 分工，依 Partition 順序讀取
-Share Group    → 以 Record 分工，但不保證同樣的處理順序
-```
-
-Share Group 在 Kafka 4.2 已可用於正式環境。這裡只會簡單帶過，不會深入其 acknowledgement 與重送規則。
 
 ---
 
@@ -519,7 +567,7 @@ Share Group 在 Kafka 4.2 已可用於正式環境。這裡只會簡單帶過，
 
 ### Replication
 
-如果 Partition 只存在 Broker A，Broker A 故障時，這個 Partition 就無法由其他 Broker 接手。因此 Kafka 可以為 Partition 建立多份 Replica（備份）：
+如果 Partition 只存在 Broker A，Broker A 故障時，這個 Partition 就無法由其他 Broker 接手。這表示可能失去存取能力，不代表每次 Broker 暫停都已永久丟失磁碟資料。因此 Kafka 可以為 Partition 建立多份 Replica（備份）：
 
 ```text
 Partition 0
@@ -528,7 +576,9 @@ Partition 0
 └── Broker C：Follower Replica
 ```
 
-`Replication Factor = 3` ： 表示這個 Partition 配置了三份 Replica。
+`Replication Factor = 3` 表示這個 Partition 配置了三份 Replica，包含 Leader。
+
+Producer 不會同時向三份 Replica 寫入。Follower 主動向 Leader 取得資料，再寫入自己的副本。Replication 提供容錯，但是否能安全接手、是否有資料遺失風險，仍取決於副本狀態、寫入確認與相關設定。
 
 ### Leader／Follower
 
@@ -549,7 +599,11 @@ Follower：Broker B、Broker C
 ISR：[A, B]
 ```
 
-這代表 C 的數據還不是最新的。當 Leader 故障時，下一個可寫入資料的 Leader 只會從 ISR 中選取。
+這個例子中，B 持續複寫並符合條件，C 因落後太久而不在 ISR。ISR 不表示每個副本在每一瞬間都完全相同；Follower 必須持續取得資料，並在允許的時間條件內跟上。
+
+在這堂課採用的基本 ISR 與正常 Leader Election 模型中，Leader 故障時，通常從合格 ISR 選出新 Leader。
+
+這不是所有版本與設定的唯一選舉條件。Unclean Leader Election 有不同的可用性與資料安全取捨，可能丟失資料；Kafka 4.0 起的 Eligible Leader Replicas（ELR）啟用時，也能追蹤 ISR 外仍可安全當選的副本。這裡先理解基本模型，不深入例外設定。
 
 ### Controller 與 KRaft
 
@@ -571,9 +625,44 @@ Controller → 主要管理 Cluster Metadata 與控制面
 
 Broker 和 Controller 是**角色**：它們可以部署在不同節點；開發或較小型環境也可能讓同一節點同時扮演兩種角色。Controller 使用的 Metadata Log，與前面討論的 Topic Partition 資料 Log 是不同用途。
 
+Controller 負責管理叢集，不經手一般業務 Record。Broker 自己處理 Producer／Consumer 的讀寫；Metadata 更新不是業務資料流。
+
+### KRaft：Controller 自己故障怎麼辦？
+
+如果負責管理叢集的 Controller 自己故障，也需要有其他節點接手。KRaft Controller Quorum 是共同管理 Metadata 的 Controller 節點群，例如：
+
+- Controller A：Active，負責目前的管理決策。
+- Controller B、C：Standby，可在故障後參與選舉與接手。
+- 各 Controller 各自保存 Metadata Log 副本，不是共用一個資料庫。
+
+Metadata Log 依序保存叢集管理資訊的變更。這裡的 Active／Standby 是管理角色，別和 Partition 的 Leader／Follower 資料角色混在一起。
+
+### Broker 故障後，誰決定新 Leader？
+
+回到 `orders / Partition 0`：
+
+1. Broker A 原本是 Partition Leader，故障前 ISR = `[A, B]`。
+2. Broker B 是 ISR 成員，可在本例正常選舉下接手。
+3. Broker C 不在 ISR，不參與本例正常接手。
+4. Active Controller 協調 B 成為新的 Partition Leader，並更新 Cluster Metadata。
+
+**Active Controller 管理叢集；Partition Leader 提供特定 Partition 的資料讀寫。** 它們是不同職責。
+
+### 資料清理策略
+
+可靠性之外，Records 持續增加，也要決定保存多久、是否保留完整歷史。Topic 的 `cleanup.policy` 可選擇：
+
+- `delete`：依時間／容量清理舊資料。
+- `compact`：依 Key 清理較舊值，保留較新的狀態。
+- `delete,compact`：兩種方式並用。
+
+接下來先看 `delete` 的 Retention 與 Segment，再看 `compact`。Segment 是 Log 的管理單位，也用於 Compaction，並非 `delete` 專屬。
+
 ### Retention
 
-Kafka 不會因為 Consumer 讀過 Record 就立刻刪除。Topic 可以設定依時間或容量清理舊資料，例如保留七天。
+Kafka 不會因為 Consumer 讀過 Record 就立刻刪除。Topic 可以設定依時間或容量清理舊資料，例如 `cleanup.policy=delete`、`retention.ms=604800000`，以七天作為時間條件。
+
+`retention.ms` 是時間設定，`retention.bytes` 是容量設定。容量限制可能讓資料無法保留到七天；七天也不是每筆 Record 的精準刪除時間。符合條件的舊資料會以 Segment 為單位由背景機制清理，不是到期逐筆立即刪除。
 
 這是 Replay 得以運作的重要原因，但也代表：
 
@@ -592,6 +681,8 @@ Partition 0
 
 Segment 的切分不表示每個檔案固定包含相同數量的 Record。
 
+Active Segment 是目前接受新 Record 附加寫入的段。Kafka 依 `segment.bytes`、`segment.ms` 等輪替條件建立新的 Active Segment，不需要應用程式手動切割。分段方便管理、索引與清理；Retention 通常刪除符合條件的舊 Segment。
+
 ### Log Compaction
 
 除了依時間或容量刪除舊資料，Kafka 也支援 **Log Compaction**。它以 Key 為基礎，讓 Log 至少能保留每個 Key 較新的狀態。
@@ -607,11 +698,17 @@ O1001 → SHIPPED
 
 Topic 可以選擇依時間／容量刪除、依 Key 執行 Compaction，或同時使用兩種清理方式。選擇取決於這條資料流的用途：完整事件歷史與「每個 Key 的較新狀態」是不同需求。
 
+若要保留 `OrderPlaced`、`PaymentCompleted`、`OrderShipped` 的事件演進，就需要保留期限內的完整歷史，不能用只剩最新狀態的資料流取代。若要重建每張訂單目前的狀態，則可用 `orderId` 作為 Key，保存 `CREATED`、`PAID`、`SHIPPED` 的狀態更新。兩種需求可以使用不同 Topic。
+
+`delete,compact` 並用時，保留下來的較新值也受時間／容量政策限制，不能理解成每個 Key 永久保留。Compaction 由背景 Log Cleaner 執行；進階的 tombstone 與清理條件，這堂課先不展開。
+
 ---
 
 ## 六、網路失敗、Retry 與可靠性
 
 有 Replica 不代表所有故障都解決了。Producer 和 Broker 透過網路溝通，而網路失敗時，Client 有時無法判斷一個操作究竟有沒有成功。
+
+可靠性要分清三層責任：Producer 負責寫入、等待確認與避免發送重試造成重複 Record；Consumer 負責讀取、提交與恢復進度；應用程式與外部服務負責業務結果，以及寄信、扣款等操作的冪等與去重。
 
 ### 最麻煩的狀態：不知道有沒有成功
 
@@ -638,6 +735,8 @@ Producer 可以在符合條件時重試。但如果第一次其實已成功，�
 
 這就是為什麼「重試」與「避免重複」需要一起考慮。
 
+上述風險是在沒有有效 Producer Idempotence，或應用程式主動重送同一個業務事件時的示例，不表示現代 Producer 預設必然寫入兩次。Timeout 代表結果未知，不能直接當成寫入失敗。
+
 ### Acknowledgement／`acks`
 
 Producer 可以用 `acks` 指定何時將寫入視為已獲 Broker 確認：
@@ -655,7 +754,19 @@ acks=all
 
 `acks=all` 中的「all」是**目前 ISR 的全部成員**，不一定是這個 Partition 原本配置的所有 Replica。如果 ISR 只剩一份，仍希望拒絕寫入，就需要搭配 `min.insync.replicas` 設定。
 
+### min.insync.replicas
+
 例如 `Replication Factor = 3`、`min.insync.replicas = 2`、Producer 使用 `acks=all`，可以要求至少有兩份符合條件的同步副本，寫入才算成功。
+
+| 當前 ISR | 簡化情境中的寫入結果 |
+|---|---|
+| A、B、C | 可接受，等待目前 ISR 的確認條件 |
+| A、B | 可接受，等待目前 ISR 的確認條件 |
+| A | 拒絕寫入 |
+
+`min.insync.replicas=2` 不是說只等待兩份；ISR 有三份時，`acks=all` 仍等待目前 ISR 的確認條件。真實 ISR 可能在操作期間變動，並產生錯誤或 Timeout。最低副本要求是在可用性與資料安全之間做取捨。
+
+acks 確認不代表 Consumer 已處理，也不等於立即 fsync 或任何故障下都不會遺失。即使 Broker 已滿足確認條件，回覆仍可能遺失。
 
 ### Idempotence：冪等性
 
@@ -663,7 +774,11 @@ acks=all
 
 例如： `SET order.status = "SHIPPED"` 若重複執行，最後狀態仍是 `SHIPPED`；但 `order_count += 1` 若重複執行兩次，Order 的數量就會多一筆。
 
-Kafka Producer 有 Idempotence 機制，可避免特定 Producer 重試造成重複寫入。
+Kafka Producer 有 Idempotence 機制，可避免其涵蓋的發送重試造成重複寫入。
+
+現代 Apache Kafka Java Producer 的 `enable.idempotence` 預設為 `true`，前提是沒有衝突設定。若未明確指定但存在衝突設定，功能可能停用；明確啟用又設定衝突時，會拋出設定錯誤。需要配合 `acks=all`、`retries>0`、`max.in.flight.requests.per.connection<=5`。不要將 Java Client 的預設套用到所有第三方 Client 或舊版。
+
+這個機制使用 Producer 識別與序號處理發送重試，不是以業務 `eventId` 或 Key 做全域去重，也不能防止應用程式主動發出兩次相同業務事件。
 
 但 Producer 沒有重複寫入 Event，不代表 Consumer 不會重複讀取並執行，例如：
 
@@ -681,9 +796,11 @@ Consumer 故障，Offset 尚未提交
 
 Producer Idempotence 無法替外部寄信服務判斷「這封信是否已寄過」。
 
+如果寄信 API 支援 Idempotency Key，應用程式可用 `eventId` 識別同一次操作。單純「查表、寄信、再寫表」仍有故障窗口，不能直接視為只寄一次。
+
 ### At-most-once、At-least-once、Exactly-once
 
-假設 Consumer 需要「處理 Event」與「提交 Offset」，兩件事的順序會產生不同風險。
+假設 Consumer 需要「處理 Event」與「提交 Offset」，兩件事的順序會產生不同風險。這裡的 Process Event 是應用程式執行寄信、更新統計或保留庫存等業務邏輯，不是 Consumer 只是讀到 Record。
 
 **先提交，再處理：** 故障後 Event 未處理
 
@@ -702,6 +819,21 @@ Commit Offset → 故障 → 尚未完成處理
 - **At-most-once**：最多處理一次，但可能漏掉。
 - **At-least-once**：至少處理一次，但可能重複。
 - **Exactly-once**：讓指定範圍內的處理結果只生效一次；必須明確說明系統邊界與使用的機制，不能直接套用到外部寄信、付款等操作。
+
+先處理再提交的方式，還需要處理成功後正確提交、持續重試，以及所需資料仍被保留等前提。At-least-once 不表示 Kafka 自動保證外部信件送達。
+
+### Exactly-once：Kafka-to-Kafka 的處理保證
+
+假設 Analytics Service 從 `orders` 讀取 `OrderPlaced`，計算統計，再把結果寫入 `stats`。可以在同一個 Kafka Transaction 中，一起 Commit 或 Abort：
+
+- 輸出 Records：寫入 `stats` Topic。
+- 輸入 Offsets：提交 `orders` Topic 的消費進度。
+
+若交易中止，輸出不應被 `read_committed` Consumer 視為已提交結果；該筆中止交易也不會推進已提交的輸入進度。應用程式仍要正確恢復並重新處理。
+
+這需要正確使用交易、協調 Offset、設定 `read_committed`、關閉自動 Commit 等。這堂課先理解邊界，不介紹 API。
+
+**Exactly-once 表示指定交易範圍內的處理結果只生效一次，不表示程式碼只執行一次。** Kafka Transaction 協調輸出與輸入進度，不會自動涵蓋外部寄信或付款 API；外部操作仍需要冪等、去重或其他一致性機制。
 
 不用死背，只需要思考：
 
@@ -756,10 +888,11 @@ Consumer 主動讀取 Record
 > Kafka 保存資料與讀取進度，但業務處理是否成功、會不會重複執行，仍需要外部服務自己設計。
 
 學 Kafka 不需要把每個名詞當成獨立知識背起來。
-遇到新的 Kafka Concept，可以先問兩個問題：
+遇到新的 Kafka Concept，可以先問三個問題：
 
-1. 它出現在一筆 Event / Record 的哪個環節？
-2. 它想解決什麼問題，又有什麼使用條件？
+1. **在哪裡？** 它出現在 Event Flow 的哪個環節？
+2. **為什麼？** 它想解決什麼問題？
+3. **有什麼限制？** 它能保證什麼，又不能保證什麼？
 
 再往下找到對應的 Kafka Concept：
 
@@ -779,3 +912,15 @@ Consumer 主動讀取 Record
 14. Retry 造成重複？ → **Idempotence**
 
 **這堂課希望讓你們對 Kafka 有一套心智模型，深入細節時才不會迷失。**
+
+## 延伸閱讀
+
+這堂課先建立 Event Flow 的心智模型。接下來可依想解決的問題選擇方向：
+
+- **[Kafka Streams](https://kafka.apache.org/43/streams/)**：串流計算、Aggregation 與 Windowing。
+- **[Kafka Connect](https://kafka.apache.org/43/kafka-connect/)**：Kafka 與資料庫、外部系統的資料整合。
+- **[KRaft](https://kafka.apache.org/43/operations/kraft/)**：Raft Consensus、Controller Quorum 與 Metadata Replication。
+- **[Share Group](https://kafka.apache.org/43/javadoc/org/apache/kafka/clients/consumer/KafkaShareConsumer.html)**：不同於傳統 Consumer Group 的 Partition 分工，可探索多個 Consumer 共同處理同一 Partition 的不同 Record，以及 Record-level Acknowledgement。不要直接套用傳統 Group 的順序與平行度模型。
+- **[Reliability & Operations](https://kafka.apache.org/43/design/design/)**：交易、故障恢復與可靠性邊界；維運可接著看 [Consumer Lag 監控](https://kafka.apache.org/43/operations/monitoring/)。
+
+無論深入哪個主題，都可以回到同樣的三個問題：它在資料流的哪裡、解決什麼問題，以及保證的範圍與限制。
