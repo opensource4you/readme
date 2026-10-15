@@ -188,6 +188,7 @@ By [蔡嘉平]（本社群的老大）：
 * [從歷史系到阿帕契﹣轉職仔的開源之路](https://medium.com/@frankvicky/892f00a65474)
 * [The Apache YuniKorn committer's path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
 * [參與 YuniKorn 貢獻的心得](https://www.facebook.com/share/p/1gg56eWQ73BPMtPo/)
+* [我思故我在：AI 年代的開源貢獻](https://medium.com/@poiblacktea/%E6%88%91%E6%80%9D%E6%95%85%E6%88%91%E5%9C%A8-ai-%E5%B9%B4%E4%BB%A3%E7%9A%84%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB-e00df9853a43)
 * [從 0 成為 Apache Airflow Committer](https://blog.zhu424.dev/zh-tw/open-source-contribution/becoming-an-apache-airflow-committer-from-0/)
 * [開源之旅 - Apache Airflow Committer](https://guan404ming.com/blog/0)
 * [成為 Airflow PMC Member "I'm the PMC." "Not yet."](https://blog.wei-lee.me/posts/tech/2025/10/becoming-an-airflow-pmc-member/)
