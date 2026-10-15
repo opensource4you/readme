@@ -13,5 +13,4 @@
 - 系列化優化 `getLocationList()` 的冗余 list copy，已 merged 5 個（如 [#11038](https://github.com/apache/ozone/pull/11038)）
 - 負責 Ozone Helm chart 的 HA 改進（[HDDS-14382](https://issues.apache.org/jira/browse/HDDS-14382)），12 個子任務中 6 個已 resolved
 - 修 flaky test 時追到根因（如 [#11029](https://github.com/apache/ozone/pull/11029)、[#11202](https://github.com/apache/ozone/pull/11202)）
-- 準備 Ozone 教材
 
