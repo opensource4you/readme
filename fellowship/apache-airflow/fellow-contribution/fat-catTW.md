@@ -5,7 +5,6 @@
 - Slack：https://opensource4you.slack.com/team/U08T4PK37EC
 - 日期：2026 年 3 月 ~ 2026 年 10 月 14日
 
-
 ## 總覽
 - PR: 24 Merged([清單](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Afat-catTW+is%3Amerged)) + 5 Open
   - 其中 15 個 PR 曾被加上回補目標標籤（`v3-3-test` 12、`v3-2-test` 2、`v3-1-test` 2、`airflow-ctl/v0-1-test` 1）
@@ -24,7 +23,6 @@
 Provider Template Field／Jinja Rendering、Execution／API 的資料與權限安全，以及 UI 可用性；並完成 53 次 Code Review，協助強化 API、Scheduler 與 Provider 功能的正確性與測試。
 
 
-
 ## Month: October 2026 (截止到 10/14)
 
 Summary: 
@@ -32,35 +30,27 @@ Summary:
 - Code Review: 27 
 - Dev List: 2
 
-
 ### Code Review
 - [Fix 400 and 500s on POST /connections/defaults in multi-team mode- #74615](https://github.com/apache/airflow/pull/74615):<br>
   - 審查 Multi-Team 模式下 Connection API 的錯誤處理與權限驗證修正，並提交 Approved Review。
 
-
 - [Enforce the Dag import timeout from the task supervisor side- #74571](https://github.com/apache/airflow/pull/74571):<br>
   - 審查 Task Supervisor 的 DAG Import Timeout 強制執行機制。
-
 
 - [Add missing Taiwanese Mandarin translations- #74545](https://github.com/apache/airflow/pull/74545):<br>
   - 審查 Airflow UI 的繁體中文翻譯補全與修正。
 
-
 - [Fix KubernetesJobOperator RBAC and Kueue preemption issues- #74497](https://github.com/apache/airflow/pull/74497):<br>
   - 審查 KubernetesJobOperator 的 RBAC 與 Kueue Preemption 修正，指出 Job 識別資訊及 XCom 處理流程的潛在問題，並提出修改建議。
-
 
 - [Add missing Taiwanese Mandarin translations for task states and Dag list settings- #74486](https://github.com/apache/airflow/pull/74486):<br>
   - 審查 Airflow UI 的繁體中文翻譯補全與修正。
 
-
 - [Allow slashed connection IDs in GET and DELETE connection routes- #74475](https://github.com/apache/airflow/pull/74475):<br>
   - 審查 Connection API 支援含斜線 ID 的修正，確認 GET、DELETE 路由與測試
 
-
 - [Fix dag.test() failing for task ids with non-ASCII characters- #74472](https://github.com/apache/airflow/pull/74472):<br>
   - 審查 dag.test() 處理非 ASCII Task ID 的修正，建議補充測試，並指出測試程式的 Ruff F821 錯誤。
-
 
 - [Validate connection ports in Task SDK- #74463](https://github.com/apache/airflow/pull/74463):<br>
   - 審查 Task SDK 的 Connection Port 驗證功能與邊界測試
@@ -122,11 +112,10 @@ Summary:
 - [Avoid a full asset table scan per request in simple auth manager- #72934](https://github.com/apache/airflow/pull/72934):<br>
   - 審查 Simple Auth Manager 的 Asset 權限驗證效能優化，避免不必要的資料表掃描。
 
-
 ### Dev List
-
 - [[DISCUSS] Next step after the PR limit: "your PR, your CI" - running CI for external contributors' PRs in their own forks](https://lists.apache.org/thread/ky392mrrcmj312y1r276r30p584n804c):<br>
   - 參與 Airflow CI 改革討論，認同 Andrew 的觀點，建議在 PR 合併前保留 ASF CI 驗證，以兼顧 CI 資源效率與程式碼可靠性。
+
 - [[DISCUSS] Merging "almost" ready PRs with maintainer-fixups from contributors](https://lists.apache.org/thread.html/zpv8f6gsokomrw2f516cxhwkvqkx1sxh):<br>
   - 參與 Airflow PR Review 流程改善討論，支持 Maintainer 直接修正 Minor Issues，並指出此方式能減少 Review 往返、提升效率，避免 PR 因 Contributor 未及時回應而延遲合併。
 ---
@@ -154,12 +143,9 @@ Summary:
 改善 Airflow deadline alert 在處理 DagRun-based reference 時的診斷訊息。
   - 當 deadline reference 需要讀取 `logical_date` 或 `queued_at`，但對應的 DagRun 欄位是 `None` 時，系統會跳過建立 deadline alert。這個 PR 讓 warning log 明確指出 dag_id、run_id、deadline_alert_id、reference type，以及是哪個 DagRun 欄位缺值，方便後續除錯。
 
-
 - [Fix XCom slice endpoint for crossed bounds- #72584](https://github.com/apache/airflow/pull/72584): API server / Execution API｜`Bug 修正`<br>
   - 問題／影響：mapped XCom slice 的起訖邊界交錯時，可能產生負數 SQL LIMIT，造成不正確的資料庫查詢。
   - 解法：此情境改為回傳空結果，使 API 行為符合 Python slicing。
-
-
 
 ### Code Review
 
@@ -225,7 +211,6 @@ Summary:
 ---
 
 
-
 ## Month: August 2026
 
 Summary: 
@@ -287,7 +272,6 @@ Summary:
 ---
 
 
-
 ## Month: July 2026
 
 Summary: 
@@ -298,23 +282,19 @@ Summary:
   -  修正 BashOperator 在 __init__() 階段過早判斷 Template Field 的問題，避免 Jinja Template 尚未渲染就選擇錯誤的指令執行方式。
   - 將判斷邏輯移至 execute()，確保正確識別 Inline Command 與 Shell Script，並移除 CI 檢查的例外項目、補充 Regression Test。
 
-
 - [Drop redundant BigQueryInsertJobOperator job ID snapshot in __init__- #70494](https://github.com/apache/airflow/pull/70494): Providers（Google）｜`重構` `backport: v3-3-test`<br>
   -  移除 BigQueryInsertJobOperator 在 __init__() 階段對 job_id 進行的冗餘儲存，避免不必要地讀取尚未渲染的 Template Field。
   -  保留 execute() 階段原有的 Job ID 處理邏輯，確保既有行為不變，並移除 CI 檢查例外項目、補充單元測試。
-
 
 - [Move AwsToAwsBaseOperator fallback out of init- #70445](https://github.com/apache/airflow/pull/70445): Providers（AWS）｜`重構` `backport: v3-3-test`<br>
   - 重構 AwsToAwsBaseOperator 的 Destination Connection Fallback Logic，避免在 __init__() 階段對 Template Field 進行額外處理。
   - 改用 @property 動態處理預設連線，保留未指定目的地連線時使用來源連線的行為，並正確支援明確傳入 None。
   - 移除 validate_operators_init 例外項目，並新增單元測試驗證連線設定行為。
 
-
 - [Allow templated fields in AppFlow operators- #70440](https://github.com/apache/airflow/pull/70440): Providers（AWS）｜`Bug 修正` `backport: v3-3-test`<br>
   -  修正 AWS AppFlow Operators 在 __init__() 階段過早驗證 source、filter_date 等 Template Fields，導致 Jinja Template 無法正常使用的問題。
   -  將參數驗證邏輯移至 execute()，確保在 Template Rendering 完成後才進行驗證，並統一多個 AppFlow Operators 的驗證方式。
   -  移除 validate_operators_init 例外項目，新增測試驗證動態參數能正常執行。
-
 
 - [Fix EcsRunTaskOperator deferred-logs region and template field init- #70464](https://github.com/apache/airflow/pull/70464): Providers（AWS）｜`Bug 修正` `backport: v3-3-test`<br>
   -  將 EcsRunTaskOperator 的 Template Field 處理邏輯移出 __init__()，避免在 Jinja Template 渲染前進行參數判斷。
@@ -325,17 +305,14 @@ Summary:
   -  將 TeradataToTeradataOperator 的 sql_params 預設值處理延後至 execute()，避免在 Jinja Template 渲染前修改參數。
   -  移除 validate_operators_init 例外項目，並新增單元測試驗證預設參數行為。
 
-
 - [Read fresh Dag bundle state during refresh- #69830](https://github.com/apache/airflow/pull/69830): Airflow Core（DAG Bundle）｜`Bug 修正` `backport: v3-3-test`<br>
   - 問題／影響：多個 DAG Processors 運作時，SQLAlchemy Identity Map 可能讀到過期 DAG Bundle 狀態，延後刷新結果的可見性。
   - 解法：直接查詢 `last_refreshed` 與 `version` 欄位，避開 ORM 快取，確保 Processor 取得最新資料庫狀態。
   - 驗證：新增 Regression Test，覆蓋跨 Session 更新。
 
-
 - [Fix Neo4jOperator templated query validation- #70348](https://github.com/apache/airflow/pull/70348): Providers（Neo4j）｜`Bug 修正` `backport: v3-3-test`<br>
   - 將 Neo4jOperator 的 Cypher Query 驗證邏輯移至 execute()，確保 Jinja Template 渲染後才進行驗證。
   - 調整已棄用的 sql 參數處理方式，保留 Template Rendering 支援，並移除 validate_operators_init 例外項目、補充單元測試。
-
 
 - [Route SQLAlchemyError through global exception handler- #69267](https://github.com/apache/airflow/pull/69267): API server / Execution API｜`重構` `backport: v3-3-test`<br>
   - 將 Execution API 的 SQLAlchemyError 處理統一交由 FastAPI 全域 Exception Handler，減少重複程式碼並確保錯誤回應一致。
@@ -345,6 +322,7 @@ Summary:
 - [Remove stale TODO comments for XCom map_index handling- #69369](https://github.com/apache/airflow/pull/69369): API server / Execution API｜`重構`<br>
   -  確認 XCom 的 map_index 傳遞方式符合 Execution API 與 OpenAPI 規範，移除已不適用的 TODO 註解，改善程式碼可維護性。
 ---
+
 
 ## Month: April 2026
 
@@ -356,10 +334,10 @@ Summary:
   - 為 DAG Runs 新增 Consuming Asset 篩選功能，支援透過 Asset 名稱或 URI 進行模糊搜尋，方便使用者查找消費特定 Asset 的 DAG Runs。
   - 整合 FastAPI Backend、OpenAPI 與前端篩選介面，並新增單元測試驗證搜尋功能。
 
-
 - [open task group when navigating via group name; preserve arrow toggl…- #64284](https://github.com/apache/airflow/pull/64284): UI（Task Group）｜`新功能` `backport: v3-2-test`<br>
   - 改善 Task Group 的互動方式，讓使用者能透過點擊 Group 名稱進行導航與群組切換，減少對小型展開箭頭的依賴，提升操作便利性。
 ---
+
 
 ## Month: March 2026
 
@@ -371,11 +349,9 @@ Summary:
   - 為 DAG Runs 新增 bundle_version 篩選功能，讓使用者能依據 DAG Bundle 版本查詢執行紀錄，提升版本追蹤與除錯便利性。
   - 整合 DAG Processor 的版本資料儲存、FastAPI、OpenAPI 與前端篩選介面，並新增 API 測試。
 
-
 - [Migrate yandex connection UI metadata to YAML- #63506](https://github.com/apache/airflow/pull/63506): Providers（Yandex）｜`重構`<br>
   - 將 Yandex Cloud Connection 的 UI Metadata 整合至 provider.yaml，定義專屬認證及連線欄位，並隱藏不適用的預設欄位。
   - 同步更新 Provider Info，統一設定管理方式並改善 Connection 表單的使用體驗。
-
 
 - [Migrate Qdrant connection UI metadata to YAML- #62644](https://github.com/apache/airflow/pull/62644): Providers（Qdrant）｜`重構`<br>
   - 將 Qdrant Connection 的 UI Metadata 遷移至 provider.yaml，統一定義 URL、gRPC、HTTPS 等連線欄位。
