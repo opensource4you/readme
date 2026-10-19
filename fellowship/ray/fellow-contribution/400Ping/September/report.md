@@ -10,7 +10,7 @@
 | --- | ---: |
 | PRs merged | 1 |
 | PRs opened (open / draft) | 2 |
-| PRs reviewed | 1 |
+| PRs reviewed | 2 |
 
 Main focus this month was Ray Data: landing task-based shuffle v2 for `sort()`, migrating the CSV datasource to DataSourceV2, and speeding up Ray Data release tests by removing the custom BYOD image build.
 
