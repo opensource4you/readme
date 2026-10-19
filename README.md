@@ -81,7 +81,7 @@ By [蔡嘉平]（本社群的老大）：
 * <https://github.com/apache/mahout>
 * 語言：Python / Rust / CUDA
 * 頻道：[apache-mahout]
-* 主要 mentor：[冠銘]、[冠澔]、[傑凱]、[咸誠]
+* 主要 mentor：[冠銘]、[冠澔]、[傑凱]、[咸誠]、[冠華]
 
 ### Flyte
 
@@ -324,6 +324,7 @@ By [蔡嘉平]（本社群的老大）：
 [冠澔]: https://opensource4you.slack.com/team/U05BJ6M8L4Q
 [傑凱]: https://opensource4you.slack.com/team/U07K36M3P8R
 [咸誠]: https://opensource4you.slack.com/team/U06G0T8RZ6E
+[冠華]: https://opensource4you.slack.com/team/U099N3SPB34
 [熊大]: https://opensource4you.slack.com/team/U057L1EKP47
 [楊承昊（梯口）]: https://opensource4you.slack.com/team/U07QN8DJ3UY
 [邱譯]: https://opensource4you.slack.com/team/U05PQPN19JQ
