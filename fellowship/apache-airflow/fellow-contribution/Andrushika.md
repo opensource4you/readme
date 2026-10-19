@@ -1,9 +1,10 @@
 # Apache Airflow Contribution Report by Andrushika
 
-## 總覽：2026 年 6 月 – 10 月（截至 10/07）
+- GitHub: [@Andrushika](https://github.com/Andrushika)
+- Slack: https://opensource4you.slack.com/team/U08RX1DGR1D
 
 **Summary**
-
+- 日期：2026 年 6 月 ～ 10 月 7 日
 - PR: apache/airflow merged 53 個 + apache/airflow-site 2 個 + apache/infrastructure-asfyaml 1 個（open）
 - Code Review: 36
 - Issue Triage / RC Testing: 14
