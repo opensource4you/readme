@@ -1,7 +1,7 @@
 # 0yukali0
 
 - GitHub: https://github.com/0yukali0
-- Slack: https://opensource4you.slack.com
+- Slack: https://opensource4you.slack.com/team/U078KR51S9M
 
 ## 2026-10-20
 
