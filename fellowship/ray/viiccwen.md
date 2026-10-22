@@ -13,5 +13,4 @@ Nominator: dancingactor, Suggested level: 30k,
 - Built a memory observability series to help users avoid OOM: exported task peak USS and logical memory metrics with Grafana charts ([#65666](https://github.com/ray-project/ray/pull/65666), [#66044](https://github.com/ray-project/ray/pull/66044)), added a warning with a suggested memory value when it is set below 1.25x max USS ([#65512](https://github.com/ray-project/ray/pull/65512)), and updated the OOM prevention docs ([#65509](https://github.com/ray-project/ray/pull/65509))
 - Found, reported and fixed silent data loss in hash-shuffle (V2) anti joins, where rows were dropped when the other side was empty and had an unknown schema ([#66126](https://github.com/ray-project/ray/pull/66126))
 - Reviewed other fellows' PRs with suggestions ([#66878](https://github.com/ray-project/ray/pull/66878))
-- Merged the most PRs and filed the most issues of all Ray Fellowship participants
-- Solid work for an early contributor
+- Bonus reason: Merged 15 Ray Data PRs in the first two months of contributing, and PR quality was recognized by Ray Data core maintainer Balaji
