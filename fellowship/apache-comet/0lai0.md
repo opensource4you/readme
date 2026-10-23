@@ -3,7 +3,7 @@
 - Slack：https://opensource4you.slack.com/team/U05ARKDBZ37
 
 ## 2026-10-22
-- 提名人：hsiang-c
+- 提名人：Sean
 - 建議等級：2 萬 (Base)
 - 事蹟：
     - Yu-Chen 是最早開始貢獻 Comet 的 TAIONE 開源基金會成員，也是最早得到 Comet 核心成員佳評的外部貢獻者。
