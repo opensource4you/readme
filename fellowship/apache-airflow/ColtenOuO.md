@@ -5,10 +5,12 @@
 
 ## 2026-10-26
 
-- 提名人：Lee-W
+- 提名人：Lee-W、jason810496
 - 建議等級：2 萬
 - 事蹟：
     - 完整貢獻：[Apache Airflow 開源貢獻紀錄 by ColtenOuO](./fellow-contribution/ColtenOuO.md)。
     - 先想清楚影響再動手，而不是衝 PR 數：每個問題先讀懂、評估影響面，效能修正都附實測，例如刪除大量歷史 Dag 在 PostgreSQL 上約快 11 倍（[#71185](https://github.com/apache/airflow/pull/71185)）
     - 修的是會造成資料遺失或防護失效的問題：`HttpOperator` deferrable 分頁只回傳最後一頁（[#72388](https://github.com/apache/airflow/pull/72388)）、`SQLToolset(allowed_tables=[])` 放行全部資料表（[#73381](https://github.com/apache/airflow/pull/73381)）
     - review 有深度，能看出對 rolling upgrade 的影響（[#73748](https://github.com/apache/airflow/pull/73748)）
+    - 在 3.4.0 發布功能重點之一的 [Common AI Provider](https://airflow.apache.org/blog/common-ai-provider/) 有 [14 個貢獻](https://github.com/apache/airflow/pulls?q=is%3Apr+state%3Amerged+author%3AColtenOuO+label%3Aprovider%3Acommon-ai+merged%3A2026-01-01..2026-10-25) hardening 相關貢獻
+- 今年到 2026-10-25 為止，在 [LFX Insights 上排名 36](https://insights.linuxfoundation.org/project/apache-airflow/contributors?timeRange=custom&start=2026-01-01&end=2026-10-26)
