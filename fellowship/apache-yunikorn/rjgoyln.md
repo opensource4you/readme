@@ -5,8 +5,10 @@
 
 ## 2026-10-10
 
-提名人: HuangTing-Yao, chenyulin0719
-建議等級：2 萬
+提名人 HuangTing-Yao、chenyulin0719 · 建議等級 2 萬
+
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
+
 2026-09-02（首次貢獻）到 2026-10-10 的重點
 
 - review 11 個 PR，9 個有實質意見，7 個來自其他 fellow
@@ -16,4 +18,3 @@
 - 修復 k8shim 多個 race，含會讓 Go runtime 直接終止 shim 的並行存取（[k8shim#1091](https://github.com/apache/yunikorn-k8shim/pull/1091)、[k8shim#1097](https://github.com/apache/yunikorn-k8shim/pull/1097)、[k8shim#1099](https://github.com/apache/yunikorn-k8shim/pull/1099)）
 - 修好自 K8s 1.37 加入後每週都失敗的 weekly e2e（[YUNIKORN-3480](https://github.com/apache/yunikorn-k8shim/pull/1108)）
 - 修正 1.6.0 起的 orphan allocation regression（[YUNIKORN-3481](https://github.com/apache/yunikorn-core/pull/1175)，review 中）
-

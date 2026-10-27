@@ -7,6 +7,8 @@
 
 提名人 chia7712 · 建議等級 2 萬
 
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
+
 - 社群評分排名第 3，兩個月 review 13 個 PR、留言 67 則，是社群裡最會 review 的年輕 committer（[reviewed PRs](https://github.com/apache/kafka/pulls?q=is%3Apr+reviewed-by%3Afrankvicky+updated%3A2026-08-05..2026-10-04)）
 - 以 Kafka committer 身分代表社群出席 Confluent Current
 - 參與「PR 換學分」校園課程（[#pr2學分](https://opensource4you.slack.com/archives/C0C5U1370ES)），準備擔任大學講師並撰寫 Kafka 教材，已完成以 LinkedIn、Uber、Netflix 等公開案例講解 Kafka 角色的真實案例教材（[readme#39](https://github.com/opensource4you/readme/pull/39)）
