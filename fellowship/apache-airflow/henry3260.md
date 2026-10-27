@@ -6,7 +6,7 @@
 ## 2026-10-26
 
 - 提名人：Lee-W、jason810496
-- 建議等級：3 萬（Base + Excellent Bonus）
+- 建議等級：3 萬
   - Reason for Excellent Bonus: Primarily based on Point 2 in the 「事蹟」 section. Henry's help is crucial to SDK relase
 - 事蹟：
   - 完整貢獻：[Apache Airflow 開源貢獻紀錄 by henry3260](./fellow-contribution/henry3260.md)。
