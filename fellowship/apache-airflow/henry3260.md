@@ -7,6 +7,7 @@
 
 - 提名人：Lee-W、jason810496
 - 建議等級：3 萬（Base + Excellent Bonus）
+  - Reason for Excellent Bonus: Primarily based on Point 2 in the 「事蹟」 section. Henry's help is crucial to SDK relase
 - 事蹟：
   - 完整貢獻：[Apache Airflow 開源貢獻紀錄 by henry3260](./fellow-contribution/henry3260.md)。
   - 解決 3.4.0 發布重點之一 Go-SDK 的關鍵功能：[9 個 PRs](https://github.com/apache/airflow/pulls?q=is%3Apr+state%3Amerged+author%3Ahenry3260+merged%3A2026-01-01..2026-10-25+%22Go+SDK%22)、[15 個 Reviews](https://github.com/apache/airflow/pulls?q=is%3Apr+state%3Amerged+reviewed-by%3Ahenry3260+merged%3A2026-01-01..2026-10-25+%22Go+SDK%22+-author%3Ahenry3260)
