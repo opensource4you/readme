@@ -1,6 +1,7 @@
 # henry3260
 
 - GitHub： <https://github.com/henry3260>
+- Slack: <https://opensource4you.slack.com/archives/D0B7Y6XC6SD>
 
 ## 2026-10-26
 
