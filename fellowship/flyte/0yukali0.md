@@ -1,11 +1,13 @@
 # 0yukali0
 
-- GitHub: https://github.com/0yukali0
-- Slack: https://opensource4you.slack.com/team/U078KR51S9M
+- GitHub：https://github.com/0yukali0
+- Slack：https://opensource4you.slack.com/team/U078KR51S9M
 
 ## 2026-10-20
 
-Nominator: pingsutw, Suggested level: 20k
+提名人 pingsutw · 建議等級 2 萬
+
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
 
 - Fixed a Flyte 2 control-plane bottleneck where action/run writes blocked on the Postgres NOTIFY pump and notifications were dropped on failure: replaced fixed queues with deduplicated pending sets, non-blocking writes, retry-with-backoff, and merged repeated updates (+1097 lines with stall/retry/concurrency/e2e tests) ([#7965](https://github.com/flyteorg/flyte/pull/7965))
 - Following up with batched `pg_notify` to cut per-notification DB round trips from N to ceil(N/100) ([#8117](https://github.com/flyteorg/flyte/pull/8117))

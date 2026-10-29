@@ -1,11 +1,13 @@
 # viiccwen
 
-- GitHub: https://github.com/viiccwen
-- Slack: https://opensource4you.slack.com/team/U099N3SPB34
+- GitHub：https://github.com/viiccwen
+- Slack：https://opensource4you.slack.com/team/U099N3SPB34
 
 ## 2026-10-19
 
-Nominator: dancingactor, Suggested level: 30k
+提名人 dancingactor · 建議等級 3 萬
+
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
 
 - [Contribution](https://github.com/opensource4you/readme/blob/main/fellowship/ray/fellow-contribution/viiccwen/September/report.md)
 - Ray Data: [merged PRs](https://github.com/ray-project/ray/pulls?q=is%3Apr+author%3Aviiccwen+is%3Amerged+merged%3A%3C%3D2026-10-19), [filed issues](https://github.com/ray-project/ray/issues?q=is%3Aissue+author%3Aviiccwen+created%3A%3C%3D2026-10-19)
@@ -18,6 +20,6 @@ Nominator: dancingactor, Suggested level: 30k
 - Propagated labels to SHUFFLE_V2 map/reduce tasks ([#66936](https://github.com/ray-project/ray/pull/66936))
 - Reviewed other contributors' PRs: pointed out that the JSON fallback path misses `UnicodeDecodeError` ([#66878](https://github.com/ray-project/ray/pull/66878)), and suggested doc accuracy fixes on USS metrics ([#66909](https://github.com/ray-project/ray/pull/66909))
 
-### Bonus reason
+### 3 萬理由
 
 Within two months of first contributing, found and fixed a silent data loss bug and delivered the memory observability series end to end.

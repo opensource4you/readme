@@ -1,11 +1,13 @@
 # xoxonut
 
-- GitHub: [@xoxonut](https://github.com/xoxonut)
-- Slack: [Frank Hui](https://opensource4you.slack.com/team/U07HQ10C4HF)
+- GitHub：https://github.com/xoxonut
+- Slack：https://opensource4you.slack.com/team/U07HQ10C4HF
 
 ## 2026-10-25
 
-Nominator: troychiu, Suggested level: 20k
+提名人 troychiu · 建議等級 2 萬
+
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
 
 - Merged 6 PRs in Kubespray and the DRA NVIDIA GPU driver since July ([merged PRs](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3Axoxonut+org%3Akubernetes-sigs+merged%3A%3E%3D2026-07-01))
 - Fixed how Kubespray configures Kubernetes feature gates by switching to dictionaries ([kubespray#13608](https://github.com/kubernetes-sigs/kubespray/pull/13608))

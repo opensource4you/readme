@@ -7,6 +7,8 @@
 
 提名人 chungen0126 · 建議等級 2 萬
 
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
+
 - 2026-04-12 成為 [Ozone committer](https://lists.apache.org/thread.html/zd0z7486s3ggw56q5qfzl5odz4s45sss)，至 2026-10-15 累計 60 個 PR merged（[PR 清單](https://github.com/apache/ozone/pulls?q=is%3Apr+author%3ARussole+is%3Amerged+merged%3A%3C%3D2026-10-15)）
 
 ### 近期事蹟（2026-08-01 至 2026-10-15）

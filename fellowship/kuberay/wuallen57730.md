@@ -1,11 +1,13 @@
 # wuallen57730
 
-- GitHub: https://github.com/wuallen57730
-- Slack: https://opensource4you.slack.com/team/U0B8264S5TM
+- GitHub：https://github.com/wuallen57730
+- Slack：https://opensource4you.slack.com/team/U0B8264S5TM
 
 ## 2026-10-19
 
-Nominator: CheyuWu, Suggested level: 20k
+提名人 CheyuWu · 建議等級 2 萬
+
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
 
 - Contribution: [August](https://github.com/opensource4you/readme/blob/main/fellowship/kuberay/fellow-contribution/wuallen57730/August/report.md), [September](https://github.com/opensource4you/readme/blob/main/fellowship/kuberay/fellow-contribution/wuallen57730/September/report.md)
 - Merged 6 PRs since the first contribution on 2026-07-31: 4 in KubeRay and 2 KubeRay docs PRs in Ray ([PR list](https://github.com/search?q=is%3Apr+author%3Awuallen57730+org%3Aray-project+is%3Amerged&type=pullrequests))

@@ -5,7 +5,9 @@
 
 ## 2026-10-10
 
-- 提名人：HuangTing-Yao , 建議等級：2 萬
+提名人 HuangTing-Yao · 建議等級 2 萬
+
+- [x] 關係人宣告：提名人與被提名者無親屬、僱傭、財務、業務合作或其他可能影響公正判斷之利害關係
 
 - 提出 25 個 PR，16 個已 merged；提報 23 張 JIRA，20 張屬 YUNIKORN-3186 preemption 強化（[月報](https://github.com/opensource4you/readme/pull/29)）
 - 修正 preemption 的多資源比較錯誤、predicate 所需 victim 被截掉、shortfall 誤判、配額誤算 victim 大小等問題（[core#1148](https://github.com/apache/yunikorn-core/pull/1148)、[core#1156](https://github.com/apache/yunikorn-core/pull/1156)、[core#1157](https://github.com/apache/yunikorn-core/pull/1157)、[core#1163](https://github.com/apache/yunikorn-core/pull/1163)、[core#1170](https://github.com/apache/yunikorn-core/pull/1170)、[core#1172](https://github.com/apache/yunikorn-core/pull/1172)）
