@@ -2,6 +2,7 @@
 
 - [簡介](#簡介)
 - [快速入口](#快速入口)
+- [Fellowship（AI 開源新勢力）](#fellowshipai-開源新勢力)
 - [比較熱鬧的專案](#比較熱鬧的專案)
 - [活動](#活動)
 - [各界的贊聲](#各界的贊聲)
@@ -31,6 +32,13 @@ By [蔡嘉平]（本社群的老大）：
 * [Facebook 粉絲團](http://opensource4you.tw/readme/facebook)
 * [Google 行事曆訂閱](http://opensource4you.tw/readme/calendar)
 
+## Fellowship（AI 開源新勢力）
+
+* 由 [TAIONE 開源基金會](https://taione.org/#/gosf/about) 出資的開源獎助計畫，各 track 的說明與資格請看 TAIONE 網站。
+* 這個 repo 只負責一件事：[提名紀錄](./fellowship)。各 track 的 lead 認為某人的貢獻累積夠了，就發 PR 提名，寫的是事蹟和連結，不是打卡數。
+* 沒有月報、沒有 KPI，什麼時候提名、提名誰，全看 lead 判斷。所以別問「我做多少才能拿到」，問這個問題的人通常拿不到。
+* 錢怎麼發、發多少，是 TAIONE 的事，社群只提供提名作為參考。
+
 ## 比較熱鬧的專案
 
 這些專案都有在 Slack 上對應的討論頻道。
@@ -38,6 +46,7 @@ By [蔡嘉平]（本社群的老大）：
 * Public channel：可以直接加入。
 * Private channel：請先簡單自我介紹、說明想做什麼（可以在 `#general` 或相關頻道提出），Mentor 了解情況後會再邀請你加進來。
 * 非常建議先自己研究想做的專案背景與技術棧，對自己的時間與成長負責。
+* 有標 `Fellowship track lead` 的專案是 [Fellowship](#fellowshipai-開源新勢力) 的 track，lead 負責提名；沒標的就是純社群專案。
 
 ### Apache Kafka
 
@@ -45,6 +54,7 @@ By [蔡嘉平]（本社群的老大）：
 * 語言：Java
 * 頻道：[apache-kafka]
 * 主要 mentor：[蔡嘉平]
+* Fellowship track lead：[蔡嘉平]
 
 ### Apache YuniKorn
 
@@ -52,6 +62,7 @@ By [蔡嘉平]（本社群的老大）：
 * 語言：Golang
 * 頻道：[apache-yunikorn]
 * 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
+* Fellowship track lead：[陳昱霖]、[黃廷堯]
 
 ### Apache Airflow
 
@@ -59,6 +70,7 @@ By [蔡嘉平]（本社群的老大）：
 * 語言：Python
 * 頻道：[apache-airflow]
 * 主要 mentor：[劉哲佑]、[李唯]
+* Fellowship track lead：[劉哲佑]、[李唯]
 * Meme Bot：[李唯]
 
 ### Apache Ozone
@@ -67,6 +79,7 @@ By [蔡嘉平]（本社群的老大）：
 * 語言：Java
 * 頻道：[apache-ozone]
 * 主要 mentor：[李仲恩]、[李緒成]
+* Fellowship track lead：[李仲恩]
 
 ### Apache DataFusion
 
@@ -75,6 +88,15 @@ By [蔡嘉平]（本社群的老大）：
 * 頻道：Private，請先表達貢獻意願後會收到入群邀請
 * 注意：主要目的為技術交流討論，無明確 Mentorship
 * 主要 mentor：[Jay Zhan]、[謝東霖]、[劉立行]
+* Fellowship track lead：[Jay Zhan]
+
+### Apache DataFusion Comet
+
+* <https://github.com/apache/datafusion-comet>
+* 語言：Rust / Scala
+* 頻道：[apache-comet]（Private，請先表達貢獻意願後會收到入群邀請）
+* 主要 mentor：[Sean]
+* Fellowship track lead：[Sean]
 
 ### Apache Mahout
 
@@ -89,6 +111,7 @@ By [蔡嘉平]（本社群的老大）：
 * 語言：Golang / Python
 * 頻道：[flyte]
 * 主要 mentor：[蘇桓平]、[吳忠全]
+* Fellowship track lead：[蘇桓平]
 
 ### KubeRay & Ray
 
@@ -98,6 +121,8 @@ By [蔡嘉平]（本社群的老大）：
 * 頻道：Private，請聯絡 [葉乃瑞]、[萬駿澔]、[吳哲御]、[陳鼎心] 其中之一加入
 * 主要 KubeRay mentor：[葉乃瑞]、[萬駿澔]、[吳哲御]
 * 主要 Ray mentor：[林宥呈]、[劉奇聖]、[Rueian]、[陳鼎心]
+* Fellowship KubeRay track lead：[吳哲御]
+* Fellowship Ray track lead：[陳鼎心]
 * [更多資訊](./mentor-projects-information/kuberay.md)
 
 ### Kubernetes & Kubespray
@@ -107,6 +132,7 @@ By [蔡嘉平]（本社群的老大）：
 * 語言：Ansible / Python (Kubespray)、Golang (Kubernetes)
 * 頻道：Private，請在 [Kubernetes Slack](https://slack.k8s.io) 開好帳號後，將 Profile 連結私訊給 mentor，由 mentor 拉進頻道
 * 主要 mentor：[邱譯]、[楊承昊（梯口）]
+* Fellowship track lead：[邱譯]
 * Mentor 主要維護 Kubernetes 的子專案 —— Kubespray，不過頻道內都可以討論 Kubernetes 貢獻（程式碼到非程式碼都有），對開源有興趣的都可以加入
 
 ### SGLang
@@ -329,8 +355,10 @@ By [蔡嘉平]（本社群的老大）：
 [楊承昊（梯口）]: https://opensource4you.slack.com/team/U07QN8DJ3UY
 [邱譯]: https://opensource4you.slack.com/team/U05PQPN19JQ
 [Cheng Jacky]: https://opensource4you.slack.com/team/U0BNBF4PYB0
+[Sean]: https://opensource4you.slack.com/team/U050KQWFKRU
 [sglang]: https://opensource4you.slack.com/archives/C0BR07SG5CY
 [apache-kafka]: https://opensource4you.slack.com/archives/C06MSQ9V4F3
+[apache-comet]: https://opensource4you.slack.com/archives/C0C2BRAFW02
 [apache-yunikorn]: https://opensource4you.slack.com/archives/C05PH5KB7NZ
 [commitizen]: https://opensource4you.slack.com/archives/C08UT4GTJGL
 [apache-airflow]: https://opensource4you.slack.com/archives/C07D4L435B5
