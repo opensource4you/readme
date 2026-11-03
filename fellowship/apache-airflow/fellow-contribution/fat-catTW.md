@@ -135,6 +135,7 @@ Summary:
 - [Allow API clients to refresh Dag bundles- #72715](https://github.com/apache/airflow/pull/72715): API server / Execution API｜`新功能` `backport: airflow-ctl/v0-1-test` `backport: v3-3-test` (OPEN)<br>
   - 問題／影響：使用者原本只能等待排程解析，無法在部署後主動加速 DAG 更新。
   - 解法：新增 REST API 觸發 DAG Bundle 刷新，透過既有的 Priority Parsing 機制支援多個 DAG Processors 的最終一致性。
+  - 翻 issue 發現部署後只能等待 DAG Bundle 刷新的痛點。 我原本透過改 DagBundleModel來解決，但 Jason 建議重用既有的 DagPriorityParsingRequest，最後將 bundle 刷新整合到 priority parsing 的流程，學到先理解並善用既有設計。
 
 - [Add missing Amazon utility tests- #72985](https://github.com/apache/airflow/pull/72985): Providers（AWS）｜`測試`<br>
   - 補上 Amazon provider 裡 RDS / SageMaker utility enum 的測試，並把已覆蓋的檔案從 OVERLOOKED_TESTS 清單移除。
@@ -146,6 +147,7 @@ Summary:
 - [Fix XCom slice endpoint for crossed bounds- #72584](https://github.com/apache/airflow/pull/72584): API server / Execution API｜`Bug 修正`<br>
   - 問題／影響：mapped XCom slice 的起訖邊界交錯時，可能產生負數 SQL LIMIT，造成不正確的資料庫查詢。
   - 解法：此情境改為回傳空結果，使 API 行為符合 Python slicing。
+  - issue 表撿到這個 bug。 Python slice 在交錯邊界時會回傳空結果，但 API 直接把範圍換算成 SQL LIMIT，可能產生負數。這讓我學到跨語言轉換時，要主動處理兩者的語意差異。
 
 ### Code Review
 
@@ -223,6 +225,7 @@ Summary:
 
 - [Limit Glue retry task UUID scan- #71546](https://github.com/apache/airflow/pull/71546): Providers（AWS）｜`效能` (OPEN)<br>
   - 優化 AWS GlueJobOperator 的重試機制，將歷史 Job Runs 搜尋限制在最多 500 筆，避免無限制查詢造成效能問題。同時改善 AWS 錯誤處理與日誌紀錄，提升系統可靠性。
+  - 在 issue 列表看到的問題。 GlueJobOperator 重試時，若遺失 Glue run ID，會掃描歷史 Job Runs 尋找 task UUID；找不到時可能一路翻完整個歷史紀錄。 我保留這個 crash recovery 能力，但加上明確的上限，避免 retry 因為找不到舊任務而無限制呼叫 AWS API。同時我把過於寬鬆的例外處理縮小為 AWS ClientError，讓非 AWS 的程式錯誤不會被吞掉，也補足失敗日誌與權限文件。Review 時有人建議用任務開始時間作為更語意化的停止條件，但我發現 Airflow 的 logical_date 不等於實際執行時間，會讓這個 PR 引入不可靠假設，因此先採原固定上限。
 
 - [Store executor callback DagRun references in the database- #71214](https://github.com/apache/airflow/pull/71214): Airflow Core（Executor）｜`重構` (OPEN)<br>
   - 問題／影響：Callback 與 DagRun 的關聯原本依賴 Payload，資料關聯較脆弱且不易維護。
@@ -240,11 +243,13 @@ Summary:
   - 為 Microsoft Graph Filesystem 新增憑證認證（Certificate-based Authentication），解決原本僅支援 Client Secret 的限制。
   - 支援透過 certificate_path 或 certificate_data 取得 Access Token，讓無法使用 Client Secret 的環境也能透過 ObjectStoragePath 存取 Microsoft Graph。
   - 保留既有認證方式，並補充單元測試與文件。
+  - 在 issue 列表看到 Microsoft Graph Filesystem 僅支援 Client Secret 的限制。 解決這 issue 讓我也藉這個功能認識 Airflow connection 的認證機制，新增憑證認證時，要明確定義它和既有 Client Secret 的選擇順序。
 
 - [Register Stackdriver remote task logging handler- #70549](https://github.com/apache/airflow/pull/70549): Providers（Google）｜`新功能`<br>
   - 將 Google Cloud Stackdriver Remote Logging 整合至 Airflow 新的 Provider-based Remote Logging 機制，減少對舊有 Logging Configuration 的依賴。
   - 新增 StackdriverRemoteLogIO.from_config()，支援從 Airflow 設定自動建立 Logging Handler，並透過 stackdriver:// scheme 進行註冊與查找。
   - 補充單元測試，確保設定解析、Handler 註冊與錯誤處理正常運作。
+  - 過程中也認識 Airflow 如何透過 scheme registry 將設定對應到 provider 的 logging handler。
 
 - [Delay BigQueryToMsSqlOperator source table parsing- #70493](https://github.com/apache/airflow/pull/70493): Providers（Google）｜`Bug 修正` `backport: v3-3-test`<br>
   - 修正 BigQueryToMsSqlOperator 在初始化階段過早解析來源資料表名稱，導致 Jinja Template 尚未渲染就觸發解析錯誤的問題。
@@ -309,6 +314,7 @@ Summary:
   - 問題／影響：多個 DAG Processors 運作時，SQLAlchemy Identity Map 可能讀到過期 DAG Bundle 狀態，延後刷新結果的可見性。
   - 解法：直接查詢 `last_refreshed` 與 `version` 欄位，避開 ORM 快取，確保 Processor 取得最新資料庫狀態。
   - 驗證：新增 Regression Test，覆蓋跨 Session 更新。
+  - 透過這 issue 我認識到在多進程協作的系統中，ORM 的物件快取不等於資料庫最新狀態，對同步判斷用的欄位，要特別確認讀取一致性。
 
 - [Fix Neo4jOperator templated query validation- #70348](https://github.com/apache/airflow/pull/70348): Providers（Neo4j）｜`Bug 修正` `backport: v3-3-test`<br>
   - 將 Neo4jOperator 的 Cypher Query 驗證邏輯移至 execute()，確保 Jinja Template 渲染後才進行驗證。
@@ -356,6 +362,7 @@ Summary:
 - [Migrate Qdrant connection UI metadata to YAML- #62644](https://github.com/apache/airflow/pull/62644): Providers（Qdrant）｜`重構`<br>
   - 將 Qdrant Connection 的 UI Metadata 遷移至 provider.yaml，統一定義 URL、gRPC、HTTPS 等連線欄位。
   - 調整 Connection 表單顯示方式，隱藏不適用欄位並將 Password 標示為 API Key，改善設定管理與使用體驗。
-
+  - 這是我在 Airflow 的第一支重構 PR。我將 Qdrant Connection 的 UI metadata 遷移到 provider.yaml，並調整欄位顯示與命名。過程中，我認識了 Airflow provider 的 metadata 架構。
 - [feat(i18n): Complete zh-TW translations - Add 10 missing keys- #62652](https://github.com/apache/airflow/pull/62652): UI（i18n）｜`翻譯`<br>
   - 補齊 Airflow UI 中 DAG Runs、Asset Events 與 Version Indicator 等功能缺少的繁體中文翻譯，使當時的 zh-TW 翻譯覆蓋率達到 100%（786/786），並通過翻譯完整性檢查
+  - 我的第一支貢獻 Yeah。
