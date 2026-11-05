@@ -184,6 +184,8 @@ By [蔡嘉平]（本社群的老大）：
 
 * [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
 * [從 Apache CommunityOverCode Asia 2025 看亞洲開源與資料基礎設施](https://blog.zhu424.dev/zh-tw/open-source-contribution/apache-coc-asia/)
+* [Apache CommunityOverCode Europe 2026 參與心得：Airflow Contributor Day、多語言 SDK 與 Lakehouse 趨勢](https://blog.zhu424.dev/zh-tw/open-source-contribution/apache-coc-eu/) - 劉哲佑
+* [第一次到歐洲、第一次參加 Community Over Code、第一次上台：Glasgow 分享 Apache Mahout](https://www.linkedin.com/posts/kuan-hao-h_communityovercode-apachesoftwarefoundation-share-7516250258457366528-BjTe/) - 黃冠澔
 
 ## 文章與投影片
 
