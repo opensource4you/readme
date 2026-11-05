@@ -31,6 +31,8 @@ By [蔡嘉平]（本社群的老大）：
 * [加入 Slack 頻道](https://opensource4you.tw/slack/join)
 * [Facebook 粉絲團](http://opensource4you.tw/readme/facebook)
 * [Google 行事曆訂閱](http://opensource4you.tw/readme/calendar)
+* [校園開課](./campus-courses)
+* [贊助與核銷](./sponsor)
 
 ## Fellowship（AI 開源新勢力）
 
@@ -46,128 +48,50 @@ By [蔡嘉平]（本社群的老大）：
 * Public channel：可以直接加入。
 * Private channel：請先簡單自我介紹、說明想做什麼（可以在 `#general` 或相關頻道提出），Mentor 了解情況後會再邀請你加進來。
 * 非常建議先自己研究想做的專案背景與技術棧，對自己的時間與成長負責。
-* 有標 `Fellowship track lead` 的專案是 [Fellowship](#fellowshipai-開源新勢力) 的 track，lead 負責提名；沒標的就是純社群專案。
+* 標 ★ 的 mentor 是 [Fellowship](#fellowshipai-開源新勢力) 的 track lead，負責提名；沒有 ★ 的專案就是純社群專案。
 
-### Apache Kafka
+| 專案 | 語言 | 頻道 | 主要 mentor | 新手上路 |
+| --- | --- | --- | --- | --- |
+| [Apache Kafka](https://github.com/apache/kafka) | Java | [apache-kafka] | [蔡嘉平]★ | |
+| [Apache YuniKorn](https://github.com/apache/yunikorn-core) | Golang | [apache-yunikorn] | [陳昱霖]★、[蔡嘉平]、[黃廷堯]★ | [yunikorn.md](./mentor-projects-information/yunikorn.md) |
+| [Apache Airflow](https://github.com/apache/airflow) | Python | [apache-airflow] | [劉哲佑]★、[李唯]★ | |
+| [Apache Ozone](https://github.com/apache/ozone) | Java | [apache-ozone] | [李仲恩]★、[李緒成] | |
+| [Apache DataFusion](https://github.com/apache/datafusion) | Rust | Private | [Jay Zhan]★、[謝東霖]、[劉立行] | |
+| [Apache DataFusion Comet](https://github.com/apache/datafusion-comet) | Rust / Scala | [apache-comet]（Private） | [Sean]★ | |
+| [Apache Mahout](https://github.com/apache/mahout) | Python / Rust / CUDA | [apache-mahout] | [冠銘]、[冠澔]、[傑凱]、[咸誠]、[冠華] | |
+| [Flyte](https://github.com/flyteorg) | Golang / Python | [flyte] | [蘇桓平]★、[吳忠全] | [flyte.md](./mentor-projects-information/flyte.md) |
+| [KubeRay](https://github.com/ray-project/kuberay) | Golang | Private | [葉乃瑞]、[萬駿澔]、[吳哲御]★ | [kuberay.md](./mentor-projects-information/kuberay.md) |
+| [Ray](https://github.com/ray-project/ray) | Python / C++ | Private | [林宥呈]、[劉奇聖]、[Rueian]、[陳鼎心]★ | [kuberay.md](./mentor-projects-information/kuberay.md) |
+| [Kubernetes](https://github.com/kubernetes/kubernetes) / [Kubespray](https://github.com/kubernetes-sigs/kubespray) | Golang / Ansible / Python | Private | [邱譯]★、[楊承昊（梯口）] | |
+| [SGLang](https://github.com/sgl-project/sglang) | Python / CUDA | [sglang] | [Cheng Jacky] | |
+| [commitizen-tools](https://github.com/commitizen-tools) | Python | [commitizen] | [李唯]、[熊大] | |
 
-* <https://github.com/apache/kafka>
-* 語言：Java
-* 頻道：[apache-kafka]
-* 主要 mentor：[蔡嘉平]
-* Fellowship track lead：[蔡嘉平]
+加入方式與注意事項：
 
-### Apache YuniKorn
-
-* <https://github.com/apache/yunikorn-core>
-* 語言：Golang
-* 頻道：[apache-yunikorn]
-* 主要 mentor：[陳昱霖]、[蔡嘉平]、[黃廷堯]
-* Fellowship track lead：[陳昱霖]、[黃廷堯]
-
-### Apache Airflow
-
-* <https://github.com/apache/airflow>
-* 語言：Python
-* 頻道：[apache-airflow]
-* 主要 mentor：[劉哲佑]、[李唯]
-* Fellowship track lead：[劉哲佑]、[李唯]
-* Meme Bot：[李唯]
-
-### Apache Ozone
-
-* <https://github.com/apache/ozone>
-* 語言：Java
-* 頻道：[apache-ozone]
-* 主要 mentor：[李仲恩]、[李緒成]
-* Fellowship track lead：[李仲恩]
-
-### Apache DataFusion
-
-* <https://github.com/apache/datafusion>
-* 語言：Rust
-* 頻道：Private，請先表達貢獻意願後會收到入群邀請
-* 注意：主要目的為技術交流討論，無明確 Mentorship
-* 主要 mentor：[Jay Zhan]、[謝東霖]、[劉立行]
-* Fellowship track lead：[Jay Zhan]
-
-### Apache DataFusion Comet
-
-* <https://github.com/apache/datafusion-comet>
-* 語言：Rust / Scala
-* 頻道：[apache-comet]（Private，請先表達貢獻意願後會收到入群邀請）
-* 主要 mentor：[Sean]
-* Fellowship track lead：[Sean]
-
-### Apache Mahout
-
-* <https://github.com/apache/mahout>
-* 語言：Python / Rust / CUDA
-* 頻道：[apache-mahout]
-* 主要 mentor：[冠銘]、[冠澔]、[傑凱]、[咸誠]、[冠華]
-
-### Flyte
-
-* <https://github.com/flyteorg>
-* 語言：Golang / Python
-* 頻道：[flyte]
-* 主要 mentor：[蘇桓平]、[吳忠全]
-* Fellowship track lead：[蘇桓平]
-
-### KubeRay & Ray
-
-* <https://github.com/ray-project/kuberay>
-* <https://github.com/ray-project/ray>
-* 語言：Golang (KubeRay)、Python / C++ (Ray)
-* 頻道：Private，請聯絡 [葉乃瑞]、[萬駿澔]、[吳哲御]、[陳鼎心] 其中之一加入
-* 主要 KubeRay mentor：[葉乃瑞]、[萬駿澔]、[吳哲御]
-* 主要 Ray mentor：[林宥呈]、[劉奇聖]、[Rueian]、[陳鼎心]
-* Fellowship KubeRay track lead：[吳哲御]
-* Fellowship Ray track lead：[陳鼎心]
-* [更多資訊](./mentor-projects-information/kuberay.md)
-
-### Kubernetes & Kubespray
-
-* <https://github.com/kubernetes-sigs/kubespray>
-* <https://github.com/kubernetes/kubernetes>
-* 語言：Ansible / Python (Kubespray)、Golang (Kubernetes)
-* 頻道：Private，請在 [Kubernetes Slack](https://slack.k8s.io) 開好帳號後，將 Profile 連結私訊給 mentor，由 mentor 拉進頻道
-* 主要 mentor：[邱譯]、[楊承昊（梯口）]
-* Fellowship track lead：[邱譯]
-* Mentor 主要維護 Kubernetes 的子專案 —— Kubespray，不過頻道內都可以討論 Kubernetes 貢獻（程式碼到非程式碼都有），對開源有興趣的都可以加入
-
-### SGLang
-
-* <https://github.com/sgl-project/sglang>
-* 語言：Python / CUDA
-* 頻道：[sglang]
-* 主要 mentor：[Cheng Jacky]
-
-### commitizen-tools
-
-* <https://github.com/commitizen-tools>
-* 語言：Python
-* 頻道：[commitizen]
-* 主要 mentor：[李唯]、[熊大]
-* 新人必讀：<https://commitizen-tools.github.io/commitizen/contributing/>
-* 歡迎在 [commitizen] 頻道提出任何問題。
-* 主要是維護 <https://github.com/commitizen-tools/commitizen>，這裡的 PR、issues 相對有人在看。其他 commitizen-tools 底下的專案也很重要，但通常貢獻比較少，我們的關注也稍微低。如果想要貢獻其他的專案，可以先在 [commitizen] 頻道提出。
+* Apache DataFusion：Private，請先表達貢獻意願後會收到入群邀請。主要目的為技術交流討論，無明確 Mentorship。
+* Apache DataFusion Comet：Private，請先表達貢獻意願後會收到入群邀請。
+* KubeRay & Ray：Private，請聯絡 [葉乃瑞]、[萬駿澔]、[吳哲御]、[陳鼎心] 其中之一加入。
+* Kubernetes & Kubespray：Private，請在 [Kubernetes Slack](https://slack.k8s.io) 開好帳號後，將 Profile 連結私訊給 mentor，由 mentor 拉進頻道。Mentor 主要維護 Kubernetes 的子專案 Kubespray，不過頻道內都可以討論 Kubernetes 貢獻（程式碼到非程式碼都有），對開源有興趣的都可以加入。
+* commitizen-tools：新人必讀 <https://commitizen-tools.github.io/commitizen/contributing/>。主要是維護 <https://github.com/commitizen-tools/commitizen>，這裡的 PR、issues 相對有人在看。其他 commitizen-tools 底下的專案也很重要，但通常貢獻比較少，我們的關注也稍微低。如果想要貢獻其他的專案，可以先在 [commitizen] 頻道提出。
+* Apache Airflow Meme Bot：[李唯]
 
 ## 活動
 
 ### 開源有個約會（Meetup）
 
-* 時間：每月一次，詳見 [Google 行事曆](http://opensource4you.tw/readme/calendar)
-* 歷次紀錄：
-  * [2026.03](https://www.facebook.com/share/p/18dqq4ZjJJ/)
-  * [2026.02](https://www.facebook.com/share/p/1baL6XT4U2/)
-  * [2026.01](https://www.facebook.com/share/p/1DHnqmVPX8/)
-  * [2025.12 開源有個 Pizza 約會](https://www.facebook.com/share/p/1CEQTdCrbA/)
-  * [2025.12 開源有個聖誕約會](https://www.facebook.com/share/p/17HL8ufemc/)
-  * [2025.12](https://www.facebook.com/share/p/1DafDFdfKE/)
-  * [2025.11](https://www.facebook.com/share/p/1GnkibYMmg/)
-  * [2025.10](https://www.facebook.com/share/p/17L2RvQskV/)
-  * [2025.09](https://www.facebook.com/share/p/1AxqpaZV5o/)
-  * [2025.08](https://www.facebook.com/share/p/19mMFqayYE/)
+每月一次，詳見 [Google 行事曆](http://opensource4you.tw/readme/calendar)。
+
+* [2026.03](https://www.facebook.com/share/p/18dqq4ZjJJ/)
+* [2026.02](https://www.facebook.com/share/p/1baL6XT4U2/)
+* [2026.01](https://www.facebook.com/share/p/1DHnqmVPX8/)
+* [2025.12 開源有個 Pizza 約會](https://www.facebook.com/share/p/1CEQTdCrbA/)
+* [2025.12 開源有個聖誕約會](https://www.facebook.com/share/p/17HL8ufemc/)
+* [2025.12](https://www.facebook.com/share/p/1DafDFdfKE/)
+* [2025.11](https://www.facebook.com/share/p/1GnkibYMmg/)
+* [2025.10](https://www.facebook.com/share/p/17L2RvQskV/)
+* [2025.09](https://www.facebook.com/share/p/1AxqpaZV5o/)
+* [2025.08](https://www.facebook.com/share/p/19mMFqayYE/)
+* [2025.06 Kafka 相關饅頭營](./20250612%20meetup/README.md)
 
 ### GPU 百日挑戰
 
@@ -209,35 +133,61 @@ By [蔡嘉平]（本社群的老大）：
 
 ## 參與者心得
 
+### Apache Kafka
+
 * [我的 Open Source 之路](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-97b264d771e4)
 * [我的 Open Source 之路（二）](https://frank-yang.medium.com/%E6%88%91%E7%9A%84-open-source-%E4%B9%8B%E8%B7%AF-%E4%BA%8C-0332a03d8c40)
 * [從歷史系到阿帕契﹣轉職仔的開源之路](https://medium.com/@frankvicky/892f00a65474)
+
+### Apache YuniKorn
+
 * [The Apache YuniKorn committer's path](https://medium.com/@chenyulin0719/the-apache-yunikorn-committers-path-800c614a2d66)
 * [參與 YuniKorn 貢獻的心得](https://www.facebook.com/share/p/1gg56eWQ73BPMtPo/)
 * [我思故我在：AI 年代的開源貢獻](https://medium.com/@poiblacktea/%E6%88%91%E6%80%9D%E6%95%85%E6%88%91%E5%9C%A8-ai-%E5%B9%B4%E4%BB%A3%E7%9A%84%E9%96%8B%E6%BA%90%E8%B2%A2%E7%8D%BB-e00df9853a43)
+
+### Apache Airflow
+
 * [從 0 成為 Apache Airflow Committer](https://blog.zhu424.dev/zh-tw/open-source-contribution/becoming-an-apache-airflow-committer-from-0/)
 * [開源之旅 - Apache Airflow Committer](https://guan404ming.com/blog/0)
 * [成為 Airflow PMC Member "I'm the PMC." "Not yet."](https://blog.wei-lee.me/posts/tech/2025/10/becoming-an-airflow-pmc-member/)
+
+### Apache Ozone
+
 * [Apache Ozone、4 個月、50 個 PR、40 個 PR Review、Committer](https://blog.peterxcli.dev/zh-tw/oss/ozone/becoming-an-ozone-committer)
+
+### Apache Gravitino
+
 * [從開源新手到 Apache Gravitino Committer 的成長之路](https://medium.com/@e850506/%E5%BE%9E%E9%96%8B%E6%BA%90%E6%96%B0%E6%89%8B%E5%88%B0-apache-gravitino-committer-%E7%9A%84%E6%88%90%E9%95%B7%E4%B9%8B%E8%B7%AF-121e374026b6)
 * [成长道路](https://abyss-lord.github.io/2025/07/13/gravitino/2025-07-13-growing-path-1)
+
+### Flyte
+
 * [貢獻開源並不難：我透過「源來適你」社群成為 Flyte 核心貢獻者！](https://chishengliu.com/zh-tw/posts/become-flyte-committer/) - 劉奇聖
 * [Flyte 開源之旅 — 從開始到現在](https://medium.com/@jasonlai1218/flyte%E9%96%8B%E6%BA%90%E4%B9%8B%E6%97%85-%E5%BE%9E%E9%96%8B%E5%A7%8B%E5%88%B0%E7%8F%BE%E5%9C%A8-efcf8afeb612)
 * [如何成為 Open Source Committer (Flyte) | 大學生 21 周心得分享](https://medium.com/@future-outlier/%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BAopen-source-committer-flyte-%E5%A4%A7%E5%AD%B8%E7%94%9F21%E5%91%A8%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB-c1c486af6a9c)
 * [普通人也能做到的 Open Source 開源一年 100+ PRs 完整指南 feat. 源來適你, Flyte](https://medium.com/@future-outlier/%E6%99%AE%E9%80%9A%E4%BA%BA%E4%B9%9F%E8%83%BD%E5%81%9A%E5%88%B0%E7%9A%84-open-source-%E9%96%8B%E6%BA%90%E4%B8%80%E5%B9%B4-100-prs-%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-feat-%E6%BA%90%E4%BE%86%E9%81%A9%E4%BD%A0-flyte-87b1cc29f093)
+
+### 透過開源找到工作
+
 * [不尋常的找工作方式：我透過貢獻 KubeRay 開源專案找到美國跨國遠端軟體工程師職缺！](https://chishengliu.com/zh-tw/posts/join-anyscale-via-kuberay/) - 劉奇聖
 * [開源入門到加入夢幻新創！](https://medium.com/@troychiu/from-flyte-to-union-ai-%E9%96%8B%E6%BA%90%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-6ca2dc4cd6e4)
 * [如何透過開源社群「源來適你」找到 Samsara 工作](./articles/story-job-hunting-via-community/README.md)
-* [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
-* [從 Apache CommunityOverCode Asia 2025 看亞洲開源與資料基礎設施](https://blog.zhu424.dev/zh-tw/open-source-contribution/apache-coc-asia/)
+
+### 入門心得與心法
+
 * [Open Source 開源社群的第一門課 | 如何成為 Apache Committer](https://byronhsu1230.medium.com/open-source-%E9%96%8B%E6%BA%90%E7%A4%BE%E7%BE%A4%E7%9A%84%E7%AC%AC%E4%B8%80%E9%96%80%E8%AA%B2-%E5%A6%82%E4%BD%95%E6%88%90%E7%82%BA-apache-committer-451d42e853d6)
+* [從焦慮的競賽者到 Apache Committer：我的開源救贖與攻略](https://medium.com/p/4345c74e049f)
 * [開源菜雞入門心得](https://medium.com/@Pupss_68096/%E9%96%8B%E6%BA%90%E8%8F%9C%E9%9B%9E%E5%85%A5%E9%96%80%E5%BF%83%E5%BE%97-fd54009ccf03)
 * [Open Source 入門心得](https://medium.com/@blackcatoz12321/open-source-入門心得-8130d1bf76c2)
-* [從焦慮的競賽者到 Apache Committer：我的開源救贖與攻略](https://medium.com/p/4345c74e049f)
+
+### 研討會遊記
+
+* [2024 Apache CommunityOverCode 亞洲場遊記](https://chishengliu.com/zh-tw/posts/apache-communityovercode-asia-2024-coauthored/)
+* [從 Apache CommunityOverCode Asia 2025 看亞洲開源與資料基礎設施](https://blog.zhu424.dev/zh-tw/open-source-contribution/apache-coc-asia/)
 
 ## 文章與投影片
 
-### From Database to Data Lakehouse ([Ryan Fu])
+### From Database to Data Lakehouse（[Ryan Fu]）
 
 1. [Part 1](https://medium.com/@0050211/from-database-to-data-lakehouse-part-1-22a822faf9bb)
 2. [Part 2](https://medium.com/@0050211/from-database-to-data-lakehouse-part-2-d9bd1a383a06)
@@ -250,13 +200,13 @@ By [蔡嘉平]（本社群的老大）：
 9. [Part 9](https://medium.com/@0050211/from-database-to-data-lakehouse-part-9-2a5b4baa9c8f)
 10. [Part 10](https://medium.com/@0050211/from-database-to-data-lakehouse-part-10-7801261db693)
 
-### 用放大鏡看 Apache Kafka ([博安])
+### 用放大鏡看 Apache Kafka（[博安]）
 
 1. [Apache Kafka — Network Architecture](https://frank-yang.medium.com/apache-kafka-network-architecture-47f631378e09)
 2. [Apache Kafka — Produce Request](https://yangpoan.substack.com/p/apache-kafka-produce-request?r=4bu2l)
 3. [Apache Kafka — Fetch Request & Replication Protocol](https://open.substack.com/pub/yangpoan/p/apache-kafka-fetch-request-and-replication)
 
-### How to Flyte ([Nary Yeh]、[JiaWei Jiang])
+### How to Flyte（[Nary Yeh]、[JiaWei Jiang]）
 
 1. [From Chaos to Scale — Orchestrating AI Pipelines with Flyte](https://open-infra-learning.github.io/blog/posts/flyte/flyte-overview/)
 2. [Flyte Architecture: How workflow runs](https://open-infra-learning.github.io/blog/posts/flyte/flyte-architecture/)
@@ -279,32 +229,46 @@ By [蔡嘉平]（本社群的老大）：
 12. [矽谷 AI 戰國時代：奔向下一代 AI 的爬坡競賽](https://u9534056.medium.com/矽谷-ai-戰國時代-奔向下一代-ai-的爬坡競賽-1303c026124d) - Rice Yang (Nvidia)
 13. [自動化廣告審核 Automated Ad Review](https://amjltc295.medium.com/%E8%87%AA%E5%8B%95%E5%8C%96%E5%BB%A3%E5%91%8A%E5%AF%A9%E6%A0%B8-automated-ad-review-578438d4039d) - Ya-Liang Allen Chang (Taboola)
 
-### 投影片 & 科技散文
+### 投影片
 
-1. [如何把 committer 頭銜 zero-copy 到履歷上](https://github.com/opensource4you/readme/blob/main/slides/%E5%A6%82%E4%BD%95%E6%8A%8A%20committer%20%E9%A0%AD%E9%8A%9C%20zero-copy%20%E5%88%B0%E5%B1%A5%E6%AD%B7%E4%B8%8A.pdf)
-2. [KAFKA-19898 Optimize FileRecord#searchForOffsetWithSize](https://www.facebook.com/share/p/16QjxzVseZ/)
-3. [KIP-1140: Avoid to return null value in Map from public api of consumer](https://www.facebook.com/share/p/1DVS4P86vS/)
-4. [KAFKA-18225 ClientQuotaCallback#updateClusterMetadata is unsupported by kraft](https://www.facebook.com/share/p/1AZUYTzYpk/)
-5. [KAFKA-806: Index may not always observe log.index.interval.bytes](https://www.facebook.com/share/p/1FTExkewgy/)
-6. [KAFKA-17747: Trigger rebalance on rack topology changes](https://www.facebook.com/share/p/12JG3wPUD9L/)
-7. [Kafka Plugins](https://github.com/opensource4you/readme/blob/main/slides/Kafka%20Plugins.pdf)
-8. [review 的重要性](https://www.facebook.com/share/p/19bCy4hH47/)
-9. [KIP-1150 的背景](https://www.facebook.com/share/p/15PhGgd2t8/)
-10. [如何當一個好的 contributor](https://www.facebook.com/share/p/1Kvwy9uU7u/)
-11. [科技公司的職涯](https://www.facebook.com/share/p/1915wcBDeY/)
-12. [Kafka 3.9.1 release](https://www.facebook.com/share/p/1BZfzctfEG/)
-13. [YuniKorn auto-scaling](https://www.facebook.com/share/p/14oBGGD97E/)
-14. [Kafka internal configs](https://www.facebook.com/share/p/1LDDS4Q8HN/)
-15. [Kafka producer interceptor](https://www.facebook.com/share/p/15UygHeLP9/)
-16. [初探 Ray Core：GCS](https://owen-lin.medium.com/%E5%88%9D%E6%8E%A2ray-core-gcs-1e0c5e2d5bae)
-17. [Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
-18. [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/)
-19. [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/)
-20. [DuckDB Filesystem Observability with observefs + cache_httpfs: See I/O and Speed It Up](https://blog.peterxcli.dev/oss/duckdb/duckdb-observefs-cache-httpfs/)
-21. [大型開源軟體如何實現高效的持續整合 (CI) 系統？以 Apache Airflow 為例](https://blog.zhu424.dev/zh-tw/open-source-contribution/airflow-ci-selective-checks/)
-22. [JetBrains IDE 微醺夜 - IDE 操作技巧分享](https://gist.github.com/shengyou/e09159e3ac4fb260172039bbe888d0e9)
-23. [Apache Polaris: an Open Source Iceberg REST Catalog](https://github.com/opensource4you/readme/blob/main/slides/Apache%20Polaris%20An%20Open%20Iceberg%20REST%20Catalog.pdf)
-24. [My Journey with Raspberry Pi WebRTC](https://github.com/opensource4you/readme/blob/main/slides/My%20Journey%20with%20Raspberry%20Pi%20WebRTC.pdf)
+* [如何把 committer 頭銜 zero-copy 到履歷上](./slides/%E5%A6%82%E4%BD%95%E6%8A%8A%20committer%20%E9%A0%AD%E9%8A%9C%20zero-copy%20%E5%88%B0%E5%B1%A5%E6%AD%B7%E4%B8%8A.pdf)
+* [what is opensource4you](./slides/os4y.pdf)
+* [Kafka Plugins](./slides/Kafka%20Plugins.pdf)
+* [Apache Polaris: an Open Source Iceberg REST Catalog](./slides/Apache%20Polaris%20An%20Open%20Iceberg%20REST%20Catalog.pdf)
+* [My Journey with Raspberry Pi WebRTC](./slides/My%20Journey%20with%20Raspberry%20Pi%20WebRTC.pdf)
+* [File Streaming - Streamsend Uploader & Downloader](./slides/File%20Streaming%20-%20Streamsend%20Uploader%20%26%20Downloader.pdf)
+* [AutoMQ challenges on S3](./slides/automq_challenges_on_s3.pdf)
+
+### 科技散文
+
+#### Apache Kafka
+
+* [KAFKA-19898 Optimize FileRecord#searchForOffsetWithSize](https://www.facebook.com/share/p/16QjxzVseZ/)
+* [KIP-1140: Avoid to return null value in Map from public api of consumer](https://www.facebook.com/share/p/1DVS4P86vS/)
+* [KAFKA-18225 ClientQuotaCallback#updateClusterMetadata is unsupported by kraft](https://www.facebook.com/share/p/1AZUYTzYpk/)
+* [KAFKA-806: Index may not always observe log.index.interval.bytes](https://www.facebook.com/share/p/1FTExkewgy/)
+* [KAFKA-17747: Trigger rebalance on rack topology changes](https://www.facebook.com/share/p/12JG3wPUD9L/)
+* [KIP-1150 的背景](https://www.facebook.com/share/p/15PhGgd2t8/)
+* [Kafka 3.9.1 release](https://www.facebook.com/share/p/1BZfzctfEG/)
+* [Kafka internal configs](https://www.facebook.com/share/p/1LDDS4Q8HN/)
+* [Kafka producer interceptor](https://www.facebook.com/share/p/15UygHeLP9/)
+
+#### 其他專案
+
+* [YuniKorn auto-scaling](https://www.facebook.com/share/p/14oBGGD97E/)
+* [初探 Ray Core：GCS](https://owen-lin.medium.com/%E5%88%9D%E6%8E%A2ray-core-gcs-1e0c5e2d5bae)
+* [Ozone Snapshot 解析 1 - Snapshot Deep Clean & Reclaimable Filter](https://blog.peterxcli.dev/zh-tw/oss/ozone/ozone-snapshot/ozone-snapshot-deep-dive-1/)
+* [Airflow 的外部事件驅動排程 (External Event Driven Scheduling)](https://blog.zhu424.dev/zh-tw/open-source-contribution/external-event-driven-scheduling-in-airflow/)
+* [大型開源軟體如何實現高效的持續整合 (CI) 系統？以 Apache Airflow 為例](https://blog.zhu424.dev/zh-tw/open-source-contribution/airflow-ci-selective-checks/)
+* [LFX Mentorship: CNCF - Krkn: Chaos scenario rollback feature](https://blog.zhu424.dev/zh-tw/open-source-contribution/lfx-mentorship-2025-cncf-krkn/)
+* [DuckDB Filesystem Observability with observefs + cache_httpfs: See I/O and Speed It Up](https://blog.peterxcli.dev/oss/duckdb/duckdb-observefs-cache-httpfs/)
+* [JetBrains IDE 微醺夜 - IDE 操作技巧分享](https://gist.github.com/shengyou/e09159e3ac4fb260172039bbe888d0e9)
+
+#### 心法與職涯
+
+* [review 的重要性](https://www.facebook.com/share/p/19bCy4hH47/)
+* [如何當一個好的 contributor](https://www.facebook.com/share/p/1Kvwy9uU7u/)
+* [科技公司的職涯](https://www.facebook.com/share/p/1915wcBDeY/)
 
 ## 公開演講
 
@@ -324,16 +288,12 @@ By [蔡嘉平]（本社群的老大）：
 <!-- Reference Links -->
 [蔡嘉平]: https://opensource4you.slack.com/team/U050DD45D8W
 [陳昱霖]: https://opensource4you.slack.com/team/U054DLDQ5TK
-[博安]: https://opensource4you.slack.com/team/U059FMA0AMD
-[Ryan Fu]: https://opensource4you.slack.com/team/U07B0472V3N
-[Nary Yeh]: https://opensource4you.slack.com/team/U07V6Q1B1PZ
 [葉乃瑞]: https://opensource4you.slack.com/team/U07V6Q1B1PZ
 [萬駿澔]: https://opensource4you.slack.com/team/U07KT083C87
 [吳哲御]: https://opensource4you.slack.com/team/U07Q3V589HD
 [陳鼎心]: https://opensource4you.slack.com/team/U09EXDDCYAD
 [林宥呈]: https://opensource4you.slack.com/team/U085SQF5GF3
 [Rueian]: https://opensource4you.slack.com/team/U056T5Y0QLB
-[JiaWei Jiang]: https://opensource4you.slack.com/team/U07QZT5S9TR
 [吳忠全]: https://opensource4you.slack.com/team/U07DV7QL3R6
 [劉哲佑]: https://opensource4you.slack.com/team/U07R5NX8KSQ
 [李唯]: https://opensource4you.slack.com/team/U0578610N8Y
@@ -343,7 +303,6 @@ By [蔡嘉平]（本社群的老大）：
 [謝東霖]: https://opensource4you.slack.com/team/U0511ETN3T6
 [劉立行]: https://opensource4you.slack.com/team/U05PDKL13DK
 [蘇桓平]: https://opensource4you.slack.com/team/U050WSFCVC3
-[陳楷訓]: https://opensource4you.slack.com/team/U050V5VN4HH
 [劉奇聖]: https://opensource4you.slack.com/team/U06CSLLGQNR
 [黃廷堯]: https://opensource4you.slack.com/team/U051KFFF0C9
 [冠銘]: https://opensource4you.slack.com/team/U08FSQR2075
@@ -366,3 +325,7 @@ By [蔡嘉平]（本社群的老大）：
 [apache-mahout]: https://opensource4you.slack.com/archives/C09U7TR1Z9D
 [flyte]: https://opensource4you.slack.com/archives/C0BDT2B04D9
 [100-days-of-gpu-challenge]: https://opensource4you.slack.com/archives/C090S0GMF45
+[Ryan Fu]: https://opensource4you.slack.com/team/U07B0472V3N
+[博安]: https://opensource4you.slack.com/team/U059FMA0AMD
+[Nary Yeh]: https://opensource4you.slack.com/team/U07V6Q1B1PZ
+[JiaWei Jiang]: https://opensource4you.slack.com/team/U07QZT5S9TR
