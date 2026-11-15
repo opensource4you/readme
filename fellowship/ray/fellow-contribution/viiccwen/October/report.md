@@ -6,8 +6,7 @@
 
 ## Summary
 
-- **6** PRs merged.
-- **1** PR open.
+- **7** PRs merged.
 - **2** PRs reviewed.
 - **5** issues filed.
 
@@ -17,6 +16,7 @@
 
 | Date | PR | Description |
 |---|---|---|
+| 2026-11-15 | [#67135 — [Data] Propagate labels to object-store SHUFFLE_V2 map/reduce tasks](https://github.com/ray-project/ray/pull/67135) | Follow-up to #66936 for the object-store `SHUFFLE_V2` path, so keyed repartition, aggregation, and join shuffles stay in the Dataset's subcluster. The label selector tests cover both object-store and disk shuffle. |
 | 2026-11-14 | [#67156 — [Data] Fix Parquet filename suffix detection](https://github.com/ray-project/ray/pull/67156) | A custom `FilenameProvider` name that just contained `parquet` in its stem was treated as if it already ended in `.parquet`. Suffix detection now checks the actual extension. |
 | 2026-11-14 | [#67154 — [Data] Make `zero_copy_batch=False` copy default batches](https://github.com/ray-project/ray/pull/67154) | With the default `batch_size=None`, `map_batches(zero_copy_batch=False)` still passed a read-only NumPy view of the whole block. Batches are now copied, as the caller asked. |
 | 2026-11-14 | [#66927 — [Data] Fix docstring/behavior mismatches in `read_json` and `Dataset.sort`](https://github.com/ray-project/ray/pull/66927) | Fixes the `read_json(lines=True)` docstring, which said some arguments are ignored when they actually raise `ValueError`, and the `Dataset.sort()` docstring. Adds a test for the `ValueError`, which had no coverage. |
@@ -26,9 +26,7 @@
 
 ### Open
 
-| Opened | PR | Description |
-|---|---|---|
-| 2026-10-18 | [#67135 — [Data] Propagate labels to object-store SHUFFLE_V2 map/reduce tasks](https://github.com/ray-project/ray/pull/67135) | Follow-up to #66936 for the object-store `SHUFFLE_V2` path, so keyed repartition, aggregation, and join shuffles stay in the Dataset's subcluster. The label selector tests now cover both object-store and disk shuffle. |
+_None._
 
 ## Reviewed PRs
 
