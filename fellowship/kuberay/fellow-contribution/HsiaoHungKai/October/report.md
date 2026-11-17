@@ -2,7 +2,12 @@
 
 ## Summary
 
-From 2026/10/16 to 2026/11/15, I have **2 KubeRay PRs merged**, have **6 open PRs** (4 in KubeRay and 2 in Ray), **opened 3 KubeRay issues**, and **reviewed 8 PRs** (7 in KubeRay and 1 in Ray).
+From 2026/10/16 to 2026/11/15, I have:
+
+- **opened 7 PRs**: 1 merged and 6 still open
+- **merged 1 more PR** that I opened before 2026/10/16 (kuberay#5097)
+- **opened 3 issues**
+- **reviewed 8 PRs**
 
 ## Merged PRs
 
