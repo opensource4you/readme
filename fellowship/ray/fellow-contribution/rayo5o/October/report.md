@@ -63,6 +63,15 @@
 - Found while reviewing #68007: with pandas 3, `write_json` fails on any `date32` or `date64` column with the default arguments, so `read_parquet` or `read_csv` followed by `write_json` breaks. The cause is in pandas (`to_json` calls `.dt.as_unit` on Arrow date columns, which only timestamps and durations support); Ray hits it because `to_pandas` returns Arrow-backed columns by default since 2.56, and Ray Data CI only runs pandas 2.3.3.
 - Linked a working fix on a fork branch and asked whether it should live in Ray or pandas. Across 660 compared cases it writes the same output on pandas 3 as pandas 2.3.3 does, and dates after 2262, which overflow on pandas 2.3.3, now work too.
 
+#### [#67185](https://github.com/ray-project/ray/issues/67185) [Data] Avoid copying NumPy batches twice when `zero_copy_batch=False` (open)
+- Opened together with the fix, [#67192](https://github.com/ray-project/ray/pull/67192) (see Opened PRs).
+
+#### [#67265](https://github.com/ray-project/ray/issues/67265) [Data] TypeError when concatenating a fixed-shape tensor column with a lower-ndim variable-shaped one (open)
+- Opened together with the fix, [#67266](https://github.com/ray-project/ray/pull/67266) (see Opened PRs).
+
+#### [#67282](https://github.com/ray-project/ray/issues/67282) [Data] Converting multi-chunk variable-shaped tensor columns to pandas skips the dense fast path (open)
+- Opened together with the fix, [#67283](https://github.com/ray-project/ray/pull/67283) (see Opened PRs).
+
 ## Reviewed PRs
 
 #### [#66931](https://github.com/ray-project/ray/pull/66931) [data] Add Top-N execution (by @viiccwen, merged)
@@ -70,7 +79,7 @@
 - Found that with default configs, k=10000 on 256 blocks raised `ValueError` instead of falling back, and that the 5.8x speedup in the description mostly came from worker startup.
 - Re-measured after the maintainer's rework ([follow-up](https://github.com/ray-project/ray/pull/66931#issuecomment-6462840086)): the error is gone, Top-N is 4–8x faster with 128+ blocks, and at 100M rows it takes 3.45 s vs 21.37 s and 0.5 vs 16.3 GiB of worker memory, though its object store peak rose from 6.2 to 9.0 GiB.
 
-#### [#67154](https://github.com/ray-project/ray/pull/67154) [Data] Make `zero_copy_batch=False` copy default batches (by @viiccwen)
+#### [#67154](https://github.com/ray-project/ray/pull/67154) [Data] Make `zero_copy_batch=False` copy default batches (by @viiccwen, merged)
 - Fixes `map_batches(zero_copy_batch=False)` passing a read-only batch when `batch_size=None`.
 - Answered @Yin-1022's double-copy question with measurements: the extra Arrow copy doubles peak memory (501 vs 245 MiB on a 244 MiB block). Showed it already exists on master's integer `batch_size` path and proposed a format-aware follow-up issue ([comment](https://github.com/ray-project/ray/pull/67154#discussion_r4321292360)).
 
