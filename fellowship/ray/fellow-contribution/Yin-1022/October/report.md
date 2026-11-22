@@ -1,101 +1,5 @@
 **Reporting Period: 2026-10-14 to 2026-11-15**
 
-2026-11-15
-- Opened Ray Data PR #68171 to propagate unexpected metadata prefetch thread failures to the streaming executor, preserving the original exception and adding a cluster-independent regression test. Verified error propagation with the original reproducer.
-
-2026-11-14
-- Reviewed Ray Data PR #68083, independently validating null-list handling through 1,000 randomized differential cases across List and LargeList arrays, plus 3 UDF-level tests covering chunked arrays and null struct fields.
-
-2026-11-13
-- Reviewed Ray Data PR #68094, validating lineage reconstruction with 72 existing tests, 4 adversarial cases covering overlapping attempts and independent plans, and an additional streaming test confirming deferred release callbacks for late-added child dependencies.
-
-2026-11-12
-- Identified Ray Data issue #68093, reproducing an unhandled metadata prefetch thread failure on current master, confirming stranded metadata, blocked task completion, and missing error propagation through process_completed_tasks(), and proposing explicit failure handling with regression coverage.
-
-2026-11-11
-- Opened Ray Data PR #68062 to fix contradictory warning and error behavior in Dataset.repartition(), preserving existing argument validation while adding a cluster-independent regression test with successful Red → Green verification.
-
-2026-11-09
-- Updated PR #67935 based on maintainer feedback by optimizing shared schema deduplication, removing a redundant concat fast path, and independently validating correctness and performance through regression tests and A/B/C benchmarks.
-- Reviewed Ray Data PR #67900, independently benchmarking Delta Log metadata overhead across 1K–20K files and validating file-size path mappings across 13 partition values, including special characters and multiple URL-encoding levels.
-
-2026-11-08
-- Identified Ray Data issue #67958, reproducing Disk Shuffle V2 resource leaks during mid-map cancellation, confirming the accumulation of 3 detached ShuffleFileServer actors and 3 temporary directories across repeated interruptions, and proposing lifecycle-aware cleanup.
-- Reviewed Ray Data PR #67949, independently validating TableBlockBuilder compaction, row/size accounting, insertion order, memory-estimation consistency, and schema evolution across Arrow and Pandas builders.
-
-2026-11-07
-- Opened Ray Data PR #67935 to optimize identical-schema Arrow concatenation, achieving a 4.22× speedup in direct benchmarks and up to 2.68× in block building, while validating regression tests and investigating Dataset iteration performance variability.
-- Reviewed Ray Data PR #67896, independently validating JSON expansion, key collisions, list preservation, custom decoder outputs, and image encoding/decoding across multiple edge cases.
-- Reviewed Ray Data PR #67912, independently validating Concatenator's missing-column handling, flattening, index alignment, empty inputs, and cross-block schema behavior through Pandas and Ray Dataset test.
-
-2026-11-06
-- Reviewed Ray Data PR #67891, independently testing large-integer standard deviation calculations across six edge cases, identifying significant Float64 precision loss and a potential uint64 overflow issue.
-
-2026-11-05
-- Reviewed Ray Data PR #67845, independently validating LeRobot episode lookup, index contiguity, and vectorized delta computation across 24 test cases, while identifying a duplicate episode ID behavior difference.
-
-2026-11-04
-- Identified Ray Data issue #67814, profiling redundant schema unification in Arrow concatenation, reproducing a 4.04× overhead relative to native PyArrow, and proposing an identical-schema fast path.
-
-2026-11-03
-- Reviewed Ray Data PR #67661, independently validating fill_null() correctness across Parquet and Arrow execution paths, including precision, type promotion, and null handling.
-- Reviewed Ray Data PR #67656, verifying partial predicate pushdown correctness and non-idempotent projection safeguards across 13 test cases.
-- Reviewed Ray Data PR #67725, identifying and reproducing a manifest batching issue where max_paths_per_output is exceeded by a single chunked file.
-
-2026-10-31
-- Attempted to find another issue but didn't get much meaningful result :(
-- Reviewed Ray Data PR #67645 and identified a regression where S3 schema inference bypasses RetryingPyFileSystem without restoring Ray-level retry semantics. 
-
-2026-10-30
-- Updated Ray Data PR #67505 after reviewer feedback by rejecting duplicate join keys before execution and adding regression coverage for duplicate keys on both operands.
-- Opened Ray Data issue #67604 for contradictory Dataset.repartition() behavior that warns shuffle=True will be ignored before rejecting the same argument combination.
-- Reviewed Ray Data PR #67576 and verified Pandas metadata handling across Arrow-backed list, struct, map, and dictionary columns, control extension dtypes, map_batches(), and Parquet round-trips.
-
-2026-10-29
-- Reviewed Ray Data PR #67492 and verified Normalizer zero-row handling plus Vectorizer integer-count and missing-value behavior across multiple columns, append mode, and Pandas nullable values.
-- Reviewed Ray Data PR #67465 and identified a remaining correctness issue where NaN stratification keys miss the precomputed largest-remainder allocation, causing train_test_split() to return fewer test rows than requested.
-- Reviewed Ray Data PR #67524 and identified stale-cache correctness issues in OrdinalEncoder, OneHotEncoder, and LabelEncoder when encoder statistics are mutated in place without changing dictionary identity or size.
-
-2026-10-28
-- Opened PR #67505 for issue #67415 to fix asymmetric and multi-key join schema validation by checking each side against its configured keys and preserving positional key order.
-- Help review a Ray Data Parquet PR (#67469) and verify that lazy row-group fragment construction preserves row-group and partition semantics while deferring footer access until scan time.
-
-2026-10-27
-- Updated PR #67374 based on maintainer review by consolidating repetitive output-backpressure regression tests into a cleaner parametrized test while preserving the same coverage.
-- Help review a Ray Data LLM PR (#67460) and verify that disabled request limiting works correctly and that the original prompt is preserved when request preparation mutates the input before an error.
-- Help review a Ray Core PR (#67461) and confirm that the previous log-based readiness check could fire before the entrypoint process started, while the new atomic PID-file signal correctly represents process readiness.
-- Help review a Ray Serve PR (#67434) and identify a shutdown-timing edge case where the new 10ms polling floor can consume very small graceful-shutdown timeout budgets before completion is observed.
-
-
-2026-10-26
-- Opened issue #67415 identifying two schema-validation defects in Dataset.join(validate_schemas=True): asymmetric on / right_on keys can bypass validation because each side is checked against the wrong schema, while valid multi-key joins can be rejected because key types are collected in schema order rather than configured key order.
-- Reviewed PR #67406 and independently verified its NULL-sharding logic with multi-key shard_keys, including rows where either or both shard keys are NULL, and suggested adding regression coverage for the newly introduced multi-key OR / AND predicate construction.
-- Reviewed PR #67373 and validated the broader is_extension_array_dtype() behavior across nullable numeric, categorical, timezone-aware datetime, and period dtypes, as well as mixed all-null/non-null blocks, confirming that concrete Arrow types and cross-block schema consistency are preserved.
-
-2026-10-25
-- Opened issue #67387 identifying inconsistent handling of non-finite Dataset.mix() weights, where NaN and +inf are accepted while -inf is misclassified as a positivity error, and proposed consistent finite-and-positive validation across logical and physical mix operators.
-- Reviewed PR #67382 and raised a non-blocking semantic question about whether HashShuffle GPU usage should remain reported after aggregator shutdown, noting the differing zero-after-shutdown behavior in the existing GPU Shuffle implementation.
-
-2026-10-24
-- Opened a PR (#67374) to fix issue #67312 by ensuring output backpressure is only counted when unread output exists, with regression tests covering terminal-only waits and pending output scenarios.
-- Reworked PR #67164 after #67157 superseded its original constructor-time fix, adapting it to the new plan-time BindGeneratedIdColumn flow to distinguish physical Parquet-column conflicts from synthesized path / row_hash collisions, with regression tests preserving the intended behavior.
-
-2026-10-23
-- Identified and opened an issue (#67312) while reviewing PR #67180, reporting that terminal-only waits were incorrectly counted as task output backpressure despite having no unread output.
-
-2026-10-21
-- Fix the comment of PR (#67164)
-
-2026-10-20
-- Help review Ray Data PR (#67154), locally verify a redundant double-copy path for NumPy batches, and raise the performance concern for follow-up discussion
-- Help review Ray Data PR (#67161) and raise a concern about whether forcing preserve_order=True in the test may hide the default ordering semantics of train_test_split(shuffle=False)
-
-2026-10-19
-- Open a PR (#67164) for issue (#67002) to reject duplicate synthesized column names and prevent generated IDs from silently overwriting synthesized path or row_hash columns
-
-2026-10-14
-- Help review a Ray Serve PR (#66910) and identify a recovery edge case where redeploying the same configuration after terminal deployment actor failure does not reset retries or recover the deployment
-
 ## Total
 - 8 Issue/PR Contributions
     (7 issues opened, 6 PRs submitted, including 1 based on an existing issue)
@@ -105,30 +9,30 @@
     - 1 issue on hold
     ---
     - **<u>1. [Data] Reject duplicate synthesized column names #67164**</u>  
-    Prevents synthesized columns in Parquet DataSourceV2 from silently overwriting one another when they share the same name, such as a generated checkpoint ID colliding with the synthesized `path` or `row_hash` column. Adds early validation and regression tests for conflicting and non-conflicting synthesized column configurations.  
-      - Update: PR #67157 later moved generated-ID binding from ParquetDatasourceV2 construction time to the plan-time BindGeneratedIdColumn rule, superseding the original implementation and incidentally preventing the silent overwrite. 
-        
-        I reworked #67164 for the new architecture so BindGeneratedIdColumn now explicitly distinguishes collisions with physical Parquet columns from collisions with synthesized columns such as path and row_hash. 
-        This avoids misreporting synthesized-column conflicts as input-data schema conflicts, provides more accurate guidance to users, and adds regression coverage to preserve the intended collision semantics across future generated-ID or synthesized-column changes.  
+    Synthesized columns in Parquet DataSourceV2 could silently overwrite one another when a generated checkpoint ID collides with `path` or `row_hash`.
 
-      PR: https://github.com/ray-project/ray/pull/67164  
-      Issue: https://github.com/ray-project/ray/issues/67002  
-      Status: Merged
+        Following PR #67157's move to the plan-time `BindGeneratedIdColumn` rule, I reworked #67164 to distinguish physical Parquet-column conflicts from synthesized-column conflicts, providing more accurate error messages and regression coverage.
+
+        PR: https://github.com/ray-project/ray/pull/67164  
+        Issue: https://github.com/ray-project/ray/issues/67002  
+        Status: Merged
 
     ---
 
     - **<u>2. [Data] Avoid counting terminal waits as output backpressure #67374</u>**  
-    Identified and reported a pre-existing metrics accounting issue (#67312) while reviewing PR #67180, where exhausted tasks waiting only for terminal confirmation were incorrectly counted as experiencing output backpressure. Submitted a PR to distinguish genuine unread-output backpressure from terminal-only waits, with regression tests covering empty tasks, unread output, and pending output after stream exhaustion.  
-    PR: https://github.com/ray-project/ray/pull/67374  
-    Issue: https://github.com/ray-project/ray/issues/67312  
-    Status: Merged
+    Identified a pre-existing metrics accounting issue where exhausted tasks waiting only for terminal confirmation were incorrectly counted as experiencing output backpressure.  
+
+        I opened PR #67374 to distinguish genuine unread-output backpressure from terminal-only waits, with regression tests covering empty tasks, unread output, and pending output after stream exhaustion.  
+        PR: https://github.com/ray-project/ray/pull/67374  
+        Issue: https://github.com/ray-project/ray/issues/67312  
+        Status: Merged
 
     ---
 
     - **<u>3. [Data] Dataset.mix does not consistently reject non-finite weights #67387</u>**
-    Identified inconsistent validation of non-finite weights in Dataset.mix(). The existing positivity-only check allows NaN and positive infinity to pass, while negative infinity is rejected as a positivity error rather than as a non-finite value.  
-        
-        I reproduced the behavior through the public Dataset.mix() API and traced the same validation assumption through both the logical Mix operator and physical MixOperator. Proposed requiring weights to be both finite and positive before normalization or execution, so NaN and ±inf are rejected consistently.  
+    Identified inconsistent validation of non-finite weights in `Dataset.mix()`, where `NaN` and `+inf` are accepted while `-inf` is rejected as a positivity error.
+
+        I reproduced the behavior through the public API, traced the validation through both logical and physical Mix operators, and proposed requiring weights to be both finite and positive.
 
         Issue: https://github.com/ray-project/ray/issues/67387  
         Status: Held
@@ -136,9 +40,9 @@
     ---
 
     - **<u>4. [Data] Dataset.join(validate_schemas=True) mishandles asymmetric and multi-key joins #67415</u>**  
-        Identified two correctness issues in join schema validation: asymmetric on / right_on keys are checked against the wrong schemas, while multi-key types are collected in schema order instead of configured key order, causing valid joins to be rejected.  
+    Identified two correctness issues in join schema validation: asymmetric keys are checked against the wrong schemas, while multi-key types are collected in schema order rather than configured key order.
 
-        I reproduced both behaviors on master and opened PR #67505 to validate each side against its own configured keys, preserve positional key order, and add regression tests covering asymmetric and reordered multi-key joins. 
+        I reproduced both behaviors on master and opened PR #67505 to validate each side against its configured keys, preserve positional key order, and add regression tests for asymmetric and reordered multi-key joins.
 
         Issue: https://github.com/ray-project/ray/issues/67415  
         PR: https://github.com/ray-project/ray/pull/67505  
@@ -147,9 +51,9 @@
     ---
 
     - **<u>5. [Data] repartition() warns that shuffle is ignored before rejecting the same argument #67604</u>**  
-        Identified a public API contract inconsistency in Dataset.repartition(): when target_num_rows_per_block is combined with shuffle=True, Ray first warns that shuffle will be ignored and then immediately raises a ValueError saying the combination is invalid.  
+    Identified a public API contract inconsistency where `Dataset.repartition()` warns that `shuffle=True` will be ignored before rejecting the same argument combination with a `ValueError`.
 
-        I reproduced the behavior on current master, reviewed related issues and historical API intent, and opened PR #68062 to remove the contradictory warning while preserving the existing validation behavior. I also added a cluster-independent regression test that verifies the expected ValueError without the misleading warning, confirmed its effectiveness through Red → Green testing, and refined the warning assertion following code review feedback.  
+        I opened PR #68062 to remove the contradictory warning while preserving existing validation behavior, and added a cluster-independent regression test with successful Red → Green verification.
 
         Issue: https://github.com/ray-project/ray/issues/67604  
         PR: https://github.com/ray-project/ray/pull/68062  
@@ -158,11 +62,9 @@
     ---
 
     - **<u>6. [Data] Redundant schema unification overhead when concatenating Arrow tables with identical schemas #67814</u>**  
-    Identified redundant schema unification in Ray Data's transform_pyarrow.concat(), accounting for approximately 71% of concatenation time with identical Arrow schemas.
+    Identified redundant schema unification in `transform_pyarrow.concat()`, accounting for approximately 71% of concatenation time with identical Arrow schemas.
 
-        I reproduced the performance bottleneck and opened PR #67935 to introduce an identical-schema fast path while preserving existing schema reconciliation. The optimization achieved a 4.22× speedup in direct concatenation, up to 2.68× in block building, and up to 1.49× in batch assembly. I also validated regression tests and conducted additional Dataset iteration benchmarks, finding substantial runtime variability without a confirmed end-to-end regression.  
-
-        **Update:** Addressed maintainer feedback by replacing metadata-stripping schema comparisons with `Schema.equals(check_metadata=False)` and removing a redundant concat fast path. Additional benchmarks confirmed a 2.87× direct concatenation speedup and an 88.1× improvement confirmed in `unify_schemas()` for identical-schema workloads. A/B/C comparisons further confirmed the original fast path's performance benefit without a consistent end-to-end Dataset speedup.
+        I opened PR #67935 to introduce an identical-schema fast path while preserving schema reconciliation. Following maintainer feedback, I refined the implementation using `Schema.equals(check_metadata=False)`, with additional benchmarks confirming a **2.87× direct concatenation speedup** and no consistent end-to-end Dataset speedup.
 
         Issue: https://github.com/ray-project/ray/issues/67814  
         PR: https://github.com/ray-project/ray/pull/67935  
@@ -171,9 +73,9 @@
     ---
 
     - **<u>7. [Data] Disk Shuffle V2 leaks detached ShuffleFileServer actors and temporary directories on mid-map cancellation #67958</u>**  
-    Identified a resource lifecycle issue in Disk Shuffle V2, where cancelling a shuffle map task after creating a detached ShuffleFileServer but before returning its handle can leave actors and temporary directories untracked by cleanup.  
+    Identified a resource lifecycle issue where cancelling a shuffle map task before returning its `ShuffleFileServer` handle can leave detached actors and temporary directories untracked by cleanup.
 
-        I developed a controlled cancellation reproducer on Ray 3.0.0.dev0 under WSL2 Ubuntu, verified normal-completion cleanup, and reproduced cumulative leaks across three interruptions. All 3 detached actors and 3 temporary directories persisted after driver reconnection. I traced the likely cause to cleanup relying on completed map handles and proposed tracking resources created by incomplete tasks, with cancellation-focused regression coverage.  
+        I developed a controlled cancellation reproducer on Ray 3.0.0.dev0, confirming 3 leaked actors and 3 temporary directories across three interruptions. I traced the likely cause to cleanup relying on completed map handles and proposed lifecycle-aware cleanup with regression coverage.
 
         Issue: https://github.com/ray-project/ray/issues/67958  
         Status: Waiting for a prior PR to be merged
@@ -181,11 +83,9 @@
     ---
 
     - **<u>8. [Data] Metadata prefetch thread failures are not propagated to the streaming executor #68093</u>**  
-    Identified a failure propagation issue where an unhandled exception in `ThreadedMetadataFetcher` terminates the background thread without notifying the streaming executor, leaving deferred metadata and task completion pending.  
+    Identified a failure propagation issue where an unhandled exception in `ThreadedMetadataFetcher` terminates the background thread without notifying the streaming executor, leaving deferred metadata and task completion pending.
 
-        I developed a cluster-independent fault-injection reproducer on current master, confirmed that a single injected exception terminates the fetch thread while process_completed_tasks() reports no errors, and investigated the resulting no-progress timeout behavior.  
-
-        I subsequently implemented PR #68171 to capture unexpected background thread failures and propagate them through emit_ready_and_fire_done_callbacks(), preserving the original exception via __cause__. Added a regression test covering error propagation and repeated executor polling, verified the fix against the original reproducer, and passed 8 threaded executor tests.  
+        I reproduced the issue using cluster-independent fault injection and implemented PR #68171 to propagate unexpected thread failures while preserving the original exception via `__cause__`. Added regression coverage for repeated executor polling and verified the fix against the original reproducer, with 8 threaded executor tests passing.
 
         Issue: https://github.com/ray-project/ray/issues/68093  
         PR: https://github.com/ray-project/ray/pull/68171  
@@ -204,9 +104,7 @@
     - **<u>2. [Data] Make zero_copy_batch=False copy default batches #67154</u>**  
     This PR fixes writable batch behavior when `zero_copy_batch=False` and the default `batch_size=None` is used.  
         
-        I traced and locally verified that the NumPy path performs two full-batch copies: one at the Arrow block level and another after NumPy conversion. 
-        
-        I confirmed that the second copy alone is sufficient for NumPy batches, raised the resulting performance concern, and helped establish that the broader optimization is better handled as a format-aware follow-up issue rather than blocking this PR.  
+        I traced and locally verified that the NumPy path performs two full-batch copies, while the second copy alone is sufficient. I raised the performance concern and suggested handling the broader optimization as a format-aware follow-up rather than blocking this PR.   
         PR: https://github.com/ray-project/ray/pull/67154  
         Review: https://github.com/ray-project/ray/pull/67154#discussion_r4320981519
 
@@ -215,20 +113,16 @@
     - **<u>3. [Data] Deflake test_train_test_split by preserving block order #67161</u>**  
     This PR stabilizes `train_test_split` tests by enabling deterministic block ordering with `preserve_order=True`.  
 
-        I raised a concern that forcing ordered execution may cause the test to exercise behavior different from the default `preserve_order=False` setting, and questioned whether the flake instead exposes ambiguity in the ordering contract of `train_test_split(shuffle=False)`. 
-        
-        The discussion concluded that the test-only fix is reasonable for this PR, while the default ordering semantics may deserve a separate follow-up issue.  
+        I raised a concern that forcing ordered execution may cause the test to exercise behavior different from the default `preserve_order=False` setting, and questioned whether the flake instead exposes ambiguity in the ordering contract of `train_test_split(shuffle=False)`, and that ended up becoming a separate follow-up issue.  
         PR: https://github.com/ray-project/ray/pull/67161  
         Review: https://github.com/ray-project/ray/pull/67161#discussion_r4322072170
 
     ---
 
     - **<u>4. [Data] Finalize exhausted tasks without output-read budget #67180</u>**  
-    This PR fixes a Ray Data execution issue where exhausted tasks could remain active when the output-read budget was zero, delaying task finalization and resource release.
+    This PR fixes a Ray Data execution issue where exhausted tasks could remain active when the output-read budget was zero, delaying task finalization and resource release.  
 
-        I independently tested the terminal-completion retry mechanism through the real executor and verified that terminal errors do not overtake deferred final outputs when using the threaded metadata fetcher. I confirmed the expected ACTIVE → DRAINED → FINISHED lifecycle and found no blocking correctness issues.
-
-        During the review, I also discovered a separate, pre-existing output-backpressure accounting issue, which led to issue #67312 and my follow-up PR #67374.  
+        I tested terminal completion through the real executor, confirming the expected ACTIVE → DRAINED → FINISHED lifecycle and correct ordering of deferred final outputs and terminal errors. During the review, I also discovered a separate output-backpressure accounting issue, leading to issue #67312 and PR #67374.  
         PR: https://github.com/ray-project/ray/pull/67180  
         Review: https://github.com/ray-project/ray/pull/67180#issuecomment-6355775805
 
@@ -237,11 +131,7 @@
     - **<u>5. [Data] Account for HashShuffle aggregator GPU usage in logical resource accounting #67382</u>**  
     This PR updates HashShuffle resource accounting so aggregator GPUs configured through aggregator_ray_remote_args are reflected in operator and global logical GPU usage instead of being hardcoded to zero.  
 
-        I raised a non-blocking semantic question around the new shutdown lifecycle behavior: after aggregator actors are released, the test still expects current_logical_usage() and running_logical_usage() to report the configured GPU footprint.
-
-        So I compared this with the existing GPU Shuffle implementation, which explicitly drops logical GPU usage to zero once its actor pool is shut down, and asked whether both shuffle implementations should follow the same post-shutdown semantics.  
-
-        I also noted that the proposed behavior is consistent with HashShuffle's existing CPU/memory accounting, so the review focused on clarifying which resource-usage semantic should be intentionally preserved rather than treating it as a correctness blocker.  
+        I raised a non-blocking question about GPU accounting after aggregator shutdown, since the existing GPU Shuffle implementation reports zero usage after its actor pool shuts down. I noted that the proposed behavior is consistent with HashShuffle's CPU/memory accounting and asked which post-shutdown semantics should be preserved.
 
         PR: https://github.com/ray-project/ray/pull/67382  
         Review: https://github.com/ray-project/ray/pull/67382#issuecomment-6394644010
@@ -252,9 +142,7 @@
     - **<u>6. [Data] Fix SQL sharding with null keys #67406</u>**  
     This PR fixes silent row loss in ray.data.read_sql() when shard-key values are NULL, routing rows containing NULL shard keys to task 0 while preserving hash-based sharding for non-null rows.
 
-        I independently tested the new multi-key path with NULL values in either shard key and with both keys NULL, confirming that every input row was preserved exactly once.
-
-        I then pointed out that the new per-key IS NULL / IS NOT NULL predicate construction supports multiple shard keys, while the added regression test only covers a single key, and suggested adding direct multi-key coverage.
+        I independently tested multi-key sharding with NULL values in either or both keys, confirming that every row was preserved exactly once. I also suggested adding direct multi-key regression coverage, since the existing test only covers a single shard key.
 
         PR: https://github.com/ray-project/ray/pull/67406  
         Review: https://github.com/ray-project/ray/pull/67406#issuecomment-6416646511
@@ -264,9 +152,7 @@
     - **<u>7. [Data] Preserve Pandas extension dtypes for all-null columns #67373</u>**  
     This PR changes PandasBlockAccessor.to_arrow() so explicitly typed Pandas extension columns retain their concrete Arrow type when every value is null, instead of being coerced to Arrow null.
 
-        I reviewed whether broadening the condition to all Pandas ExtensionDtypes could introduce unintended behavior, and locally tested nullable numeric, categorical, timezone-aware datetime, and period dtypes.
-
-        I also verified a mixed-block map_batches() case with one all-null Int64 block and one non-null block, confirming that the resulting Dataset kept a consistent int64 schema, and concluded that the broader extension-dtype handling is reasonable.
+        I locally tested nullable numeric, categorical, timezone-aware datetime, and period dtypes, and verified a mixed-block `map_batches()` case with all-null and non-null Int64 blocks. The resulting Dataset preserved a consistent int64 schema, supporting the broader extension-dtype handling.
 
         PR: https://github.com/ray-project/ray/pull/67373  
         Review: https://github.com/ray-project/ray/pull/67373#issuecomment-6416938166
@@ -346,7 +232,7 @@
     - **<u>15. [Data] Keep pandas metadata on Arrow blocks parsable by pandas #67576</u>**  
     This PR rewrites Pandas metadata dtype names that Pandas cannot parse, allowing Arrow-backed columns to convert back to Pandas without failing while preserving already valid metadata.
 
-        I verified the behavior beyond the original list-column case using Arrow-backed struct, map, and dictionary columns, all of which round-tripped successfully with their values preserved. I also checked nullable integers, booleans, strings, categoricals, and timezone-aware datetimes as controls, and validated both the public map_batches(...).to_pandas() path and write_parquet() → pd.read_parquet() interoperability.
+        I verified the behavior beyond the original list-column case using Arrow-backed struct, map, and dictionary columns, all of which round-tripped successfully with their values preserved. I also checked nullable integers, booleans, strings, categoricals, and timezone-aware datetimes as controls, and validated both the public map_batches(...).to_pandas() path and write_parquet() → pd.read_parquet() interoperability.  
 
         PR: https://github.com/ray-project/ray/pull/67576  
         Review: https://github.com/ray-project/ray/pull/67576#issuecomment-6525885326
@@ -354,11 +240,9 @@
     ---
 
     - **<u>16. [Data] Skip the S3 HEAD request on each Parquet file open by passing listed file sizes #67645</u>**  
-    This PR reduces unnecessary S3 requests in the DataSourceV2 Parquet path by reusing file sizes already obtained during directory listing. It passes known sizes to PyArrow when opening Parquet files and bypasses RetryingPyFileSystem for sized S3 opens so PyArrow can avoid issuing an extra HEAD request before reading the footer.
+     This PR reduces unnecessary S3 requests by reusing listed file sizes when opening Parquet files through PyArrow, bypassing `RetryingPyFileSystem` for sized S3 opens.  
 
-        I identified a retry regression in the schema-inference path. Unlike the footer-reader path, schema inference unwraps RetryingPyFileSystem for S3 without adding an explicit call_with_retry(), so errors configured through DataContext.retried_io_errors are no longer retried at the Ray layer.  
-        
-        I then reproduced the behavior with a fail-once filesystem: master retried the configured transient error and successfully inferred the schema on the second attempt, while the PR propagated the first failure immediately after the sized-open path was forced to unwrap the filesystem.  
+        I identified and reproduced a retry regression in schema inference, where unwrapping `RetryingPyFileSystem` without `call_with_retry()` bypasses configured Ray-level retries. A fail-once filesystem confirmed that master recovered on the second attempt, while the PR immediately propagated the first failure.  
 
         PR: https://github.com/ray-project/ray/pull/67645  
         Review: https://github.com/ray-project/ray/pull/67645#issuecomment-6544259452
@@ -379,8 +263,6 @@
     This PR improves predicate pushdown by moving eligible AND conjuncts below projection operators while retaining predicates that depend on computed columns.
 
         I verified the optimization across Parquet and in-memory Arrow paths, testing column overwrites, multi-stage renaming, nested predicates, and null preservation. I also confirmed that non-idempotent projections using `monotonically_increasing_id()` prevent unsafe predicate movement while deterministic projections remain eligible for optimization. 
-        
-        All 13 test cases matched their materialized baselines, and the optimized logical plans showed the expected predicate placement.
 
         PR: https://github.com/ray-project/ray/pull/67656  
         Review: https://github.com/ray-project/ray/pull/67656#issuecomment-6596330457
@@ -388,11 +270,9 @@
     ---
 
     - **<u>19. [Data] Add a shared byte-range line chunker for CSV and JSONL on DataSource V2 #67725</u>**  
-    This PR introduces shared byte-range chunking infrastructure for CSV and JSONL files in Ray DataSource V2, enabling large files to be divided into independent read units.  
+    This PR introduces shared byte-range chunking for CSV and JSONL files in Ray DataSource V2, allowing large files to be divided into independent read units.  
 
-        I examined byte-range alignment and chunk metadata preservation, validating 72 reconstruction cases and four bin-packing scenarios. I then identified and reproduced a remaining batching issue in `LineChunkFileIndexer`: the `max_paths_per_output` threshold is checked only after all chunks of a file are appended, allowing a single large file to produce an oversized manifest. 
-        
-        A minimal reproduction with a 1,000-byte file, `chunk_size=100`, and `max_paths_per_output=3` produced one manifest containing 10 rows instead of respecting the configured limit. I reported the finding with reproducible code.  
+        I validated 72 reconstruction cases and four bin-packing scenarios, then identified a batching issue where `LineChunkFileIndexer` can exceed `max_paths_per_output`. A minimal reproduction produced a 10-row manifest despite a configured limit of 3, and I reported the finding with reproducible code.  
 
         PR: https://github.com/ray-project/ray/pull/67725  
         Review: https://github.com/ray-project/ray/pull/67725#issuecomment-6596711584
@@ -400,11 +280,9 @@
     ---
 
     - **20. <u>[Data] Vectorize LeRobot delta segment preparation and validate index contiguity #67845</u>**  
-    This PR optimizes LeRobot's temporal-window processing by replacing per-row Python list conversions and dictionary lookups with vectorized NumPy and PyArrow operations. 
+    This PR optimizes LeRobot's temporal-window processing by replacing per-row Python operations with vectorized NumPy and PyArrow operations.
 
-        I independently tested 24 cases covering reordered and non-contiguous episode IDs, duplicate and missing indices, episode boundaries, and varied anchor selections. The new implementation correctly rejected invalid index sequences while preserving expected delta computation behavior. 
-        
-        I also identified a behavioral difference with duplicate episode IDs: the original dictionary lookup selects the last occurrence, whereas `pc.index_in()` selects the first. Therefore I prepared a minimal PyArrow reproduction and raised this as a question about upstream uniqueness guarantees.  
+        I independently tested 24 cases covering episode IDs, index contiguity, boundaries, and anchor selections. I also reproduced a behavioral difference with duplicate episode IDs: the original dictionary lookup selects the last occurrence, while `pc.index_in()` selects the first, and raised a question about upstream uniqueness guarantees.  
 
         PR: https://github.com/ray-project/ray/pull/67845  
         Review: https://github.com/ray-project/ray/pull/67845#issuecomment-6648268333
