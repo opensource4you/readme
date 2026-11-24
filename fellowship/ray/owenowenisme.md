@@ -9,5 +9,4 @@
 - 發表多場演講推廣 Ray 以及開源
   - [AI Infra Meetup](https://proj.moe.edu.tw/itsa/News_Content.aspx?n=2308&s=24620): Open Source AI and Data Infra Meetup
   - [Computex 2026](https://news.apache.org/foundation/entry/beyond-the-hardware-hub-how-alc-taipei-turned-computex-2026-into-a-milestone-for-the-apache-way)
-  - ALC Taipei 成立大會
   - [COSCUP 2025](https://coscup.org/2025/sessions/UVUW9G)：Kuberay：阿里雲 & GKE 都愛用的 Ray on K8s 部署神器
