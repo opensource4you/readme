@@ -1,7 +1,7 @@
 # jeffoodchain
 
 - GitHub：https://github.com/jeffoodchain
-- Slack：https://opensource4you.slack.com/archives/D0BNKM678P7
+- Slack：https://opensource4you.slack.com/team/U07URRYSWQH
 
 ## 2026-11-24
 
